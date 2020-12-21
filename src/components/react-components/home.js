@@ -13,9 +13,9 @@ function Home() {
       </nav>
       <div className="carousel-wrapper">
         <div className="carousel">
-          <i class="fa fa-chevron-left"></i>
+          <span class="material-icons">arrow_back_ios</span>
           <h1>This is where the carousel goes</h1>
-          <i class="fa fa-chevron-right"></i>
+          <span class="material-icons">arrow_forward_ios</span>
         </div>
       </div>
     </div>

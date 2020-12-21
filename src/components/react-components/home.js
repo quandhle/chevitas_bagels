@@ -13,7 +13,9 @@ function Home() {
       </nav>
       <div className="carousel-wrapper">
         <div className="carousel">
+          <i class="fa fa-chevron-left"></i>
           <h1>This is where the carousel goes</h1>
+          <i class="fa fa-chevron-right"></i>
         </div>
       </div>
     </div>

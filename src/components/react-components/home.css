@@ -18,6 +18,10 @@
   align-items: center;
 }
 
+.navbar {
+  background-color: #70AD47;
+}
+
 @media (min-width: 630px) {
   .logo {
     width: 500px;

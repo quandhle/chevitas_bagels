@@ -1,6 +1,10 @@
+import "./home.css"
+
 function Home() {
   return (
-    <div>This is Chevitas</div>
+    <div className="home">
+      <h1>This is Chevitas</h1>
+    </div>
   )
 }
 

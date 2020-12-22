@@ -1,9 +1,10 @@
-import './App.css';
-import Menu from './menu.js'
+import Home from "./react-components/home"
 
 function App() {
   return (
-    <Menu />
+    <div className="App">
+      <Home/>
+    </div>
   );
 }
 

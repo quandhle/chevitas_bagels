@@ -9,9 +9,6 @@ function Home() {
           <h1>LOGO</h1>
         </div>
       </header>
-      {/* <nav className="navbar">
-        <h1>This is the navbar</h1>
-      </nav> */}
       <Navbar/>
       <div className="carousel-wrapper">
         <div className="carousel">

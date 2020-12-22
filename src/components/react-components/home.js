@@ -1,4 +1,5 @@
 import "./home.css"
+import Navbar from "./navbar"
 
 function Home() {
   return (
@@ -8,9 +9,10 @@ function Home() {
           <h1>LOGO</h1>
         </div>
       </header>
-      <nav className="navbar">
+      {/* <nav className="navbar">
         <h1>This is the navbar</h1>
-      </nav>
+      </nav> */}
+      <Navbar/>
       <div className="carousel-wrapper">
         <div className="carousel">
           <span class="material-icons">arrow_back_ios</span>

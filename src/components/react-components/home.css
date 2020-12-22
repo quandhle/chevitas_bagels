@@ -1,0 +1,109 @@
+:root {
+  --component-width: 300px;
+  --component-height: 300px;
+}
+
+.home {
+  text-align: center;
+}
+
+.logo-wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  border: 1px solid black;
+  width: var(--component-width);
+  height: var(--component-height);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #70AD47;
+  height: 50px;
+  position: sticky;
+  top: 0;
+}
+
+.carousel-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem auto;
+}
+
+.carousel {
+  border: 1px solid black;
+  width: var(--component-width);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-media-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem auto;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: var(--component-width);
+}
+
+.carousel span {
+  margin: auto 0.5rem;
+  font-size: 3rem;
+}
+
+.social-media span {
+  margin: 0.5rem auto;
+  font-size: 5rem;
+  flex-basis: 33%;
+}
+
+.contact-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem auto;
+}
+
+.contact {
+  border: 1px solid black;
+  width: var(--component-width);
+  height: var(--component-height);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 630px) {
+  :root {
+    --component-width: 500px;
+    --component-height: 500px;
+  }
+}
+
+@media (min-width: 1200px) {
+  :root {
+    --component-width: 700px;
+    --component-height: 700px;
+  }
+
+  .social-media span {
+    flex-basis: auto;
+  }
+}

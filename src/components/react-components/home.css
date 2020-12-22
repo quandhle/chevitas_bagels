@@ -29,6 +29,8 @@
   align-items: center;
   background-color: #70AD47;
   height: 50px;
+  position: sticky;
+  top: 0;
 }
 
 .carousel-wrapper {

@@ -50,6 +50,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 2rem auto;
 }
 
 .social-media {
@@ -58,18 +59,33 @@
   align-items: center;
   flex-wrap: wrap;
   width: var(--component-width);
-  margin-bottom: 2rem;
 }
 
 .carousel span {
   margin: auto 0.5rem;
-  font-size: 1.5rem;
+  font-size: 3rem;
 }
 
 .social-media span {
   margin: 0.5rem auto;
   font-size: 5rem;
   flex-basis: 33%;
+}
+
+.contact-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem auto;
+}
+
+.contact {
+  border: 1px solid black;
+  width: var(--component-width);
+  height: var(--component-height);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media (min-width: 630px) {

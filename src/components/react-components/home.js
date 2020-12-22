@@ -28,6 +28,11 @@ function Home() {
           <span class="material-icons">facebook</span>
         </div>
       </div>
+      <div className="contact-wrapper">
+        <div className="contact">
+          <h1>This is the contact section</h1>
+        </div>
+      </div>
     </div>
   )
 }

@@ -24,14 +24,18 @@
 }
 
 .navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #70AD47;
+  height: 50px;
 }
 
 .carousel-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 2rem;
+  margin: 2rem auto;
 }
 
 .carousel {
@@ -42,9 +46,30 @@
   align-items: center;
 }
 
+.social-media-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: var(--component-width);
+  margin-bottom: 2rem;
+}
+
 .carousel span {
   margin: auto 0.5rem;
   font-size: 1.5rem;
+}
+
+.social-media span {
+  margin: 0.5rem auto;
+  font-size: 5rem;
+  flex-basis: 33%;
 }
 
 @media (min-width: 630px) {
@@ -58,5 +83,9 @@
   :root {
     --component-width: 700px;
     --component-height: 700px;
+  }
+
+  .social-media span {
+    flex-basis: auto;
   }
 }

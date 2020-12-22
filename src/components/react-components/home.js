@@ -18,6 +18,16 @@ function Home() {
           <span class="material-icons">arrow_forward_ios</span>
         </div>
       </div>
+      <div className="social-media-wrapper">
+        <div className="social-media">
+          <span class="material-icons">facebook</span>
+          <span class="material-icons">facebook</span>
+          <span class="material-icons">facebook</span>
+          <span class="material-icons">facebook</span>
+          <span class="material-icons">facebook</span>
+          <span class="material-icons">facebook</span>
+        </div>
+      </div>
     </div>
   )
 }

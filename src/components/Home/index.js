@@ -1,15 +1,9 @@
 import "./home.css"
-import Navbar from "./navbar"
+import Navbar from '../Navbar'
 
 function Home({setView}) {
   return (
     <div className="home">
-      <header className="logo-wrapper">
-        <div className="logo">
-          <h1>LOGO</h1>
-        </div>
-      </header>
-      <Navbar setView={setView}/>
       <div className="carousel-wrapper">
         <div className="carousel">
           <span className="material-icons">arrow_back_ios</span>

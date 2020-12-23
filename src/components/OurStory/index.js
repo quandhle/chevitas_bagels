@@ -1,10 +1,10 @@
 import "./our-story.css";
-import Navbar from "./navbar"
+import {Fragment} from 'react'
+import Navbar from "../Navbar"
 
 function OurStory({setView}) {
   return (
-    <>
-      <Navbar setView={setView}/>
+    <Fragment>
       <div className="our-story">
         <main>
           <h1>Nuestra Historia</h1>
@@ -62,7 +62,7 @@ function OurStory({setView}) {
           </p>
         </main>
       </div>
-    </>
+    </Fragment>
   )
 }
 

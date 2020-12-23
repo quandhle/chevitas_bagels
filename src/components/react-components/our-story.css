@@ -15,6 +15,18 @@
 
 .our-story p {
   font-size: 1.25rem;
-  word-spacing: 0.25rem;
-  letter-spacing: 0.03rem;
+  word-spacing: 0.15rem;
+}
+
+@media (min-width: 630px) {
+  .our-story p {
+    word-spacing: 0.25rem;
+    letter-spacing: 0.03rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .our-story main {
+    width: 900px;
+  }
 }

@@ -12,21 +12,23 @@ const App = () => {
   const viewComponent = lang => {
     switch(view) {
       case "menu":
-        return <Menu lang={lang} setView={setView}/>
+        return <Menu lang={lang}/>
       case "ourStory":
-        return <OurStory lang={lang} setView={setView}/>
+        return <OurStory lang={lang}/>
       default:
-        return <Home lang={lang} setView={setView}/>;
+        return <Home lang={lang}/>;
     }
   }
 
   return (
     <div className="App">
-      <header className="logo-wrapper">
-        <div className="logo">
-          <h1>LOGO</h1>
-        </div>
-      </header>
+      {view === "home" && 
+        <header className="logo-wrapper">
+          <div className="logo">
+            <h1>LOGO</h1>
+          </div>
+        </header>
+      }
       <Navbar lang={lang} setView={setView}/>
       <Button
         onClick={() => lang === "en" ? setLang("sp") : setLang("en")}

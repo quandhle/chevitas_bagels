@@ -1,3 +1,20 @@
+.our-story {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .our-story h1 {
   text-align: center;
+}
+
+.our-story main {
+  width: 80%;
+  margin-bottom: 5rem;
+}
+
+.our-story p {
+  font-size: 1.25rem;
+  word-spacing: 0.25rem;
+  letter-spacing: 0.03rem;
 }

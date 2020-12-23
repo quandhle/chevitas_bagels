@@ -7,9 +7,6 @@ export default function Menu({setView}) {
 	if (x.matches) {
 		return (
 			<>
-				{/* <nav className="navbar">
-					<h1>This is the navbar</h1>
-				</nav> */}
 				<Navbar setView={setView}/>
 				<div className="social-media-wrapper">
 					<div className="social-media">
@@ -39,10 +36,7 @@ export default function Menu({setView}) {
 	} else {
 			return (
 			<>
-				{/* <nav className="navbar">
-					<h1>This is the navbar</h1>
-				</nav> */}
-					<Navbar setView={setView}/>
+				<Navbar setView={setView}/>
 				<div className="social-media-wrapper">
 					<div className="social-media">
 							<span className="material-icons">facebook</span>

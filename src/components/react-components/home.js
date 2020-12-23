@@ -1,7 +1,7 @@
 import "./home.css"
 import Navbar from "./navbar"
 
-function Home() {
+function Home({setView}) {
   return (
     <div className="home">
       <header className="logo-wrapper">
@@ -9,22 +9,22 @@ function Home() {
           <h1>LOGO</h1>
         </div>
       </header>
-      <Navbar/>
+      <Navbar setView={setView}/>
       <div className="carousel-wrapper">
         <div className="carousel">
-          <span class="material-icons">arrow_back_ios</span>
+          <span className="material-icons">arrow_back_ios</span>
           <h1>This is where the carousel goes</h1>
-          <span class="material-icons">arrow_forward_ios</span>
+          <span className="material-icons">arrow_forward_ios</span>
         </div>
       </div>
       <div className="social-media-wrapper">
         <div className="social-media">
-          <span class="material-icons">facebook</span>
-          <span class="material-icons">facebook</span>
-          <span class="material-icons">facebook</span>
-          <span class="material-icons">facebook</span>
-          <span class="material-icons">facebook</span>
-          <span class="material-icons">facebook</span>
+          <span className="material-icons">facebook</span>
+          <span className="material-icons">facebook</span>
+          <span className="material-icons">facebook</span>
+          <span className="material-icons">facebook</span>
+          <span className="material-icons">facebook</span>
+          <span className="material-icons">facebook</span>
         </div>
       </div>
       <div className="contact-wrapper">

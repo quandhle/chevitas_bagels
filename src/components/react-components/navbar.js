@@ -1,11 +1,11 @@
 import "./navbar.css"
 
-function Navbar() {
+function Navbar({setView}) {
   return (
     <nav className="navbar">
       <ul>
-        <li>Home</li>
-        <li>Menu</li>
+        <li onClick={() => setView("home")}>Home</li>
+        <li onClick={() => setView("menu")}>Menu</li>
       </ul>
     </nav>
   )

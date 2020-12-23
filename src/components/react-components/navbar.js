@@ -6,6 +6,7 @@ function Navbar({setView}) {
       <ul>
         <li onClick={() => setView("home")}>Home</li>
         <li onClick={() => setView("menu")}>Menu</li>
+        <li onClick={() => setView("ourStory")}>Our Story</li>
       </ul>
     </nav>
   )

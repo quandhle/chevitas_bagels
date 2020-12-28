@@ -1,11 +1,43 @@
-import Home from "./react-components/home"
-import Carousel from './carousel'
+import { useState } from "react";
+import Home from './Home';
+import Menu from './Menu';
+import OurStory from "./OurStory";
+import Navbar from './Navbar';
+import {Button} from '@material-ui/core';
 
-function App() {
+const App = () => {
+  const [view, setView] = useState("home")
+  const [lang, setLang] = useState("en")
+
+  const viewComponent = lang => {
+    switch(view) {
+      case "menu":
+        return <Menu lang={lang}/>
+      case "ourStory":
+        return <OurStory lang={lang}/>
+      default:
+        return <Home lang={lang}/>;
+    }
+  }
+
   return (
     <div className="App">
-      <Home />
-      <Carousel />
+      {view === "home" && 
+        <header className="logo-wrapper">
+          <div className="logo">
+            <h1>LOGO</h1>
+          </div>
+        </header>
+      }
+      <Navbar lang={lang} setView={setView}/>
+      <Button
+        onClick={() => lang === "en" ? setLang("sp") : setLang("en")}
+        color="primary"
+        variant="contained"
+      >
+          Click to change language.
+      </Button>
+      {viewComponent(lang)}
     </div>
   );
 }

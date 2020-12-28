@@ -1,19 +1,17 @@
 import React from 'react'
 import './menu.css'
+import Navbar from "../Navbar"
 
-export default function Menu() {
+export default function Menu({setView}) {
 	const x = window.matchMedia('(min-width: 376px)');
 	if (x.matches) {
 		return (
 			<>
-				<nav className="navbar">
-					<h1>This is the navbar</h1>
-				</nav>
 				<div className="social-media-wrapper">
 					<div className="social-media">
-						<span class="material-icons">facebook</span>
-						<span class="material-icons">facebook</span>
-						<span class="material-icons">facebook</span>
+						<span className="material-icons">facebook</span>
+						<span className="material-icons">facebook</span>
+						<span className="material-icons">facebook</span>
 					</div>
 				</div>
 				<main className="menu">
@@ -37,14 +35,11 @@ export default function Menu() {
 	} else {
 			return (
 			<>
-				<nav className="navbar">
-					<h1>This is the navbar</h1>
-				</nav>
 				<div className="social-media-wrapper">
 					<div className="social-media">
-						<span class="material-icons">facebook</span>
-						<span class="material-icons">facebook</span>
-						<span class="material-icons">facebook</span>
+							<span className="material-icons">facebook</span>
+							<span className="material-icons">facebook</span>
+							<span className="material-icons">facebook</span>
 					</div>
 				</div>
 				<main className="menu">

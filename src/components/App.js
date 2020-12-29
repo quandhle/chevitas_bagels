@@ -18,7 +18,7 @@ const App = () => {
       case "ourStory":
         return <OurStory lang={lang}/>
       case "contactUs":
-        return <Contact lang={lang}/>
+        return <Contact lang={lang} load="page"/>
       default:
         return <Home lang={lang}/>;
     }

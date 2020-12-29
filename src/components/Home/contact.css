@@ -14,3 +14,41 @@
   height: 300px;
   border-style: none;
 }
+
+
+
+.contact-widget {
+  width: var(--component-width);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 2rem auto;
+  border: 3px solid black;
+}
+
+.contact-widget .contact-info-wrapper > * {
+  padding: 0 1rem;
+}
+
+.contact-widget .contact-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-bottom: 3px solid black;
+  background-color: #D25E2F;
+  color: white;
+}
+
+.contact-widget .divider {
+  height: 30px;
+  border: solid 1px white;
+}
+
+.contact-widget .contact-info-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  text-align: left;
+}

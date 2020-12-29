@@ -1,5 +1,4 @@
 import "./home.css"
-import Navbar from '../Navbar'
 
 function Home({setView}) {
   return (

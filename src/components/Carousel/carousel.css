@@ -84,6 +84,7 @@ li {
     filter: drop-shadow(0 0 10px #0003);
     perspective: 100px;
     height: 0;
+    border: none;
 }
 
 .carousel__viewport {
@@ -96,9 +97,7 @@ li {
     counter-reset: item;
     scroll-behavior: smooth;
     scroll-snap-type: x mandatory;
-    height: 100vh;
     overflow-y: hidden;
-    margin-bottom: -18px;
 }
 .carousel__slide {
     position: relative;

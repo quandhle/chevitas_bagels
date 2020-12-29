@@ -1,6 +1,5 @@
 import React from 'react'
 import './menu.css'
-import Navbar from "../Navbar"
 
 export default function Menu({setView}) {
 	const x = window.matchMedia('(min-width: 376px)');

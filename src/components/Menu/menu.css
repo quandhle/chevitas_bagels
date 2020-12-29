@@ -28,16 +28,16 @@
 	top: 2rem;
 }
 
-h2 {
+.menu h2 {
 	color: green;
 	font-size: xx-large;
 }
 
-h2:nth-of-type(2),
-h2:nth-of-type(3),
-h2:nth-of-type(4),
-h2:nth-of-type(5),
-h2:nth-of-type(6) {
+.menu h2:nth-of-type(2),
+.menu h2:nth-of-type(3),
+.menu h2:nth-of-type(4),
+.menu h2:nth-of-type(5),
+.menu h2:nth-of-type(6) {
 	width: 45vw;
 	height: 2px;
 	background-color: rgb(0, 0, 0);

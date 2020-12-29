@@ -1,4 +1,5 @@
 import "./home.css"
+import Map from "./contact"
 
 function Home({setView}) {
   return (
@@ -10,8 +11,8 @@ function Home({setView}) {
           <span className="material-icons">arrow_forward_ios</span>
         </div>
       </div>
-      <div className="social-media-wrapper">
-        <div className="social-media">
+      <div className="social-media-wrapper-home">
+        <div className="social-media-home">
           <span className="material-icons">facebook</span>
           <span className="material-icons">facebook</span>
           <span className="material-icons">facebook</span>
@@ -21,9 +22,26 @@ function Home({setView}) {
         </div>
       </div>
       <div className="contact-wrapper">
-        <div className="contact">
-          <h1>This is the contact section</h1>
+        <div className="contact-header">
+          <h2>Contact</h2>
+          <div className="divider"></div>
+          <h2>Hours</h2>
+          <div className="divider"></div>
+          <h2>Location</h2>
         </div>
+        <div className="contact-info-wrapper">
+          <div className="contact-info">
+            <h3>Contact</h3>
+            <p>(714) 852-3650</p>
+            <p>209 W 4th Street, Santa Ana</p>
+          </div>
+          <div className="contact-hours">
+            <h3>Hours</h3>
+            <p>Monday - Sunday</p>
+            <p>8am - 3pm</p>
+          </div>
+        </div>
+        <Map/>
       </div>
     </div>
   )

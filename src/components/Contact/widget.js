@@ -2,7 +2,7 @@ import "./widget.css"
 
 export default function ContactWidget(props) {
   return (
-    <div className="contact-widget">
+    <section className="contact-widget">
       <div className="contact-header">
         <h2>Contact</h2>
         <div className="divider"></div>
@@ -16,7 +16,7 @@ export default function ContactWidget(props) {
           <p>(714) 852-3650</p>
           <p>209 W 4th Street, Santa Ana</p>
         </div>
-        <div className="contact-hours">
+        <div className="hours">
           <h3>Hours</h3>
           <p>Monday - Sunday</p>
           <p>8am - 3pm</p>
@@ -28,6 +28,6 @@ export default function ContactWidget(props) {
           </iframe>
         </section>
       </section>
-    </div>
+    </section>
   )
 }

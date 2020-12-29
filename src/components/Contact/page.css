@@ -1,23 +1,19 @@
 .contact-page {
   display: flex;
   justify-content: center;
-}
-
-.contact-page h1 {
   text-align: center;
-  margin-bottom: 3rem;
 }
 
 .contact-page .contact-info {
   width: 80%;
 }
 
-.contact-page .contact-info>* {
+.contact-page .contact-info > * {
   margin-bottom: 3rem;
 }
 
-.contact-page .address {
-  text-align: center;
+.contact-page .phone, .contact-page .hours {
+  text-align: left;
 }
 
 .contact-page iframe {

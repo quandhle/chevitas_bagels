@@ -1,0 +1,15 @@
+.logo-wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  border: 1px solid black;
+  width: var(--component-width);
+  height: var(--component-height);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

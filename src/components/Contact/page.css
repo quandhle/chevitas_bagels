@@ -1,0 +1,29 @@
+.contact-page {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.contact-page .contact-info {
+  width: 80%;
+}
+
+.contact-page .contact-info > * {
+  margin-bottom: 3rem;
+}
+
+.contact-page .phone, .contact-page .hours {
+  text-align: left;
+}
+
+.contact-page iframe {
+  width: 100%;
+  height: 300px;
+  border-style: none;
+}
+
+@media (min-width: 1200px) {
+  .contact-page .contact-info {
+    width: 50%;
+  }
+}

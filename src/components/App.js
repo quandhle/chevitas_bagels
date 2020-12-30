@@ -4,6 +4,7 @@ import Menu from './Menu';
 import OurStory from "./OurStory";
 import Navbar from './Navbar';
 import Photos from './Photos'
+import Contact from "./Contact";
 import {Button} from '@material-ui/core';
 
 const App = () => {
@@ -18,9 +19,11 @@ const App = () => {
 			return <OurStory lang={lang} />;
 		case 'photos':
 			return <Photos lang={lang} />;
-		default:
-			return <Home lang={lang} />;
-	}
+    case "contactUs":
+      return <Contact lang={lang} />;
+    default:
+      return <Home lang={lang} />;
+    }
   }
 
   return (

@@ -12,7 +12,7 @@ const App = () => {
   const [view, setView] = useState("home")
   const [lang, setLang] = useState("en")
 
-  const viewComponent = lang => {
+  const viewComponent = () => {
     switch(view) {
       case "menu":
         return <Menu lang={lang}/>

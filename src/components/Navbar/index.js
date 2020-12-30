@@ -1,5 +1,5 @@
 import "./navbar.css";
-import {messages} from '../messages/messages';
+import {navbarLabels} from '../messages/navbar';
 
 const Navbar = ({
   setView,
@@ -7,11 +7,7 @@ const Navbar = ({
 }) => (
   <nav className="navbar">
     <ul>
-      <li onClick={() => setView("home")}>{messages.navBarHome.message[lang]}</li>
-      <li onClick={() => setView("menu")}>{messages.navBarMenu.message[lang]}</li>
-      <li onClick={() => setView("ourStory")}>{messages.navBarOurStory.message[lang]}</li>
-      <li onClick={() => setView("contactUs")}>{messages.navBarContactUs.message[lang]}</li>
-      <li onClick={() => setView("photos")}>{messages.navBarPhotos.message[lang]}</li>
+      {Object.keys(navbarLabels).map(label => <li onClick={() => setView(navbarLabels[label].id)}>{navbarLabels[label].message[lang]}</li>)}
     </ul>
   </nav>
 )

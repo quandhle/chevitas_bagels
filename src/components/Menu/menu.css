@@ -3,7 +3,7 @@
   --component-height: 300px;
 }
 
-.menu {
+.menu-wrapper .menu {
 	display: flex;
   justify-content: space-around;
 	flex-direction: row;
@@ -13,14 +13,14 @@
   width: 100%;
 }
 
-.menu-items {
+.menu-wrapper .menu-items {
 	width: 100%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
 
-.vertical-divider {
+.menu-wrapper .vertical-divider {
 	width: 2px;
 	height: 100vh;
 	background-color: brown;
@@ -28,16 +28,16 @@
 	top: 2rem;
 }
 
-.menu h2 {
+.menu-wrapper .menu h2 {
 	color: green;
 	font-size: xx-large;
 }
 
-.menu h2:nth-of-type(2),
-.menu h2:nth-of-type(3),
-.menu h2:nth-of-type(4),
-.menu h2:nth-of-type(5),
-.menu h2:nth-of-type(6) {
+.menu-wrapper .menu h2:nth-of-type(2),
+.menu-wrapper .menu h2:nth-of-type(3),
+.menu-wrapper .menu h2:nth-of-type(4),
+.menu-wrapper .menu h2:nth-of-type(5),
+.menu-wrapper .menu h2:nth-of-type(6) {
 	width: 45vw;
 	height: 2px;
 	background-color: rgb(0, 0, 0);
@@ -46,7 +46,7 @@
 	margin-top: 3.5rem;
 }
 
-.navbar {
+.menu-wrapper .navbar {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -58,14 +58,14 @@
 	z-index: 1
 }
 
-.social-media-wrapper {
+.menu-wrapper .social-media-wrapper {
   display: flex;
   justify-content: space-around;
   align-items: center;
   margin: 2rem auto;
 }
 
-.social-media {
+.menu-wrapper .social-media {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -73,7 +73,7 @@
   width: 100%;
 }
 
-.social-media span {
+.menu-wrapper .social-media span {
   margin: 0.5rem auto;
   font-size: 9rem;
   flex-basis: 33%;
@@ -81,12 +81,12 @@
 
 
 @media (max-width: 376px) {
-	h2:nth-of-type(1),
-	h2:nth-of-type(2),
-	h2:nth-of-type(3),
-	h2:nth-of-type(4),
-	h2:nth-of-type(5),
-	h2:nth-of-type(6) {
+	.menu-wrapper .menu h2:nth-of-type(1),
+	.menu-wrapper .menu h2:nth-of-type(2),
+	.menu-wrapper .menu h2:nth-of-type(3),
+	.menu-wrapper .menu h2:nth-of-type(4),
+	.menu-wrapper .menu h2:nth-of-type(5),
+	.menu-wrapper .menu h2:nth-of-type(6) {
 		width: 81vw;
 		height: 2px;
 		background-color: rgb(0, 0, 0);
@@ -97,7 +97,7 @@
 }
 
 @media (max-width: 769px) {
-	.social-media span {
+	.menu-wrapper .social-media span {
 		flex-basis: 15%;
 	}
 }
@@ -115,7 +115,7 @@
     --component-height: 700px;
   }
 
-  .social-media span {
+  .menu-wrapper .social-media span {
     flex-basis: auto;
   }
 }

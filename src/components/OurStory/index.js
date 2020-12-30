@@ -7,7 +7,7 @@ const OurStory = ({lang}) => (
     <div className="our-story">
       <main>
         <h1>{ourStoryMessages.storyTitle.message[lang]}</h1>
-        {Object.keys(ourStoryMessages).map((storyText, i) => i !== 0 && <p>{ourStoryMessages[storyText].message[lang]}</p>)}
+        {Object.keys(ourStoryMessages).map((storyText, i) => i !== 0 && <p key={i}>{ourStoryMessages[storyText].message[lang]}</p>)}
       </main>
     </div>
   </Fragment>

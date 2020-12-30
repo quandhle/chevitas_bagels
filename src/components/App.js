@@ -1,3 +1,4 @@
+import "./App.css"
 import { useState } from "react";
 import Home from './Home';
 import Menu from './Menu';
@@ -12,17 +13,17 @@ const App = () => {
   const [lang, setLang] = useState("en")
 
   const viewComponent = lang => {
-    switch (view) {
-		case 'menu':
-			return <Menu lang={lang} />;
-		case 'ourStory':
-			return <OurStory lang={lang} />;
-		case 'photos':
-			return <Photos lang={lang} />;
-    case "contactUs":
-      return <Contact lang={lang} />;
-    default:
-      return <Home lang={lang} />;
+    switch(view) {
+      case "menu":
+        return <Menu lang={lang}/>
+      case "ourStory":
+        return <OurStory lang={lang}/>
+      case 'photos':
+			  return <Photos lang={lang} />;
+      case "contactUs":
+        return <Contact lang={lang} load="page"/>
+      default:
+        return <Home lang={lang}/>;
     }
   }
 

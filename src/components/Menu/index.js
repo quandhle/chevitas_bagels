@@ -5,7 +5,7 @@ export default function Menu({setView}) {
 	const x = window.matchMedia('(min-width: 376px)');
 	if (x.matches) {
 		return (
-			<>
+			<div className="menu-wrapper">
 				<div className="social-media-wrapper">
 					<div className="social-media">
 						<span className="material-icons">facebook</span>
@@ -29,11 +29,11 @@ export default function Menu({setView}) {
 						<h2>DESSERTS</h2>
 					</div>
 				</main>
-			</>
+			</div>
 		)
 	} else {
 			return (
-			<>
+			<div className="menu-wrapper">
 				<div className="social-media-wrapper">
 					<div className="social-media">
 							<span className="material-icons">facebook</span>
@@ -56,7 +56,7 @@ export default function Menu({setView}) {
 						<h2>DESSERTS</h2>
 					</div>
 				</main>
-			</>
+			</div>
 		);
 	}
 }

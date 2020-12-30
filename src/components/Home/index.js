@@ -1,12 +1,13 @@
 import "./home.css"
+import ContactUs from "../Contact"
 import Carousel from '../Carousel'
 
 function Home({setView}) {
   return (
     <div className="home">
       <Carousel />
-      <div className="social-media-wrapper">
-        <div className="social-media">
+      <div className="social-media-wrapper-home">
+        <div className="social-media-home">
           <span className="material-icons">facebook</span>
           <span className="material-icons">facebook</span>
           <span className="material-icons">facebook</span>
@@ -15,11 +16,7 @@ function Home({setView}) {
           <span className="material-icons">facebook</span>
         </div>
       </div>
-      <div className="contact-wrapper">
-        <div className="contact">
-          <h1>This is the contact section</h1>
-        </div>
-      </div>
+      <ContactUs load="widget"/>
     </div>
   )
 }

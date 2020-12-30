@@ -6,49 +6,49 @@ export default function Photos() {
 		<div className="container">
 			<div className="flex-grid">
 				<div className="photo">
-					<img src="./images/bagel-juice.jpg"></img>
+					<img className="image" src="./images/bagel-juice.jpg" alt=""></img>
 				</div>
 				<div className="photo">
-					<img src="./images/rancheo-bagel.jpg"></img>
+					<img className="image" src="./images/rancheo-bagel.jpg" alt=""></img>
 				</div>
 				<div className="photo">
-					<img src="./images/bagel-juice.jpg"></img>
+					<img className="image" src="./images/bagel-juice.jpg" alt=""></img>
 				</div>
 				<div className="photo">
-					<img src="./images/san1.jpg"></img>
+					<img className="image" src="./images/san1.jpg" alt=""></img>
 				</div>
 				<div className="photo">
-					<img src="./images/san2.jpg"></img>
+					<img className="image" src="./images/san2.jpg" alt=""></img>
 				</div>
 				<div className="photo">
-					<img src="./images/san3.jpg"></img>
+					<img className="image" src="./images/san3.jpg" alt=""></img>
 				</div>
 				<div className="photo">
-					<img src="./images/red-smoothie.jpg"></img>
+					<img className="image" src="./images/red-smoothie.jpg" alt=""></img>
 				</div>
 				<div className="photo">
-					<img src="./images/green-smoothie.jpg"></img>
+					<img className="image" src="./images/green-smoothie.jpg" alt=""></img>
 				</div>
 				<div className="photo">
-					<img src="./images/orange-drink.jpg"></img>
+					<img className="image" src="./images/orange-drink.jpg" alt=""></img>
 				</div>
 				<div className="photo">
-					<img src="./images/bagel-juice.jpg"></img>
+					<img className="image" src="./images/bagel-juice.jpg" alt=""></img>
 				</div>
 				<div className="photo">
-					<img src="./images/bagel-juice.jpg"></img>
+					<img className="image" src="./images/bagel-juice.jpg" alt=""></img>
 				</div>
 				<div className="photo">
-					<img src="./images/bagel-juice.jpg"></img>
+					<img className="image" src="./images/bagel-juice.jpg" alt=""></img>
 				</div>
 				<div className="photo">
-					<img src="./images/bagel-juice.jpg"></img>
+					<img className="image" src="./images/bagel-juice.jpg" alt=""></img>
 				</div>
 				<div className="photo">
-					<img src="./images/bagel-juice.jpg"></img>
+					<img className="image" src="./images/bagel-juice.jpg" alt=""></img>
 				</div>
 				<div className="photo">
-					<img src="./images/bagel-juice.jpg"></img>
+					<img className="image" src="./images/bagel-juice.jpg" alt=""></img>
 				</div>
 			</div>
 		</div>

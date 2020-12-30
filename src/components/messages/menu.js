@@ -1,4 +1,4 @@
-const menuItems = {
+export const menuItems = {
   "sandwiches": [
     {
       "name": "chipotle chicken sandwich",
@@ -159,5 +159,3 @@ const menuItems = {
   "drinks": [],
   "desserts": []
 }
-
-export default menuItems

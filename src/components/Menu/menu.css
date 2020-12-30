@@ -76,7 +76,8 @@
 .menu-wrapper .social-media span {
   margin: 0.5rem auto;
   font-size: 9rem;
-  flex-basis: 33%;
+	flex-basis: 33%;
+	color: black;
 }
 
 

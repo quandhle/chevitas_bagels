@@ -46,6 +46,7 @@
   margin: 0.5rem auto;
   font-size: 5rem;
   flex-basis: 33%;
+  color: black;
 }
 
 @media (min-width: 630px) {

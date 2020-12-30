@@ -36,7 +36,7 @@ const App = () => {
           </div>
         </header>
       }
-      <Navbar lang={lang} setView={setView}/>
+      <Navbar lang={lang} setView={setView} />
       <Button
         onClick={() => lang === "en" ? setLang("sp") : setLang("en")}
         color="primary"

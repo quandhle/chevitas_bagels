@@ -1,6 +1,5 @@
 import "./App.css"
 import { useState } from "react";
-import HeroImage from "./Hero-Image";
 import Home from './Home';
 import Menu from './Menu';
 import OurStory from "./OurStory";
@@ -16,7 +15,6 @@ const App = () => {
   return (
     <Router>
       <div className="App">
-        <HeroImage type="logo" />
         <Navbar lang={lang}/>
         <Button
           onClick={() => lang === "en" ? setLang("sp") : setLang("en")}
@@ -25,7 +23,7 @@ const App = () => {
         >
             Click to change language.
         </Button>
-        {/* {viewComponent(lang)} */}
+
         <Switch>
           <Route
             path="/menu"

@@ -1,33 +1,25 @@
 import "./navbar.css";
 import {messages} from '../messages/messages';
-import {Link} from "react-router-dom";
+import {Link, NavLink} from "react-router-dom";
 
-const Navbar = ({
-  setView,
-  lang = "en"
-}) => (
+const Navbar = ({lang}) => (
   <nav className="navbar">
     <ul>
-      {/* <li onClick={() => setView("home")}>{messages.navBarHome.message[lang]}</li>
-      <li onClick={() => setView("menu")}>{messages.navBarMenu.message[lang]}</li>
-      <li onClick={() => setView("ourStory")}>{messages.navBarOurStory.message[lang]}</li>
-      <li onClick={() => setView("contactUs")}>{messages.navBarContactUs.message[lang]}</li>
-      <li onClick={() => setView("photos")}>{messages.navBarPhotos.message[lang]}</li> */}
-      <Link to="/">
+      <NavLink exact to="/">
         <li>{messages.navBarHome.message[lang]}</li>
-      </Link>
-      <Link to="/menu">
+      </NavLink>
+      <NavLink to="/menu">
         <li>{messages.navBarMenu.message[lang]}</li>
-      </Link>
-      <Link to="/our-story">
+      </NavLink>
+      <NavLink to="/our-story">
         <li>{messages.navBarOurStory.message[lang]}</li>
-      </Link>
-      <Link to="/contact-us">
+      </NavLink>
+      <NavLink to="/contact-us">
         <li>{messages.navBarContactUs.message[lang]}</li>
-      </Link>
-      <Link to="/photos">
+      </NavLink>
+      <NavLink to="/photos">
         <li>{messages.navBarPhotos.message[lang]}</li>
-      </Link>
+      </NavLink>
     </ul>
   </nav>
 )

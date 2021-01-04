@@ -2,6 +2,19 @@
   --component-width: 300px;
 }
 
+.navbar .active li {
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+.navbar a {
+  color: black;
+}
+
+.navbar a:link, .navbar a:visited, .navbar a:hover, .navbar a:active {
+  text-decoration: none;
+}
+
 .navbar {
   display: flex;
   justify-content: center;

@@ -32,7 +32,6 @@ const App = () => {
       {view === "home" &&
         <header className="logo-wrapper">
           <div className="logo">
-            <h1>LOGO</h1>
           </div>
         </header>
       }

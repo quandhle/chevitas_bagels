@@ -1,5 +1,6 @@
 import "./App.css"
 import { useState } from "react";
+import HeroImage from "./Hero-Image";
 import Home from './Home';
 import Menu from './Menu';
 import OurStory from "./OurStory";
@@ -29,12 +30,7 @@ const App = () => {
 
   return (
     <div className="App">
-      {view === "home" &&
-        <header className="logo-wrapper">
-          <div className="logo">
-          </div>
-        </header>
-      }
+      {view === "home" && <HeroImage type="logo"/>}
       <Navbar lang={lang} setView={setView} />
       <Button
         onClick={() => lang === "en" ? setLang("sp") : setLang("en")}

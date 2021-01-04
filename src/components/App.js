@@ -8,6 +8,7 @@ import Navbar from './Navbar';
 import Photos from './Photos'
 import Contact from "./Contact";
 import {Button} from '@material-ui/core';
+import {BrowserRouter as Router, Switch, Route} from "react-router-dom"
 
 const App = () => {
   const [view, setView] = useState("home")

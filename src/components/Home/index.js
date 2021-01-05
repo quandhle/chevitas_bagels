@@ -1,11 +1,14 @@
-import "./home.css"
-import ContactUs from "../Contact"
-// import Carousel from '../Carousel'
+import "./home.css";
+import ContactUs from "../Contact";
+import Carousel from '../Carousel';
+import HeroImage from "../Hero-Image";
+
 
 function Home({}) {
   return (
     <div className="home">
-      {/* <Carousel /> */}
+      <HeroImage type="logo" />
+      <Carousel />
       <div className="social-media-wrapper-home">
         <div className="social-media-home">
           <span className="material-icons">facebook</span>

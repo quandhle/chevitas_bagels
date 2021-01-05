@@ -8,7 +8,7 @@ export default function Photos() {
 				<img className="image" src="./images/bagel-juice.jpg" alt="bagel"></img>
 			</div>
 			<div className="margin">
-				<img className="image" src="./images/rancheo-bagel.jpg" alt="bagel-2"></img>
+				<img className="image" src="./images/ranchero-bagel.jpg" alt="bagel-2"></img>
 			</div>
 			<div className="margin">
 				<img className="image" src="./images/san4.jpg" alt="bagel-juice"></img>

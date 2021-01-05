@@ -26,18 +26,19 @@
 
 .alice-carousel__prev-btn-item,
 .alice-carousel__next-btn-item {
-    width: 100%;
     font-size: 70px;
     padding: 0px !important;
+    width: 89%
+}
+
+.alice-carousel__next-btn-item {
+    text-align: right;
+    width: 84%
 }
 
 .alice-carousel__prev-btn-item {
     text-align: left;
     color: white;
-}
-
-.alice-carousel__next-btn-item {
-    text-align: right;
 }
 
 @media (max-width: 375px) {
@@ -60,9 +61,9 @@
         height: 81vh;
         width: 95%;
     }
-    .alice-carousel__prev-btn,
     .alice-carousel__next-btn {
-        width: 45%
+        width: 45%;
+        right: 1rem;
     }
 }
 

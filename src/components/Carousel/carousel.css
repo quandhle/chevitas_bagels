@@ -6,7 +6,7 @@
 
 .alice-carousel__prev-btn [data-area]::after,
 .alice-carousel__next-btn [data-area]::after {
-    color: black
+    color: white
 }
 
 .alice-carousel {
@@ -28,6 +28,7 @@
 .alice-carousel__next-btn-item {
     width: 100%;
     font-size: 70px;
+    padding: 0px !important;
 }
 
 .alice-carousel__prev-btn-item {
@@ -59,6 +60,10 @@
         height: 81vh;
         width: 95%;
     }
+    .alice-carousel__prev-btn,
+    .alice-carousel__next-btn {
+        width: 45%
+    }
 }
 
 @media (max-width: 768px) {
@@ -70,8 +75,9 @@
 
 
 @media (max-width: 376px) {
-    .alice-carousel__prev-btn, .alice-carousel__next-btn {
-    position: relative;
-    bottom: 16rem;
+    .alice-carousel__prev-btn,
+    .alice-carousel__next-btn {
+        position: relative;
+        bottom: 16rem;
     }
 }

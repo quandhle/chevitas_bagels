@@ -1,12 +1,10 @@
 import "./hero-image.css"
-import logo from "../images/chevitas-logo.png"
 
-export default function HeroImage({type}) {
-  if (type === "logo") {
-    return (
-      <header className="hero-image">
-        <img src={logo} alt="chevitas logo of a cartoon woman holding a bowl of fruit"/>
-      </header>
-    )
-  }
+export default function HeroImage({headerStyle, imageStyle}) {
+  return (
+    <header className="hero-image" style={headerStyle}>
+      {/* <img src={src} alt="chevitas logo of a cartoon woman holding a bowl of fruit"/> */}
+      <div style={imageStyle}></div>
+    </header>
+  )
 }

@@ -1,10 +1,12 @@
-import "./home.css"
-import ContactUs from "../Contact"
-import Carousel from '../Carousel'
+import "./home.css";
+import ContactUs from "../Contact";
+import Carousel from '../Carousel';
+import HeroImage from "../Hero-Image";
 
 function Home({setView}) {
   return (
     <div className="home">
+      <HeroImage type="logo" />
       <Carousel />
       <div className="social-media-wrapper-home">
         <div className="social-media-home">

@@ -45,8 +45,12 @@
 .home .social-media-home span {
   margin: 0.5rem auto;
   font-size: 5rem;
-  flex-basis: 33%;
   color: black;
+}
+
+.home .social-media-home img {
+  margin: 0.5rem auto;
+  width: 33%;
 }
 
 @media (min-width: 630px) {

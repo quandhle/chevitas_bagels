@@ -26,14 +26,12 @@
 
 .alice-carousel__prev-btn-item,
 .alice-carousel__next-btn-item {
-    font-size: 70px;
-    padding: 0px !important;
-    width: 89%
+    font-size: clamp(60px, 85px, 85px);
+    width: 60%;
 }
 
 .alice-carousel__next-btn-item {
-    text-align: right;
-    width: 84%
+    text-align: center;
 }
 
 .alice-carousel__prev-btn-item {
@@ -41,20 +39,25 @@
     color: white;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 376px) {
     .image1 {
         width: 80vw;
-        height: 31vh;
+        height: 38vh;
     }
     .alice-carousel {
         max-height: 282px;
         width: 100%;
     }
+    .alice-carousel__prev-btn-item,
+    .alice-carousel__next-btn-item {
+        width: 145%;
+    }
 }
+
 
 @media (min-width: 769px) {
     .image1 {
-        width: 70vw;
+        width: 50vw;
         height: 77vh;
     }
     .alice-carousel {
@@ -62,8 +65,8 @@
         width: 95%;
     }
     .alice-carousel__next-btn {
-        width: 45%;
-        right: 1rem;
+        width: 20%;
+        left: 1rem
     }
 }
 

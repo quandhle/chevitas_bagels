@@ -1,7 +1,7 @@
 import React from 'react'
 import './menu.css'
 
-export default function Menu({}) {
+export default function Menu() {
 	const x = window.matchMedia('(min-width: 376px)');
 	if (x.matches) {
 		return (

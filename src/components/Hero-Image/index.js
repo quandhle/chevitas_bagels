@@ -1,10 +1,11 @@
 import "./hero-image.css"
 
-export default function HeroImage({headerStyle, imageStyle}) {
+export default function HeroImage({heroStyles, imageText}) {
   return (
-    <header className="hero-image" style={headerStyle}>
-      {/* <img src={src} alt="chevitas logo of a cartoon woman holding a bowl of fruit"/> */}
-      <div style={imageStyle}></div>
+    <header className="hero-image-wrapper" style={!heroStyles.header ? null: heroStyles.header}>
+      <div className="hero-image" style={heroStyles.image}>
+        <h1 style={heroStyles.text}>{imageText}</h1>
+      </div>
     </header>
   )
 }

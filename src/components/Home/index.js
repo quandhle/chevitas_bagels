@@ -3,7 +3,8 @@ import ContactUs from "../Contact";
 import Carousel from '../Carousel';
 import HeroImage from "../Hero-Image";
 
-function Home({setView}) {
+
+function Home({}) {
   return (
     <div className="home">
       <HeroImage type="logo" />

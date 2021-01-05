@@ -1,5 +1,6 @@
-export const messages = {
+export const navbarLabels = {
   navBarHome: {
+    id: "home",
     description: "label for home in nav bar",
     message: {
       en: "Home",
@@ -7,6 +8,7 @@ export const messages = {
     }
   },
   navBarMenu: {
+    id: "menu",
     description: "label for menu in nav bar",
     message: {
       en: "Menu",
@@ -14,6 +16,7 @@ export const messages = {
     }
   },
   navBarOurStory: {
+    id: "ourStory",
     description: "label for our story in nav bar",
     message: {
       en: "Our Story",
@@ -21,6 +24,7 @@ export const messages = {
     }
   },
   navBarContactUs: {
+    id: "contactUs",
     description: "label for contact us in nav bar",
     message: {
       en: "Contact Us",
@@ -28,6 +32,7 @@ export const messages = {
     }
   },
   navBarPhotos: {
+    id: "photos",
     description: "label for photos in nav bar",
     message: {
       en: "Photos",

@@ -4,7 +4,7 @@ import Carousel from '../Carousel';
 import HeroImage from "../Hero-Image";
 
 
-function Home({}) {
+function Home() {
   return (
     <div className="home">
       <HeroImage type="logo" />

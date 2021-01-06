@@ -32,8 +32,8 @@ const HeroImage = ({
   imageText
 }) => (
   <header className={`${classes.heroImage} ${classes.imageContainer}`}>
-    <div className={classes.image} style={heroStyles.image}>
-      <h1 classNName={classes.text}>{imageText}</h1>
+    <div className={classes.image}>
+      {imageText && <h1 classNName={classes.text}>{imageText}</h1>}
     </div>
   </header>
 )

@@ -1,5 +1,5 @@
-export const menuItems = {
-  sandwiches: {
+export const menuItemsArr = [
+  {
     label: "sandwiches",
     items: [
       {
@@ -53,7 +53,7 @@ export const menuItems = {
       },
     ]
   },
-  salads: {
+  {
     label: "salads",
     items: [
       {
@@ -107,7 +107,7 @@ export const menuItems = {
       },
     ]
   },
-  breakfast_bagels: {
+  {
     label: "breakfast bagels",
     items: [
       {
@@ -161,7 +161,7 @@ export const menuItems = {
       },
     ]
   },
-  smoothies: {
+  {
     label: "smoothies",
     items: [
       {
@@ -236,7 +236,7 @@ export const menuItems = {
       },
     ]
   },
-  agua_frescas: {
+  {
     label: "agua frescas",
     items: [
       {
@@ -255,7 +255,7 @@ export const menuItems = {
       },
     ]
   },
-  soups: {
+  {
     label: "soups",
     items: [
       {
@@ -267,122 +267,131 @@ export const menuItems = {
       },
     ]
   },
-  juices: [
-    {
-      id: "apple and orange",
-      description: {
-        en: "apple and orange",
-        sp: "Manzana y naranja"
+  {
+    label: "juices",
+    items:  [
+      {
+        id: "apple and orange",
+        description: {
+          en: "apple and orange",
+          sp: "Manzana y naranja"
+        },
       },
-    },
-    {
-      id: "beet juice",
-      description: {
-        en: "beet juice",
-        sp: "Betabel"
+      {
+        id: "beet juice",
+        description: {
+          en: "beet juice",
+          sp: "Betabel"
+        },
       },
-    },
-    {
-      id: "carrot juice",
-      description: {
-        en: "carrot juice",
-        sp: "Jugo de zanahoria"
+      {
+        id: "carrot juice",
+        description: {
+          en: "carrot juice",
+          sp: "Jugo de zanahoria"
+        },
       },
-    },
-    {
-      id: "carrot, beet, and celery",
-      description: {
-        en: "carrot, beet, and celery",
-        sp: "Zanahoria, betabel y apio"
+      {
+        id: "carrot, beet, and celery",
+        description: {
+          en: "carrot, beet, and celery",
+          sp: "Zanahoria, betabel y apio"
+        },
       },
-    },
-    {
-      id: "green juice",
-      description: {
-        en: "green juice",
-        sp: "Jugo verde"
+      {
+        id: "green juice",
+        description: {
+          en: "green juice",
+          sp: "Jugo verde"
+        },
       },
-    },
-    {
-      id: "orange and kiwi",
-      description: {
-        en: "orange and kiwi juice",
-        sp: "Naranja y kiwi"
+      {
+        id: "orange and kiwi",
+        description: {
+          en: "orange and kiwi juice",
+          sp: "Naranja y kiwi"
+        },
       },
-    },
-    {
-      id: "orange juice",
-      description: {
-        en: "orange juice",
-        sp: "Jugo de naranja"
+      {
+        id: "orange juice",
+        description: {
+          en: "orange juice",
+          sp: "Jugo de naranja"
+        },
       },
-    },
-    {
-      id: "orange, carrot juice",
-      description: {
-        en: "orange and carrot juice",
-        sp: "Naranja y zanahoria"
+      {
+        id: "orange, carrot juice",
+        description: {
+          en: "orange and carrot juice",
+          sp: "Naranja y zanahoria"
+        },
       },
-    },
-    {
-      id: "orange, carrot juice",
-      description: {
-        en: "orange and carrot juice",
-        sp: "Naranja y zanahoria"
+      {
+        id: "orange, carrot juice",
+        description: {
+          en: "orange and carrot juice",
+          sp: "Naranja y zanahoria"
+        },
       },
-    },
-    {
-      id: "fat burner",
-      description: {
-        en: "Nopal, pineapple, parsley, celery, spinach and grapefruit",
-        sp: "Nopal, pina, perejil, apio, espinaca y toronja"
+      {
+        id: "fat burner",
+        description: {
+          en: "Nopal, pineapple, parsley, celery, spinach and grapefruit",
+          sp: "Nopal, pina, perejil, apio, espinaca y toronja"
+        },
       },
-    },
-    {
-      id: "vampiro",
-      description: {
-        en: "Orange, beets, carrots, lemon slice, pineapple, strawberry and celery",
-        sp: "Jugo de naranja, betabel, zanahoria, rebanada de limon, pina, fresa y apio."
+      {
+        id: "vampiro",
+        description: {
+          en: "Orange, beets, carrots, lemon slice, pineapple, strawberry and celery",
+          sp: "Jugo de naranja, betabel, zanahoria, rebanada de limon, pina, fresa y apio."
+        },
       },
-    },
-  ],
-  drinks: [
-    {
-      id: "coca cola",
-      description: {
-        en: "coca cola",
-        sp: "coca cola"
+    ],
+  },
+  {
+    label: "drinks",
+    items: [
+      {
+        id: "coca cola",
+        description: {
+          en: "coca cola",
+          sp: "coca cola"
+        },
       },
-    },
-    {
-      id: "coffee small",
-      description: {
-        en: "coffee small",
-        sp: "Café pequeno"
+      {
+        id: "coffee small",
+        description: {
+          en: "coffee small",
+          sp: "Café pequeno"
+        },
       },
-    },
-    {
-      id: "water",
-      description: {
-        en: "water",
-        sp: "agua"
+      {
+        id: "water",
+        description: {
+          en: "water",
+          sp: "agua"
+        },
       },
-    },
-  ],
-  desserts: [
-    {
-      id: "cream and strawberry",
-      description: {
-        en: "Cream and strawberry",
-        sp: "Fresas con crema"
+    ],
+  },
+  {
+    label: "desserts",
+    items: [
+      {
+        id: "cream and strawberry",
+        description: {
+          en: "Cream and strawberry",
+          sp: "Fresas con crema"
+        },
       },
-    },
-    {
-      id: "Hawaiian",
-      description: {
-        en: "Hawaiian",
-        sp: "Hawaiian"
+      {
+        id: "Hawaiian",
+        description: {
+          en: "Hawaiian",
+          sp: "Hawaiian"
+        },
       },
-    },
-  ]
-}
+    ]
+  }
+]

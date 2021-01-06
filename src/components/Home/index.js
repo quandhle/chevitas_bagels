@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-import "./home.css"
-import ContactUs from "../Contact"
-import Carousel from '../Carousel'
-=======
 import "./home.css";
 import ContactUs from "../Contact";
 import Carousel from '../Carousel';
@@ -25,14 +20,10 @@ function Home() {
       background: `linear-gradient(yellow, white)`,
     }
   }
->>>>>>> 5a3e37b4e9c5ea51e21665501f18dd3f67077aec
 
   return (
     <div className="home">
-<<<<<<< HEAD
-=======
       <HeroImage heroStyles={heroStyles}/>
->>>>>>> 5a3e37b4e9c5ea51e21665501f18dd3f67077aec
       <Carousel />
       <div className="social-media-wrapper-home">
         <div className="social-media-home">

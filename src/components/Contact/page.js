@@ -1,3 +1,4 @@
+import React, {Fragment} from 'react';
 import "./page.css"
 import HeroImage from "../Hero-Image";
 import contactImage from "../images/contact-us-background-1.jpg";
@@ -18,7 +19,7 @@ export default function Page(props) {
     }
   }
   return (
-    <>
+    <Fragment>
       <HeroImage heroStyles={heroStyles}/>
       <main className="contact-page">
         <section className="contact-info">
@@ -38,6 +39,6 @@ export default function Page(props) {
           </div>
         </section>
       </main>
-    </>
+    </Fragment>
   )
 }

@@ -73,11 +73,20 @@
   width: 100%;
 }
 
-.menu-wrapper .social-media span {
-  margin: 0.5rem auto;
-  font-size: 9rem;
-	flex-basis: 33%;
-	color: black;
+.menu-wrapper .social-media a {
+	margin: 0.5rem auto;
+	width: 15%;
+	min-width: 110px;
+}
+
+.menu-wrapper .social-media img {
+	width: 100%;
+  transition: ease 0.2s;
+}
+
+.menu-wrapper .social-media img:hover {
+  cursor: pointer;
+  transform: scale(1.1);
 }
 
 

@@ -3,10 +3,11 @@ import ContactUs from "../Contact";
 import Carousel from '../Carousel';
 import HeroImage from "../Hero-Image";
 import logo from "../images/chevitas-logo.png";
-import icons from "../images/icons";
+import iconDetails from "../images/icons";
+import ChevitasIcon from "../Icon";
 
 function Home() {
-  const {doordash, instagram, yelp, facebook, call, grubhub} = icons;
+  const { doordash, instagram, yelp, facebook, call, grubhub } = iconDetails;
   const heroStyles = {
     image: {
       backgroundImage: `url(${logo})`,
@@ -27,24 +28,12 @@ function Home() {
       <Carousel />
       <div className="social-media-wrapper-home">
         <div className="social-media-home">
-          <a href="https://www.doordash.com/store/chevita-s-juice---bagels-santa-ana-783486/en-US" target="_blank" rel="noreferrer">
-            <img src={doordash} alt="doordash icon"></img>
-            </a>
-          <a href="https://www.instagram.com/chevitasdtsa/" target="_blank" rel="noreferrer">
-            <img src={instagram} alt="instagram icon"></img>
-            </a>
-          <a href="https://www.yelp.com/biz/chevitas-juice-and-bagel-santa-ana" target="_blank" rel="noreferrer">
-            <img src={yelp} alt="yelp icon"></img>
-            </a>
-          <a href="https://www.facebook.com/ChevitasJB" target="_blank" rel="noreferrer">
-            <img src={facebook} alt="facebook icon"></img>
-            </a>
-          <a href="tel:7148523650" target="_blank" rel="noreferrer">
-            <img src={call} alt="call icon"></img>
-            </a>
-          <a href="https://www.grubhub.com/restaurant/chevitas-juice-and-bagel-209-w-4th-st-santa-ana/1472683" target="_blank" rel="noreferrer">
-            <img src={grubhub} alt="grubhub icon"></img>
-            </a>
+          <ChevitasIcon icon={doordash}/>
+          <ChevitasIcon icon={instagram} />
+          <ChevitasIcon icon={yelp} />
+          <ChevitasIcon icon={facebook} />
+          <ChevitasIcon icon={call} />
+          <ChevitasIcon icon={grubhub} />
         </div>
       </div>
       <ContactUs load="widget"/>

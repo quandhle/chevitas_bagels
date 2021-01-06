@@ -1,10 +1,12 @@
 import React from 'react';
 import menuHeaderImage from '../images/menu-photo-1.jpg';
 import HeroImage from "../Hero-Image";
+import icons from "../images/icons";
 import './menu.css';
 
 export default function Menu() {
 	const x = window.matchMedia('(min-width: 376px)');
+	const {grubhub, doordash, call} = icons
 	const heroStyles = {
 		image: {
 			backgroundImage: `url(${menuHeaderImage})`,
@@ -28,9 +30,9 @@ export default function Menu() {
 				<div className="menu-wrapper">
 					<div className="social-media-wrapper">
 						<div className="social-media">
-							<span className="material-icons">facebook</span>
-							<span className="material-icons">facebook</span>
-							<span className="material-icons">facebook</span>
+							<img src={grubhub} alt="grubhub icon"></img>
+							<img src={doordash} alt="doordash icon"></img>
+							<img src={call} alt="call icon"></img>
 						</div>
 					</div>
 					<main className="menu">

@@ -42,15 +42,15 @@
   font-size: 3rem;
 }
 
-.home .social-media-home span {
-  margin: 0.5rem auto;
-  font-size: 5rem;
-  color: black;
-}
-
 .home .social-media-home img {
   margin: 0.5rem auto;
-  width: 33%;
+  width: 26%;
+  transition: ease 0.2s;
+}
+
+.home .social-media-home img:hover {
+  cursor: pointer;
+  transform: scale(1.1);
 }
 
 @media (min-width: 630px) {

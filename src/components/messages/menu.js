@@ -1,3 +1,86 @@
+export const menuCategories = [
+  {
+    id: "sandwiches",
+    description: "label for sandwiches on menu page",
+    label: {
+      en: "sandwiches",
+      sp: "sandwiches sp"
+    }
+  },
+  {
+    id: "salads",
+    description: "label for salads on menu page",
+    label: {
+      en: "salads",
+      sp: "salads sp"
+    }
+  },
+  {
+    id: "bagels",
+    description: "label for bagels on menu page",
+    label: {
+      en: "bagels",
+      sp: "bagels sp"
+    }
+  },
+  {
+    id: "smoothies",
+    description: "label for smoothies on menu page",
+    label: {
+      en: "smoothies",
+      sp: "smoothies sp"
+    }
+  },
+  {
+    id: "agua fresca",
+    description: "label for aqua frescas on menu page",
+    label: {
+      en: "agua fresca",
+      sp: "agua fresca sp"
+    }
+  },
+  {
+    id: "soups",
+    description: "label for soups on menu page",
+    label: {
+      en: "soups",
+      sp: "soups sp"
+    }
+  },
+  {
+    id: "juices",
+    description: "label for juices on menu page",
+    label: {
+      en: "juices",
+      sp: "juices sp"
+    }
+  },
+  {
+    id: "juices",
+    description: "label for juices on menu page",
+    label: {
+      en: "juices",
+      sp: "juices sp"
+    }
+  },
+  {
+    id: "drinks",
+    description: "label for drinks on menu page",
+    label: {
+      en: "drinks",
+      sp: "drinks sp"
+    }
+  },
+  {
+    id: "desserts",
+    description: "label for desserts on menu page",
+    label: {
+      en: "desserts",
+      sp: "desserts sp"
+    }
+  },
+]
+
 export const menuItems = {
   "sandwiches": [
     {

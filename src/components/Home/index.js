@@ -1,11 +1,11 @@
 import "./home.css"
 import ContactUs from "../Contact"
-// import Carousel from '../Carousel'
+import Carousel from '../Carousel'
 
 function Home({}) {
   return (
     <div className="home">
-      {/* <Carousel /> */}
+      <Carousel />
       <div className="social-media-wrapper-home">
         <div className="social-media-home">
           <span className="material-icons">facebook</span>

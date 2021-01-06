@@ -42,9 +42,13 @@
   font-size: 3rem;
 }
 
-.home .social-media-home img {
-  margin: 0.5rem auto;
+.home a {
   width: 26%;
+  margin: 0.5rem auto;
+}
+
+.home .social-media-home img {
+  width: 100%;
   transition: ease 0.2s;
 }
 

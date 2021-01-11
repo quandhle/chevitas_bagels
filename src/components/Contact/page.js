@@ -1,25 +1,11 @@
+import React, {Fragment} from 'react';
 import "./page.css"
 import HeroImage from "../Hero-Image";
-import contactImage from "../images/contact-us-background-1.jpg";
 
 export default function Page(props) {
-  const heroStyles = {
-    header: {
-      position: "fixed",
-      top: 0,
-      right: 0,
-      left: 0,
-      zIndex: "-1000",
-      backgroundImage: `url(${contactImage})`,
-      backgroundPosition: "center",
-      backgroundSize: "cover",
-      backgroundAttachment: "fixed",
-      opacity: 0.30
-    }
-  }
   return (
-    <>
-      <HeroImage heroStyles={heroStyles}/>
+    <Fragment>
+      <HeroImage page="contact"/>
       <main className="contact-page">
         <section className="contact-info">
           <div className="phone">
@@ -38,6 +24,6 @@ export default function Page(props) {
           </div>
         </section>
       </main>
-    </>
+    </Fragment>
   )
 }

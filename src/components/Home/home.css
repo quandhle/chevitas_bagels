@@ -49,12 +49,6 @@
 
 .home .social-media-home img {
   width: 100%;
-  transition: ease 0.2s;
-}
-
-.home .social-media-home img:hover {
-  cursor: pointer;
-  transform: scale(1.1);
 }
 
 @media (min-width: 630px) {

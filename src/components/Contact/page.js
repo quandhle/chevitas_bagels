@@ -20,7 +20,7 @@ export default function Page(props) {
   }
   return (
     <Fragment>
-      <HeroImage heroStyles={heroStyles}/>
+      <HeroImage page="contact"/>
       <main className="contact-page">
         <section className="contact-info">
           <div className="phone">

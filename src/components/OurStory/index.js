@@ -25,7 +25,7 @@ const OurStory = ({lang}) => {
 
   return (
     <Fragment>
-      <HeroImage heroStyles={heroStyles} imageText="Our Story"/>
+      <HeroImage imageText="Our Story" page="ourStory"/>
       <div className="our-story">
         <main>
           <h1>{ourStoryMessages.storyTitle.message[lang]}</h1>

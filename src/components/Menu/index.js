@@ -46,7 +46,7 @@ const Menu = ({
 
 	return (
 		<Fragment>
-			{x.matches && <HeroImage heroStyles={heroStyles} imageText="MENU"/>}
+			{x.matches && <HeroImage imageText="MENU" page="menu"/>}
 			<div className="menu-wrapper">
 				<div className="social-media-wrapper">
 					<div className="social-media">

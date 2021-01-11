@@ -1,40 +1,35 @@
 export const navbarLabels = {
   navBarHome: {
     id: "home",
-    description: "label for home in nav bar",
-    message: {
+    description: {
       en: "Home",
       sp: "Home (sp)"
     }
   },
   navBarMenu: {
     id: "menu",
-    description: "label for menu in nav bar",
-    message: {
+    description: {
       en: "Menu",
       sp: "Menu (sp)"
     }
   },
   navBarOurStory: {
-    id: "ourStory",
-    description: "label for our story in nav bar",
-    message: {
+    id: "our-story",
+    description: {
       en: "Our Story",
       sp: "Our Story (sp)"
     }
   },
   navBarContactUs: {
-    id: "contactUs",
-    description: "label for contact us in nav bar",
-    message: {
+    id: "contact-us",
+    description: {
       en: "Contact Us",
       sp: "Contact Us (sp)"
     }
   },
   navBarPhotos: {
     id: "photos",
-    description: "label for photos in nav bar",
-    message: {
+    description: {
       en: "Photos",
       sp: "Photos (sp)"
     }

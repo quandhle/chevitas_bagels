@@ -82,12 +82,6 @@
 
 .menu-wrapper .social-media img {
 	width: 100%;
-  transition: ease 0.2s;
-}
-
-.menu-wrapper .social-media img:hover {
-  cursor: pointer;
-  transform: scale(1.1);
 }
 
 @media (max-width: 376px) {

@@ -1,52 +1,19 @@
 import React, {Fragment} from 'react';
-import {withStyles} from '@material-ui/core';
-import menuHeaderImage from '../images/menu-photo-1.jpg';
 import HeroImage from "../Hero-Image";
 import icons from "../images/icons";
 import {menuItemsArr} from '../messages/menu';
 import MenuSection from './menuSection';
 import './menu.css';
 
-const styles = () => ({
-	image: {
-		backgroundImage: `url(${menuHeaderImage})`,
-		backgroundPosition: "center",
-		backgroundSize: "cover",
-		height: "100vh",
-		width: "100vw"
-	},
-	text: {
-		color: "white",
-		fontSize: "7rem",
-		fontFamily: `'Courgette', cursive`,
-		textShadow: "-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000"
-	}
-})
-
 const Menu = ({
 	classes,
 }) => {
 	const x = window.matchMedia('(min-width: 376px)');
 	const {grubhub, doordash, call} = icons
-	const heroStyles = {
-		image: {
-			backgroundImage: `url(${menuHeaderImage})`,
-			backgroundPosition: "center",
-			backgroundSize: "cover",
-			height: "100vh",
-			width: "100vw"
-		},
-		text: {
-			color: "white",
-			fontSize: "7rem",
-			fontFamily: `'Courgette', cursive`,
-			textShadow: "-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000"
-		}
-	}
 
 	return (
 		<Fragment>
-			{x.matches && <HeroImage imageText="menu"></HeroImage>}
+			{x.matches && <HeroImage imageText="MENU" page="menu"/>}
 			<div className="menu-wrapper">
 				<div className="social-media-wrapper">
 					<div className="social-media">
@@ -76,4 +43,4 @@ const Menu = ({
 	)
 }
 
-export default withStyles(styles)(Menu);
+export default Menu;

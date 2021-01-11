@@ -2,7 +2,6 @@ import "./home.css";
 import ContactUs from "../Contact";
 import Carousel from '../Carousel';
 import HeroImage from "../Hero-Image";
-import logo from "../images/chevitas-logo.png";
 import icons from "../images/icons";
 
 function Home() {
@@ -10,7 +9,7 @@ function Home() {
 
   return (
     <div className="home">
-      <HeroImage/>
+      <HeroImage page="home"/>
       <Carousel />
       <div className="social-media-wrapper-home">
         <div className="social-media-home">

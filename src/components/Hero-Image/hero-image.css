@@ -1,11 +1,11 @@
-.hero-image-wrapper {
+.hero-image header {
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.hero-image-wrapper .hero-image  {
+.hero-image header > div {
   display: flex;
   justify-content: center;
   align-items: center;

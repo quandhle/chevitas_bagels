@@ -9,10 +9,6 @@ import "./hero-image.css"
 const styles = {
   homeHeader: {
     background: `linear-gradient(yellow, white)`,
-    height: "100vh",
-    display: "flex",
-    justifyContent: "center",
-    alignItems: "center",
   },
   homeImage: {
     backgroundImage: `url(${logo})`,
@@ -22,16 +18,7 @@ const styles = {
     width: "var(--component-width)",
     height: "var(--component-height)"
   },
-  menuHeader: {
-    height: "100vh",
-    display: "flex",
-    justifyContent: "center",
-    alignItems: "center",
-  },
   menuImage: {
-    display: "flex",
-    justifyContent: "center",
-    alignItems: "center",
     backgroundImage: `url(${menuHeaderImage})`,
     backgroundPosition: "center",
     backgroundSize: "cover",
@@ -44,16 +31,7 @@ const styles = {
     fontFamily: `'Courgette', cursive`,
     textShadow: "-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000"
   },
-  ourStoryHeader: {
-    height: "100vh",
-    display: "flex",
-    justifyContent: "center",
-    alignItems: "center",
-  },
   ourStoryImage: {
-    display: "flex",
-    justifyContent: "center",
-    alignItems: "center",
     backgroundImage: `url(${storyImage})`,
     backgroundPosition: "center",
     backgroundSize: "cover",
@@ -68,7 +46,6 @@ const styles = {
     textAlign: "center"
   },
   contactHeader: {
-    height: "100vh",
     position: "fixed",
     top: 0,
     right: 0,
@@ -84,11 +61,13 @@ const styles = {
 
 function HeroImage({ imageText, classes, page }) {
   return (
-    <header className={classes.[`${page}Header`]}>
-      <div className={classes.[`${page}Image`]}>
-        <h1 className={classes.[`${page}Text`]}>{imageText}</h1>
-      </div>
-    </header>
+    <div className="hero-image">
+      <header className={classes.[`${page}Header`]}>
+        <div className={classes.[`${page}Image`]}>
+          <h1 className={classes.[`${page}Text`]}>{imageText}</h1>
+        </div>
+      </header>
+    </div>
   )
 }
 

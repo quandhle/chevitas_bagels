@@ -2,27 +2,9 @@ import React, {Fragment} from 'react';
 import "./our-story.css";
 import ourStoryMessages from '../messages/ourStory';
 import HeroImage from "../Hero-Image";
-import storyImage from '../images/owner-and-store-front.jpg';
 
 
 const OurStory = ({lang}) => {
-    const heroStyles = {
-    image: {
-      backgroundImage: `url(${storyImage})`,
-      backgroundPosition: "center",
-      backgroundSize: "cover",
-      height: "100vh",
-      width: "100vw"
-    },
-    text: {
-      color: "white",
-      fontSize: "7rem",
-      fontFamily: `'Courgette', cursive`,
-      textShadow: "-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000",
-      textAlign: "center"
-    }
-  }
-
   return (
     <Fragment>
       <HeroImage imageText="Our Story" page="ourStory"/>

@@ -7,21 +7,21 @@ import {menuItemsArr} from '../messages/menu';
 import MenuSection from './menuSection';
 import './menu.css';
 
-const styles = () => ({
-	image: {
-		backgroundImage: `url(${menuHeaderImage})`,
-		backgroundPosition: "center",
-		backgroundSize: "cover",
-		height: "100vh",
-		width: "100vw"
-	},
-	text: {
-		color: "white",
-		fontSize: "7rem",
-		fontFamily: `'Courgette', cursive`,
-		textShadow: "-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000"
-	}
-})
+// const styles = () => ({
+// 	image: {
+// 		backgroundImage: `url(${menuHeaderImage})`,
+// 		backgroundPosition: "center",
+// 		backgroundSize: "cover",
+// 		height: "100vh",
+// 		width: "100vw"
+// 	},
+// 	text: {
+// 		color: "white",
+// 		fontSize: "7rem",
+// 		fontFamily: `'Courgette', cursive`,
+// 		textShadow: "-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000"
+// 	}
+// })
 
 const Menu = ({
 	classes,
@@ -46,7 +46,7 @@ const Menu = ({
 
 	return (
 		<Fragment>
-			{x.matches && <HeroImage imageText="menu"></HeroImage>}
+			{x.matches && <HeroImage heroStyles={heroStyles} imageText="MENU"/>}
 			<div className="menu-wrapper">
 				<div className="social-media-wrapper">
 					<div className="social-media">
@@ -76,4 +76,4 @@ const Menu = ({
 	)
 }
 
-export default withStyles(styles)(Menu);
+export default Menu;

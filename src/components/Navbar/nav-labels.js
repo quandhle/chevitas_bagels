@@ -7,7 +7,7 @@ const NavLabels = ({lang}) => {
     <Fragment>
       {Object.keys(navbarLabels)
         .map(label => {
-          const { [label]: { id } } = navbarLabels;
+          const { [label]: { id, description } } = navbarLabels;
 
           return (
             <NavLink
@@ -16,7 +16,7 @@ const NavLabels = ({lang}) => {
               to={`/${id === 'home' ? '' : id}`}
             >
               <h1 className="nav-link">
-                {navbarLabels[label].description[lang]}
+                {description[lang]}
               </h1>
             </NavLink>
           )}

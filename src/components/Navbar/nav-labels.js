@@ -6,17 +6,22 @@ const NavLabels = ({lang}) => {
   return (
     <Fragment>
       {Object.keys(navbarLabels)
-      .map(label => (
-          <NavLink
-            key={navbarLabels[label].id}
-            exact={navbarLabels[label].id === 'home' ? true : false}
-            to={`/${navbarLabels[label].id === 'home' ? '' : navbarLabels[label].id}`}
-          >
-            <h1 className="nav-link">
-              {navbarLabels[label].description[lang]}
-            </h1>
-          </NavLink>
-      ))}
+        .map(label => {
+          const { [label]: { id } } = navbarLabels;
+
+          return (
+            <NavLink
+              key={id}
+              exact={id === 'home' ? true : false}
+              to={`/${id === 'home' ? '' : id}`}
+            >
+              <h1 className="nav-link">
+                {navbarLabels[label].description[lang]}
+              </h1>
+            </NavLink>
+          )}
+        )
+      }
     </Fragment>
   )
 }

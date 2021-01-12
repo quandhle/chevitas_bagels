@@ -1,21 +1,17 @@
 import "./navbar.css";
-import {navbarLabels} from '../messages/navbar';
-import {NavLink} from "react-router-dom";
+import React from "react";
+import NavLabels from "./nav-labels";
+import HamburgerMenu from "./hamburger-menu";
 
-const Navbar = ({lang}) => (
-  <nav className="navbar">
-    <ul>
-      {Object.keys(navbarLabels)
-        .map(label => (
-          <NavLink
-            exact={navbarLabels[label].id == 'home' ? true : false}
-            to={`/${navbarLabels[label].id == 'home' ? '' : navbarLabels[label].id}`}
-          >
-            <li>{navbarLabels[label].description[lang]}</li>
-          </NavLink>
-      ))}
-    </ul>
-  </nav>
-)
+const Navbar = ({ lang }) => {
+  return (
+    <nav className="navbar">
+      <HamburgerMenu lang={lang} />
+      <ul>
+        <NavLabels lang={lang} />
+      </ul>
+    </nav>
+  )
+}
 
 export default Navbar

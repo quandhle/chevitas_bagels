@@ -23,7 +23,7 @@ const HamburgerMenu = ({lang}) => {
         aria-haspopup="true"
         onClick={handleClick}
       >
-        <MenuIcon/>
+        <MenuIcon style={{ fontSize: 45 }}/>
       </IconButton>
       <Menu
         id="menu"

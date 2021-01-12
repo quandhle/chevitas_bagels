@@ -7,20 +7,17 @@ const HamburgerLabels = ({lang, handleClose}) => {
   return (
     <Fragment>
       {Object.keys(navbarLabels)
-        .map(label => (
-          <MenuItem
+        .map(label =>
+          <NavLink
             key={navbarLabels[label].id}
-            onClick={handleClose}
+            exact={navbarLabels[label].id === 'home' ? true : false}
+            to={`/${navbarLabels[label].id === 'home' ? '' : navbarLabels[label].id}`}
           >
-            <NavLink
-              exact={navbarLabels[label].id === 'home' ? true : false}
-              to={`/${navbarLabels[label].id === 'home' ? '' : navbarLabels[label].id}`}
-            >
-              <li onClose={handleClose}>
-                {navbarLabels[label].description[lang]}
-              </li>
-            </NavLink>
-          </MenuItem>))
+            <MenuItem onClick={handleClose}>
+              {navbarLabels[label].description[lang]}
+            </MenuItem>
+          </NavLink>
+        )
       }
     </Fragment>
   )

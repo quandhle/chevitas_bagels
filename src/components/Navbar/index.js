@@ -6,8 +6,10 @@ import HamburgerMenu from "./hamburger-menu";
 const Navbar = ({ lang }) => {
   return (
     <nav className="navbar">
-      <HamburgerMenu lang={lang} />
-      <ul>
+      <div className="nav-menu">
+        <HamburgerMenu lang={lang} />
+      </div>
+      <ul className="nav-list">
         <NavLabels lang={lang} />
       </ul>
     </nav>

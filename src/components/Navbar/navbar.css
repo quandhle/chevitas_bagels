@@ -2,7 +2,7 @@
   --component-width: 300px;
 }
 
-.navbar .active li {
+.navbar .active li, .navbar .active .nav-link {
   font-weight: bolder;
   text-decoration: underline;
 }
@@ -17,49 +17,66 @@
 
 .navbar {
   display: flex;
-  justify-content: center;
   align-items: center;
   background-color: #70AD47;
-  height: 50px;
+  height: 60px;
+  padding: 1rem;
   position: sticky;
   top: 0;
   z-index: 1000;
 }
 
+.navbar .nav-item-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.navbar .logo-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.navbar .logo {
+  border: 1px solid black;
+  border-radius: 10px;
+  height: 60px;
+}
+
+.navbar .nav-list-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
 .navbar .nav-list {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   width: var(--component-width);
   list-style-type: none;
   padding: 0;
 }
 
-.navbar li {
+.navbar li, .navbar .nav-link {
   font-size: 1.5rem;
   cursor: pointer;
   transition: ease 0.25s;
 }
 
-.navbar li:hover {
+.navbar li:hover, .navbar .nav-link:hover {
   transform: scale(1.3);
   font-weight: bold;
-}
-
-@media (max-width: 629px) {
-  .navbar .nav-list {
-    display: none;
-  }
 }
 
 @media (min-width: 630px) {
   :root {
     --component-width: 500px;
     --component-height: 500px;
-  }
-
-  .navbar .nav-menu {
-    display: none;
   }
 }
 

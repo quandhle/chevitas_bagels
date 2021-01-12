@@ -12,9 +12,9 @@ const NavLabels = ({lang}) => {
             exact={navbarLabels[label].id === 'home' ? true : false}
             to={`/${navbarLabels[label].id === 'home' ? '' : navbarLabels[label].id}`}
           >
-            <li>
+            <h1 className="nav-link">
               {navbarLabels[label].description[lang]}
-            </li>
+            </h1>
           </NavLink>
       ))}
     </Fragment>

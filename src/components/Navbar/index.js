@@ -8,6 +8,28 @@ import chevitasLogoSrc from "../images/chevitas-logo-text.png";
 const Navbar = ({ lang }) => {
   const [isScreenSmall, setScreen] = useState(window.innerWidth < 825);
 
+  const SmallScreen = () => {
+    return (
+      <Grid container item spacing={3} xs={6} sm={8}>
+        <Grid container>
+          <Grid item xs={4}></Grid>
+          <Grid item xs={4}></Grid>
+          <Grid container item xs={4} justify="center" alignItems="center">
+            <HamburgerMenu lang={lang} />
+          </Grid>
+        </Grid>
+      </Grid>
+    )
+  }
+
+  const LargeScreen = () => {
+    return (
+      <Grid container item spacing={3} xs={6} sm={8} justify="space-evenly" alignItems="center">
+        <NavLabels lang={lang} />
+      </Grid>
+    )
+  }
+
   const updateScreenSize = () => {
     setScreen(window.innerWidth < 825);
   }
@@ -23,21 +45,7 @@ const Navbar = ({ lang }) => {
           <Grid container item spacing={3} xs={6} sm={4} justify="center" alignItems="center">
             <img className="logo" src={chevitasLogoSrc} alt='chevitas logo' />
           </Grid>
-          { isScreenSmall ?
-          <Grid container item spacing={3} xs={6} sm={8}>
-            <Grid container>
-              <Grid item xs={4}></Grid>
-              <Grid item xs={4}></Grid>
-              <Grid container item xs={4} justify="center" alignItems="center">
-                <HamburgerMenu lang={lang} />
-              </Grid>
-            </Grid>
-          </Grid>
-            :
-          <Grid container item spacing={3} xs={6} sm={8} justify="space-evenly" alignItems="center">
-            <NavLabels lang={lang}/>
-          </Grid>
-          }
+          { isScreenSmall ? <SmallScreen/> : <LargeScreen/>}
       </Grid>
     </nav>
   )

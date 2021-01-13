@@ -8,21 +8,26 @@ import "./hero-image.css"
 
 const styles = {
   homeHeader: {
+    height: "70vh",
     background: `linear-gradient(yellow, white)`,
   },
   homeImage: {
     backgroundImage: `url(${logo})`,
     backgroundPosition: "center",
     backgroundSize: "contain",
+    backgroundRepeat: "no-repeat",
     boxShadow: "0px 0px 50px green",
+    borderRadius: "30px",
+    maxHeight: "500px",
+    maxWidth: "500px",
+    height: "var(--component-height)",
     width: "var(--component-width)",
-    height: "var(--component-height)"
   },
   menuImage: {
     backgroundImage: `url(${menuHeaderImage})`,
     backgroundPosition: "center",
     backgroundSize: "cover",
-    height: "100vh",
+    height: "70vh",
     width: "100vw"
   },
   menuText: {
@@ -35,7 +40,7 @@ const styles = {
     backgroundImage: `url(${storyImage})`,
     backgroundPosition: "center",
     backgroundSize: "cover",
-    height: "100vh",
+    height: "70vh",
     width: "100vw"
   },
   ourStoryText: {
@@ -46,6 +51,7 @@ const styles = {
     textAlign: "center"
   },
   contactHeader: {
+    height: "100vh",
     position: "fixed",
     top: 0,
     right: 0,

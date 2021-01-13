@@ -108,52 +108,52 @@ export const menuItemsArr = [
     ]
   },
   {
-    label: "breakfast bagels",
+    label: "Breakfast Bagels",
     items: [
       {
-        id: "ranchero bagel",
+        id: "Ranchero Bagel",
         description: {
           en: "Bagel of your choice with egg, choice of ham or turkey, tomato, cheese, onion, peppers and chipotle sauce",
           sp: "Bagel de su eleccion con huevo, eleccion de jamon o pavo, tomate, queso, cebolla pimientos y salsa chipotle"
         }
       },
       {
-        id: "melt bagel",
+        id: "Melt Bagel",
         description: {
           en: "Bagel of your choice with cream cheese, bacon, avocado y cheddar cheese",
           sp: "Bagel de su eleccion con queso crema, tocino, aguacate y queso cheddar"
         }
       },
       {
-        id: "chorizo bagel",
+        id: "Chorizo Bagel",
         description: {
           en: "Bagel of your choice with chorizo, egg, american cheese and mayo",
           sp: "Bagel de su eleccion con chorizo, huevo, queso americano y mayonesa"
         }
       },
       {
-        id: "cream and cheese bagel",
+        id: "Cream and Cheese Bagel",
         description: {
           en: "Bagel of your choice with cream and cheese",
           sp: "Baggel de su eleccion con queso crema"
         }
       },
       {
-        id: "egg and cheese bagel",
+        id: "Egg and Cheese Bagel",
         description: {
           en: "Bagel of your choice with egg and cheese",
           sp: "Bagel de su eleccion con queso y huevo"
         }
       },
       {
-        id: "bacon egg and cheese",
+        id: "Bacon Egg and Cheese",
         description: {
           en: "Bagel of your choice with egg, bacon, american cheese, lettuce and tomato",
           sp: "Bagel de su eleccion con huevo, tocino, queso americano, lechuga y tomate"
         }
       },
       {
-        id: "HTLC bagel",
+        id: "HTLC Bagel",
         description: {
           en: "Bagel of your choice with ham, tomato, lettuce and american cheese",
           sp: "Bagel de su eleccion con jamon, tomate, lechuga y queso americano"

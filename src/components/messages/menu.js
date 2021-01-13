@@ -162,73 +162,73 @@ export const menuItemsArr = [
     ]
   },
   {
-    label: "smoothies",
+    label: "Smoothies",
     items: [
       {
-        id: "acai",
+        id: "Acai",
         description: {
           en: "Strawberry,blueberry,acai juice,banana and blackberry",
           sp: "Fresa,arandano,jugo de acai,platano y moras"
         }
       },
       {
-        id: "agave blue",
+        id: "Agave Blue",
         description: {
           en: "Parsley,celery,spinach,lemon,pineapple,orange,kale and chard and agave blue",
           sp: "Perejil,apio, espinaca,limon,pina, naranja, kale, acelga y agave azul"
         },
       },
       {
-        id: "ban berry",
+        id: "Ban Berry",
         description: {
           en: "Banana,strawberry and yogurt",
           sp: "Platano, fresa y yogurt"
         },
       },
       {
-        id: "bomba",
+        id: "Bomba",
         description: {
           en: "Pineapple,cantaloupe, papaya, granola and oats",
           sp: "Pina,melon, papaya, granola y avena"
         },
       },
       {
-        id: "fiesta",
+        id: "Fiesta",
         description: {
           en: "Mango, papaya, pineapple, strawberry, yogurt and almonds",
           sp: "Mango, papaya, pina, fresa, yogurt y almendras"
         },
       },
       {
-        id: "peach",
+        id: "Peach",
         description: {
           en: "Peach, banana, yogurt and pecan",
           sp: "Durazno, planato, yogurt y nuez"
         },
       },
       {
-        id: "pina colada",
+        id: "Pina Colada",
         description: {
           en: "Pineapple and coconut",
           sp: "Pina y coco"
         },
       },
       {
-        id: "super green",
+        id: "Super Green",
         description: {
           en: "Celery, pineapple, mint, apple juice, spinach, ice",
           sp: "apio, pina, menta, jugo de manzana , espinaca, hielo"
         },
       },
       {
-        id: "mango tango large",
+        id: "Mango Tango Large",
         description: {
           en: "Mango and green tea",
           sp: "mango y te verde"
         },
       },
       {
-        id: "shakes",
+        id: "Shakes",
         description: {
           en: "Ask for the fruit avalible",
           sp: "Pregunte por la fruta disponible"
@@ -237,17 +237,17 @@ export const menuItemsArr = [
     ]
   },
   {
-    label: "agua frescas",
+    label: "Agua Frescas",
     items: [
       {
-        id: "chilate large",
+        id: "Chilate Large",
         description: {
           en: "Cacao beans, rice, cinnamont",
           sp: "cacao, arroz y canela"
         },
       },
       {
-        id: "fresh water large",
+        id: "Fresh Water Large",
         description: {
           en: "Ask for the fruit avalible",
           sp: "Pregunte por la fruta disponible"
@@ -256,10 +256,10 @@ export const menuItemsArr = [
     ]
   },
   {
-    label: "soups",
+    label: "Soups",
     items: [
       {
-        id: "soup of the day",
+        id: "Soup of the Day",
         description: {
           en: "Ask for the soup of the day",
           sp: "Pregunte por la sopa del dia"
@@ -268,80 +268,73 @@ export const menuItemsArr = [
     ]
   },
   {
-    label: "juices",
+    label: "Juices",
     items:  [
       {
-        id: "apple and orange",
+        id: "Apple and Orange",
         description: {
-          en: "apple and orange",
+          en: "Apple and orange",
           sp: "Manzana y naranja"
         },
       },
       {
-        id: "beet juice",
+        id: "Beet Juice",
         description: {
-          en: "beet juice",
+          en: "Beet juice",
           sp: "Betabel"
         },
       },
       {
-        id: "carrot juice",
+        id: "Carrot Juice",
         description: {
-          en: "carrot juice",
+          en: "Carrot juice",
           sp: "Jugo de zanahoria"
         },
       },
       {
-        id: "carrot, beet, and celery",
+        id: "Carrot, Beet, and Celery",
         description: {
-          en: "carrot, beet, and celery",
+          en: "Carrot, beet, and celery",
           sp: "Zanahoria, betabel y apio"
         },
       },
       {
-        id: "green juice",
+        id: "Green Juice",
         description: {
-          en: "green juice",
+          en: "Green juice",
           sp: "Jugo verde"
         },
       },
       {
-        id: "orange and kiwi",
+        id: "Orange and Kiwi",
         description: {
-          en: "orange and kiwi juice",
+          en: "Orange and kiwi juice",
           sp: "Naranja y kiwi"
         },
       },
       {
-        id: "orange juice",
+        id: "Orange Juice",
         description: {
-          en: "orange juice",
+          en: "Orange juice",
           sp: "Jugo de naranja"
         },
       },
       {
-        id: "orange, carrot juice",
+        id: "Orange, Carrot Juice",
         description: {
-          en: "orange and carrot juice",
+          en: "Orange and carrot juice",
           sp: "Naranja y zanahoria"
         },
       },
       {
-        id: "orange, carrot juice",
-        description: {
-          en: "orange and carrot juice",
-          sp: "Naranja y zanahoria"
-        },
-      },
-      {
-        id: "fat burner",
+        id: "Fat Burner",
         description: {
           en: "Nopal, pineapple, parsley, celery, spinach and grapefruit",
           sp: "Nopal, pina, perejil, apio, espinaca y toronja"
         },
       },
       {
-        id: "vampiro",
+        id: "Vampiro",
         description: {
           en: "Orange, beets, carrots, lemon slice, pineapple, strawberry and celery",
           sp: "Jugo de naranja, betabel, zanahoria, rebanada de limon, pina, fresa y apio."
@@ -350,36 +343,36 @@ export const menuItemsArr = [
     ],
   },
   {
-    label: "drinks",
+    label: "Drinks",
     items: [
       {
-        id: "coca cola",
+        id: "Coca Cola",
         description: {
-          en: "coca cola",
-          sp: "coca cola"
+          en: "Coca cola",
+          sp: "Coca cola"
         },
       },
       {
-        id: "coffee small",
+        id: "Coffee small",
         description: {
-          en: "coffee small",
+          en: "Coffee small",
           sp: "Café pequeno"
         },
       },
       {
-        id: "water",
+        id: "Water",
         description: {
-          en: "water",
-          sp: "agua"
+          en: "Water",
+          sp: "Agua"
         },
       },
     ],
   },
   {
-    label: "desserts",
+    label: "Desserts",
     items: [
       {
-        id: "cream and strawberry",
+        id: "Cream and Strawberry",
         description: {
           en: "Cream and strawberry",
           sp: "Fresas con crema"

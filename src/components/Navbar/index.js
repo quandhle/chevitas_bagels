@@ -1,27 +1,54 @@
 import "./navbar.css";
-import {messages} from '../messages/messages';
-import {Link, NavLink} from "react-router-dom";
+import React, { useState, useEffect } from "react";
+import {Grid} from "@material-ui/core"
+import NavLabels from "./nav-labels";
+import HamburgerMenu from "./hamburger-menu";
+import chevitasLogoSrc from "../images/chevitas-logo-text.png";
 
-const Navbar = ({lang}) => (
-  <nav className="navbar">
-    <ul>
-      <NavLink exact to="/">
-        <li>{messages.navBarHome.message[lang]}</li>
-      </NavLink>
-      <NavLink to="/menu">
-        <li>{messages.navBarMenu.message[lang]}</li>
-      </NavLink>
-      <NavLink to="/our-story">
-        <li>{messages.navBarOurStory.message[lang]}</li>
-      </NavLink>
-      <NavLink to="/contact-us">
-        <li>{messages.navBarContactUs.message[lang]}</li>
-      </NavLink>
-      <NavLink to="/photos">
-        <li>{messages.navBarPhotos.message[lang]}</li>
-      </NavLink>
-    </ul>
-  </nav>
-)
+const Navbar = ({ lang }) => {
+  const [isScreenSmall, setScreen] = useState(window.innerWidth < 825);
+
+  const SmallScreen = () => {
+    return (
+      <Grid container item spacing={3} xs={6} sm={8}>
+        <Grid container>
+          <Grid item xs={4}></Grid>
+          <Grid item xs={4}></Grid>
+          <Grid container item xs={4} justify="center" alignItems="center">
+            <HamburgerMenu lang={lang} />
+          </Grid>
+        </Grid>
+      </Grid>
+    )
+  }
+
+  const LargeScreen = () => {
+    return (
+      <Grid container item spacing={3} xs={6} sm={8} justify="space-evenly" alignItems="center">
+        <NavLabels lang={lang} />
+      </Grid>
+    )
+  }
+
+  const updateScreenSize = () => {
+    setScreen(window.innerWidth < 825);
+  }
+
+  useEffect(() => {
+    window.addEventListener("resize", updateScreenSize);
+    return () => window.removeEventListener("resize", updateScreenSize);
+  })
+
+  return (
+    <nav className="navbar">
+      <Grid container spacing={3}>
+          <Grid container item spacing={3} xs={6} sm={4} justify="center" alignItems="center">
+            <img className="logo" src={chevitasLogoSrc} alt='chevitas logo' />
+          </Grid>
+          { isScreenSmall ? <SmallScreen/> : <LargeScreen/>}
+      </Grid>
+    </nav>
+  )
+}
 
 export default Navbar

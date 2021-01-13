@@ -10,7 +10,9 @@
   flex-wrap: wrap;
 	text-align: center;
 	margin: 2rem auto;
-  width: 100%;
+	width: 100%;
+	height: 100%;
+	position: relative
 }
 
 .menu-wrapper .menu-items {
@@ -22,10 +24,9 @@
 
 .menu-wrapper .vertical-divider {
 	width: 2px;
-	height: 100vh;
+	height: 100%;
 	background-color: brown;
-	position: relative;
-	top: 2rem;
+	position: absolute;
 }
 
 .menu-wrapper .menu h2 {
@@ -73,13 +74,15 @@
   width: 100%;
 }
 
-.menu-wrapper .social-media span {
-  margin: 0.5rem auto;
-  font-size: 9rem;
-	flex-basis: 33%;
-	color: black;
+.menu-wrapper .social-media a {
+	margin: 0.5rem auto;
+	width: 15%;
+	min-width: 110px;
 }
 
+.menu-wrapper .social-media img {
+	width: 100%;
+}
 
 @media (max-width: 376px) {
 	.menu-wrapper .menu h2:nth-of-type(1),

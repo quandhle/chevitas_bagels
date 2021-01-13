@@ -1,163 +1,397 @@
-const menuItems = {
-  "sandwiches": [
-    {
-      "name": "chipotle chicken sandwich",
-      "description": {
-        "en": "Chicken breast, bacon, lettuce, tomato, onion, swiss cheese and chipotle.",
-        "sp": "Pechuga de pollo, tocino, lechuga, tomate, cebolla, queso suizo y chipotle."
-      }
-    },
-    {
-      "name": "club sandwich",
-      "description": {
-        "en": "Delicious turkey, ham, bacon, lettuce, onion and tomato.",
-        "sp": "Delicioso pavo, jamon, tocino, lechuga cebolla y tomate."
-      }
-    },
-    {
-      "name": "cranberry turkey sandwich",
-      "description": {
-        "en": "Sliced smoked turkey with cranberry sauce, mayo, lettuce, tomato and onion.",
-        "sp": "Rebanadas de pavo ahumado con salsa de arandanos, mayonesa, lechuga, tomate y cebolla."
-      }
-    },
-    {
-      "name": "ham and cheese sandwich",
-      "description": {
-        "en": "Fresh sliced ham,american cheese, mayo, lettuce,tomato and onion.",
-        "sp": "Rebanadas de jamon fresco, queso americano, mayonesa, lechuga,tomate y cebolla."
-      }
-    },
-    {
-      "name": "tuna sandwich",
-      "description": {
-        "en": "Tuna, mayo, lettuce, tomato and onion.",
-        "sp": "Atun, mayonesa, lechuga, tomate y cebolla."
-      }
-    },
-    {
-      "name": "turkey sandwich",
-      "description": {
-        "en": "Fresh sliced turkey, lettuce, tomate and onion.",
-        "sp": "Pavo, lechuga, tomate, cebolla"
-      }
-    },
-    {
-      "name": "veggie sandwich",
-      "description": {
-        "en": "Provolone cheese, bell peppers, cucumber, lettuce, avocato, tomato, onion, mayo, and pesto",
-        "sp": "Queso provolone, pimientos, pepino, lechuga, aguacate, tomate, cebolla, mayo y pesto"
-      }
-    },
-  ],
-  "salads": [
-    {
-      "name": "baby spinach",
-      "description": {
-        "en": "Provolone cheese, bell peppers, cucumber, lettuce, avocato, tomato, onion, mayo, and pesto",
-        "sp": "Queso provolone, pimientos, pepino, lechuga, aguacate, tomate, cebolla, mayo y pesto"
-      }
-    },
-    {
-      "name": "caesar salad",
-      "description": {
-        "en": "Provolone cheese, bell peppers, cucumber, lettuce, avocato, tomato, onion, mayo, and pesto",
-        "sp": "Queso provolone, pimientos, pepino, lechuga, aguacate, tomate, cebolla, mayo y pesto"
-      }
-    },
-    {
-      "name": "chicken salad",
-      "description": {
-        "en": "Provolone cheese, bell peppers, cucumber, lettuce, avocato, tomato, onion, mayo, and pesto",
-        "sp": "Queso provolone, pimientos, pepino, lechuga, aguacate, tomate, cebolla, mayo y pesto"
-      }
-    },
-    {
-      "name": "ham/turkey salad",
-      "description": {
-        "en": "Provolone cheese, bell peppers, cucumber, lettuce, avocato, tomato, onion, mayo, and pesto",
-        "sp": "Queso provolone, pimientos, pepino, lechuga, aguacate, tomate, cebolla, mayo y pesto"
-      }
-    },
-    {
-      "name": "mandarin salad",
-      "description": {
-        "en": "Provolone cheese, bell peppers, cucumber, lettuce, avocato, tomato, onion, mayo, and pesto",
-        "sp": "Queso provolone, pimientos, pepino, lechuga, aguacate, tomate, cebolla, mayo y pesto"
-      }
-    },
-    {
-      "name": "southwest chicken chipotle",
-      "description": {
-        "en": "Provolone cheese, bell peppers, cucumber, lettuce, avocato, tomato, onion, mayo, and pesto",
-        "sp": "Queso provolone, pimientos, pepino, lechuga, aguacate, tomate, cebolla, mayo y pesto"
-      }
-    },
-    {
-      "name": "tuna salad",
-      "description": {
-        "en": "Provolone cheese, bell peppers, cucumber, lettuce, avocato, tomato, onion, mayo, and pesto",
-        "sp": "Queso provolone, pimientos, pepino, lechuga, aguacate, tomate, cebolla, mayo y pesto"
-      }
-    },
-  ],
-  "breakfast_bagels": [
-    {
-      "name": "ranchero bagel",
-      "description": {
-        "en": "Provolone cheese, bell peppers, cucumber, lettuce, avocato, tomato, onion, mayo, and pesto",
-        "sp": "Queso provolone, pimientos, pepino, lechuga, aguacate, tomate, cebolla, mayo y pesto"
-      }
-    },
-    {
-      "name": "melt bagel",
-      "description": {
-        "en": "Provolone cheese, bell peppers, cucumber, lettuce, avocato, tomato, onion, mayo, and pesto",
-        "sp": "Queso provolone, pimientos, pepino, lechuga, aguacate, tomate, cebolla, mayo y pesto"
-      }
-    },
-    {
-      "name": "chorizo bagel",
-      "description": {
-        "en": "Provolone cheese, bell peppers, cucumber, lettuce, avocato, tomato, onion, mayo, and pesto",
-        "sp": "Queso provolone, pimientos, pepino, lechuga, aguacate, tomate, cebolla, mayo y pesto"
-      }
-    },
-    {
-      "name": "cream and cheese bagel",
-      "description": {
-        "en": "Provolone cheese, bell peppers, cucumber, lettuce, avocato, tomato, onion, mayo, and pesto",
-        "sp": "Queso provolone, pimientos, pepino, lechuga, aguacate, tomate, cebolla, mayo y pesto"
-      }
-    },
-    {
-      "name": "egg and cheese bagel",
-      "description": {
-        "en": "Provolone cheese, bell peppers, cucumber, lettuce, avocato, tomato, onion, mayo, and pesto",
-        "sp": "Queso provolone, pimientos, pepino, lechuga, aguacate, tomate, cebolla, mayo y pesto"
-      }
-    },
-    {
-      "name": "bacon egg and cheese",
-      "description": {
-        "en": "Provolone cheese, bell peppers, cucumber, lettuce, avocato, tomato, onion, mayo, and pesto",
-        "sp": "Queso provolone, pimientos, pepino, lechuga, aguacate, tomate, cebolla, mayo y pesto"
-      }
-    },
-    {
-      "name": "HTLC bagel",
-      "description": {
-        "en": "Provolone cheese, bell peppers, cucumber, lettuce, avocato, tomato, onion, mayo, and pesto",
-        "sp": "Queso provolone, pimientos, pepino, lechuga, aguacate, tomate, cebolla, mayo y pesto"
-      }
-    },
-  ],
-  "smoothies": [],
-  "agua_frescas": [],
-  "soups": [],
-  "juices": [],
-  "drinks": [],
-  "desserts": []
-}
-
-export default menuItems
+export const menuItemsArr = [
+  {
+    label: "sandwiches",
+    items: [
+      {
+        id: "chipotle chicken sandwich",
+        description: {
+          en: "Chicken breast, bacon, lettuce, tomato, onion, swiss cheese and chipotle",
+          sp: "Pechuga de pollo, tocino, lechuga, tomate, cebolla, queso suizo y chipotle"
+        }
+      },
+      {
+        id: "club sandwich",
+        description: {
+          en: "Delicious turkey, ham, bacon, lettuce, onion and tomato",
+          sp: "Delicioso pavo, jamon, tocino, lechuga cebolla y tomate"
+        }
+      },
+      {
+        id: "cranberry turkey sandwich",
+        description: {
+          en: "Sliced smoked turkey with cranberry sauce, mayo, lettuce, tomato and onion",
+          sp: "Rebanadas de pavo ahumado con salsa de arandanos, mayonesa, lechuga, tomate y cebolla"
+        }
+      },
+      {
+        id: "ham and cheese sandwich",
+        description: {
+          en: "Fresh sliced ham,american cheese, mayo, lettuce,tomato and onion",
+          sp: "Rebanadas de jamon fresco, queso americano, mayonesa, lechuga,tomate y cebolla"
+        }
+      },
+      {
+        id: "tuna sandwich",
+        description: {
+          en: "Tuna, mayo, lettuce, tomato and onion",
+          sp: "Atun, mayonesa, lechuga, tomate y cebolla"
+        }
+      },
+      {
+        id: "turkey sandwich",
+        description: {
+          en: "Fresh sliced turkey, lettuce, tomate and onion",
+          sp: "Pavo, lechuga, tomate, cebolla"
+        }
+      },
+      {
+        id: "veggie sandwich",
+        description: {
+          en: "Provolone cheese, bell peppers, cucumber, lettuce, avocato, tomato, onion, mayo, and pesto",
+          sp: "Queso provolone, pimientos, pepino, lechuga, aguacate, tomate, cebolla, mayo y pesto"
+        }
+      },
+    ]
+  },
+  {
+    label: "salads",
+    items: [
+      {
+        id: "baby spinach",
+        description: {
+          en: "Provolone cheese, bell peppers, cucumber, lettuce, avocato, tomato, onion, mayo, and pesto",
+          sp: "Queso provolone, pimientos, pepino, lechuga, aguacate, tomate, cebolla, mayo y pesto"
+        }
+      },
+      {
+        id: "caesar salad",
+        description: {
+          en: "Provolone cheese, bell peppers, cucumber, lettuce, avocato, tomato, onion, mayo, and pesto",
+          sp: "Queso provolone, pimientos, pepino, lechuga, aguacate, tomate, cebolla, mayo y pesto"
+        }
+      },
+      {
+        id: "chicken salad",
+        description: {
+          en: "Provolone cheese, bell peppers, cucumber, lettuce, avocato, tomato, onion, mayo, and pesto",
+          sp: "Queso provolone, pimientos, pepino, lechuga, aguacate, tomate, cebolla, mayo y pesto"
+        }
+      },
+      {
+        id: "ham/turkey salad",
+        description: {
+          en: "Provolone cheese, bell peppers, cucumber, lettuce, avocato, tomato, onion, mayo, and pesto",
+          sp: "Queso provolone, pimientos, pepino, lechuga, aguacate, tomate, cebolla, mayo y pesto"
+        }
+      },
+      {
+        id: "mandarin salad",
+        description: {
+          en: "Provolone cheese, bell peppers, cucumber, lettuce, avocato, tomato, onion, mayo, and pesto",
+          sp: "Queso provolone, pimientos, pepino, lechuga, aguacate, tomate, cebolla, mayo y pesto"
+        }
+      },
+      {
+        id: "southwest chicken chipotle",
+        description: {
+          en: "Provolone cheese, bell peppers, cucumber, lettuce, avocato, tomato, onion, mayo, and pesto",
+          sp: "Queso provolone, pimientos, pepino, lechuga, aguacate, tomate, cebolla, mayo y pesto"
+        }
+      },
+      {
+        id: "tuna salad",
+        description: {
+          en: "Provolone cheese, bell peppers, cucumber, lettuce, avocato, tomato, onion, mayo, and pesto",
+          sp: "Queso provolone, pimientos, pepino, lechuga, aguacate, tomate, cebolla, mayo y pesto"
+        }
+      },
+    ]
+  },
+  {
+    label: "breakfast bagels",
+    items: [
+      {
+        id: "ranchero bagel",
+        description: {
+          en: "Provolone cheese, bell peppers, cucumber, lettuce, avocato, tomato, onion, mayo, and pesto",
+          sp: "Queso provolone, pimientos, pepino, lechuga, aguacate, tomate, cebolla, mayo y pesto"
+        }
+      },
+      {
+        id: "melt bagel",
+        description: {
+          en: "Provolone cheese, bell peppers, cucumber, lettuce, avocato, tomato, onion, mayo, and pesto",
+          sp: "Queso provolone, pimientos, pepino, lechuga, aguacate, tomate, cebolla, mayo y pesto"
+        }
+      },
+      {
+        id: "chorizo bagel",
+        description: {
+          en: "Provolone cheese, bell peppers, cucumber, lettuce, avocato, tomato, onion, mayo, and pesto",
+          sp: "Queso provolone, pimientos, pepino, lechuga, aguacate, tomate, cebolla, mayo y pesto"
+        }
+      },
+      {
+        id: "cream and cheese bagel",
+        description: {
+          en: "Provolone cheese, bell peppers, cucumber, lettuce, avocato, tomato, onion, mayo, and pesto",
+          sp: "Queso provolone, pimientos, pepino, lechuga, aguacate, tomate, cebolla, mayo y pesto"
+        }
+      },
+      {
+        id: "egg and cheese bagel",
+        description: {
+          en: "Provolone cheese, bell peppers, cucumber, lettuce, avocato, tomato, onion, mayo, and pesto",
+          sp: "Queso provolone, pimientos, pepino, lechuga, aguacate, tomate, cebolla, mayo y pesto"
+        }
+      },
+      {
+        id: "bacon egg and cheese",
+        description: {
+          en: "Provolone cheese, bell peppers, cucumber, lettuce, avocato, tomato, onion, mayo, and pesto",
+          sp: "Queso provolone, pimientos, pepino, lechuga, aguacate, tomate, cebolla, mayo y pesto"
+        }
+      },
+      {
+        id: "HTLC bagel",
+        description: {
+          en: "Provolone cheese, bell peppers, cucumber, lettuce, avocato, tomato, onion, mayo, and pesto",
+          sp: "Queso provolone, pimientos, pepino, lechuga, aguacate, tomate, cebolla, mayo y pesto"
+        }
+      },
+    ]
+  },
+  {
+    label: "smoothies",
+    items: [
+      {
+        id: "acai",
+        description: {
+          en: "Strawberry,blueberry,acai juice,banana and blackberry",
+          sp: "Fresa,arandano,jugo de acai,platano y moras"
+        }
+      }, 
+      {
+        id: "agave blue",
+        description: {
+          en: "Parsley,celery,spinach,lemon,pineapple,orange,kale and chard and agave blue",
+          sp: "Perejil,apio, espinaca,limon,pina, naranja, kale, acelga y agave azul"
+        },
+      },
+      {
+        id: "ban berry",
+        description: {
+          en: "Banana,strawberry and yogurt",
+          sp: "Platano, fresa y yogurt"
+        },
+      },
+      {
+        id: "bomba",
+        description: {
+          en: "Pineapple,cantaloupe, papaya, granola and oats",
+          sp: "Pina,melon, papaya, granola y avena"
+        },
+      },
+      {
+        id: "fiesta",
+        description: {
+          en: "Mango, papaya, pineapple, strawberry, yogurt and almonds",
+          sp: "Mango, papaya, pina, fresa, yogurt y almendras"
+        },
+      },
+      {
+        id: "peach",
+        description: {
+          en: "Peach, banana, yogurt and pecan",
+          sp: "Durazno, planato, yogurt y nuez"
+        },
+      },
+      {
+        id: "pina colada",
+        description: {
+          en: "Pineapple and coconut",
+          sp: "Pina y coco"
+        },
+      },
+      {
+        id: "super green",
+        description: {
+          en: "Celery, pineapple, mint, apple juice, spinach, ice",
+          sp: "apio, pina, menta, jugo de manzana , espinaca, hielo"
+        },
+      },
+      {
+        id: "mango tango large",
+        description: {
+          en: "Mango and green tea",
+          sp: "mango y te verde"
+        },
+      },
+      {
+        id: "shakes",
+        description: {
+          en: "Ask for the fruit avalible",
+          sp: "Pregunte por la fruta disponible"
+        },
+      },
+    ]
+  },
+  {
+    label: "agua frescas",
+    items: [
+      {
+        id: "chilate large",
+        description: {
+          en: "Cacao beans, rice, cinnamont",
+          sp: "cacao, arroz y canela"
+        },
+      },
+      {
+        id: "fresh water large",
+        description: {
+          en: "Ask for the fruit avalible",
+          sp: "Pregunte por la fruta disponible"
+        },
+      },
+    ]
+  },
+  {
+    label: "soups",
+    items: [
+      {
+        id: "soup of the day",
+        description: {
+          en: "Ask for the soup of the day",
+          sp: "Pregunte por la sopa del dia"
+        },
+      },
+    ]
+  },
+  {
+    label: "juices",
+    items:  [
+      {
+        id: "apple and orange",
+        description: {
+          en: "apple and orange",
+          sp: "Manzana y naranja"
+        },
+      },
+      {
+        id: "beet juice",
+        description: {
+          en: "beet juice",
+          sp: "Betabel"
+        },
+      },
+      {
+        id: "carrot juice",
+        description: {
+          en: "carrot juice",
+          sp: "Jugo de zanahoria"
+        },
+      },
+      {
+        id: "carrot, beet, and celery",
+        description: {
+          en: "carrot, beet, and celery",
+          sp: "Zanahoria, betabel y apio"
+        },
+      },
+      {
+        id: "green juice",
+        description: {
+          en: "green juice",
+          sp: "Jugo verde"
+        },
+      },
+      {
+        id: "orange and kiwi",
+        description: {
+          en: "orange and kiwi juice",
+          sp: "Naranja y kiwi"
+        },
+      },
+      {
+        id: "orange juice",
+        description: {
+          en: "orange juice",
+          sp: "Jugo de naranja"
+        },
+      },
+      {
+        id: "orange, carrot juice",
+        description: {
+          en: "orange and carrot juice",
+          sp: "Naranja y zanahoria"
+        },
+      },
+      {
+        id: "orange, carrot juice",
+        description: {
+          en: "orange and carrot juice",
+          sp: "Naranja y zanahoria"
+        },
+      },
+      {
+        id: "fat burner",
+        description: {
+          en: "Nopal, pineapple, parsley, celery, spinach and grapefruit",
+          sp: "Nopal, pina, perejil, apio, espinaca y toronja"
+        },
+      },
+      {
+        id: "vampiro",
+        description: {
+          en: "Orange, beets, carrots, lemon slice, pineapple, strawberry and celery",
+          sp: "Jugo de naranja, betabel, zanahoria, rebanada de limon, pina, fresa y apio."
+        },
+      },
+    ],
+  },
+  {
+    label: "drinks",
+    items: [
+      {
+        id: "coca cola",
+        description: {
+          en: "coca cola",
+          sp: "coca cola"
+        },
+      },
+      {
+        id: "coffee small",
+        description: {
+          en: "coffee small",
+          sp: "Café pequeno"
+        },
+      },
+      {
+        id: "water",
+        description: {
+          en: "water",
+          sp: "agua"
+        },
+      },
+    ],
+  },
+  {
+    label: "desserts",
+    items: [
+      {
+        id: "cream and strawberry",
+        description: {
+          en: "Cream and strawberry",
+          sp: "Fresas con crema"
+        },
+      },
+      {
+        id: "Hawaiian",
+        description: {
+          en: "Hawaiian",
+          sp: "Hawaiian"
+        },
+      },
+    ]
+  }
+]

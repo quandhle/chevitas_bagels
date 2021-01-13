@@ -2,20 +2,24 @@ import "./home.css";
 import ContactUs from "../Contact";
 import Carousel from '../Carousel';
 import HeroImage from "../Hero-Image";
+import iconDetails from "../images/icons";
+import ChevitasIcon from "../Icon";
 
-function Home({setView}) {
+function Home() {
+  const {doordash, instagram, yelp, facebook, call, grubhub} = iconDetails;
+
   return (
     <div className="home">
-      <HeroImage type="logo" />
+      <HeroImage page="home"/>
       <Carousel />
       <div className="social-media-wrapper-home">
         <div className="social-media-home">
-          <span className="material-icons">facebook</span>
-          <span className="material-icons">facebook</span>
-          <span className="material-icons">facebook</span>
-          <span className="material-icons">facebook</span>
-          <span className="material-icons">facebook</span>
-          <span className="material-icons">facebook</span>
+          <ChevitasIcon icon={doordash}/>
+          <ChevitasIcon icon={instagram} />
+          <ChevitasIcon icon={yelp} />
+          <ChevitasIcon icon={facebook} />
+          <ChevitasIcon icon={call} />
+          <ChevitasIcon icon={grubhub} />
         </div>
       </div>
       <ContactUs load="widget"/>

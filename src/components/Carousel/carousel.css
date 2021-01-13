@@ -27,9 +27,12 @@
 
 .alice-carousel__prev-btn-item,
 .alice-carousel__next-btn-item {
-    width: 100%;
-    font-size: 70px;
-    padding: 0px !important;
+    font-size: clamp(60px, 85px, 85px);
+    width: 60%;
+}
+
+.alice-carousel__next-btn-item {
+    text-align: center;
 }
 
 .alice-carousel__prev-btn-item {
@@ -37,11 +40,7 @@
     color: white;
 }
 
-.alice-carousel__next-btn-item {
-    text-align: right;
-}
-
-@media (max-width: 375px) {
+@media (max-width: 376px) {
     .image1 {
         width: 80vw;
         height: 33vh;
@@ -49,6 +48,10 @@
     .alice-carousel {
         max-height: 282px;
         width: 100%;
+    }
+    .alice-carousel__prev-btn-item,
+    .alice-carousel__next-btn-item {
+        width: 145%;
     }
 }
 
@@ -62,11 +65,9 @@
         height: 59vh;
         width: 95%;
     }
-    .alice-carousel__prev-btn,
     .alice-carousel__next-btn {
-        width: 45%;
         position: relative;
-        width: 28% !important
+        width: 28% !important;
     }
 }
 

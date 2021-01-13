@@ -42,11 +42,13 @@
   font-size: 3rem;
 }
 
-.home .social-media-home span {
+.home a {
+  width: 26%;
   margin: 0.5rem auto;
-  font-size: 5rem;
-  flex-basis: 33%;
-  color: black;
+}
+
+.home .social-media-home img {
+  width: 100%;
 }
 
 @media (min-width: 630px) {

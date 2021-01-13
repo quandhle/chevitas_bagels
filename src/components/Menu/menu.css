@@ -100,12 +100,6 @@
 	}
 }
 
-@media (max-width: 769px) {
-	.menu-wrapper .social-media span {
-		flex-basis: 15%;
-	}
-}
-
 @media (min-width: 630px) {
   :root {
     --component-width: 500px;
@@ -117,9 +111,5 @@
   :root {
     --component-width: 700px;
     --component-height: 700px;
-  }
-
-  .menu-wrapper .social-media span {
-    flex-basis: auto;
   }
 }

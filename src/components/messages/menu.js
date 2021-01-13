@@ -57,49 +57,49 @@ export const menuItemsArr = [
     label: "Salads",
     items: [
       {
-        id: "baby spinach",
+        id: "Baby Spinach",
         description: {
           en: "Spinach, romana tomatoes, chicken breast and feta cheese topped with honey mustard",
           sp: "Espinacas, tomates romanos, pechuga de pollo, queso feta, cubierto con mostaza de miel"
         }
       },
       {
-        id: "caesar salad",
+        id: "Caesar Salad",
         description: {
           en: "Chicken breast, lettuce, tomatoes and cucumbers",
           sp: "Pechuga de pollo, lechuga, tomate y pepino"
         }
       },
       {
-        id: "chicken salad",
+        id: "Chicken Salad",
         description: {
           en: "Chicken breast, lettuce, tomatoes, cheese and avocado",
           sp: "Pechuga de pollo, lechuga, tomate,aguacate y  pepino"
         }
       },
       {
-        id: "ham/turkey salad",
+        id: "Ham/Turkey Salad",
         description: {
           en: "Ham or turkey, lettuce, tomatoes, cheese, egg, avocado and bacon",
           sp: "Jamon o pavo, lechuga, tomate, queso, huevo, aguacate y tocino"
         }
       },
       {
-        id: "mandarin salad",
+        id: "Mandarin Salad",
         description: {
           en: "Chicken breast, lettuce, chow mein noodles, almond, sesame and mandarin dressing",
           sp: "Pechuga de pollo, lechuga, chow mein noodles, almendra, sesamo y aderezo de mandarinas"
         }
       },
       {
-        id: "southwest chicken chipotle",
+        id: "Southwest Chicken Chipotle",
         description: {
           en: "Chicken breast, lettuce, pepper jack cheese, tortilla chips and chipotle sauce",
           sp: "Pechuga de pollo, lechuga, queso pepper jack, tortilla chips y salsa de chipotle"
         }
       },
       {
-        id: "tuna salad",
+        id: "Tuna Salad",
         description: {
           en: "Tuna, lettuce, tomatoes, cheese, egg, avocado and bacon",
           sp: "Atun, lechuga, tomates, queso, huevo, aguacate y tocino"

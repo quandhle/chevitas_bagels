@@ -1,51 +1,51 @@
 export const menuItemsArr = [
   {
-    label: "sandwiches",
+    label: "Sandwiches",
     items: [
       {
-        id: "chipotle chicken sandwich",
+        id: "Chipotle Chicken Sandwich",
         description: {
           en: "Chicken breast, bacon, lettuce, tomato, onion, swiss cheese and chipotle",
           sp: "Pechuga de pollo, tocino, lechuga, tomate, cebolla, queso suizo y chipotle"
         }
       },
       {
-        id: "club sandwich",
+        id: "Club Sandwich",
         description: {
           en: "Delicious turkey, ham, bacon, lettuce, onion and tomato",
           sp: "Delicioso pavo, jamon, tocino, lechuga cebolla y tomate"
         }
       },
       {
-        id: "cranberry turkey sandwich",
+        id: "Cranberry Turkey Sandwich",
         description: {
           en: "Sliced smoked turkey with cranberry sauce, mayo, lettuce, tomato and onion",
           sp: "Rebanadas de pavo ahumado con salsa de arandanos, mayonesa, lechuga, tomate y cebolla"
         }
       },
       {
-        id: "ham and cheese sandwich",
+        id: "Ham and Cheese Sandwich",
         description: {
           en: "Fresh sliced ham,american cheese, mayo, lettuce,tomato and onion",
           sp: "Rebanadas de jamon fresco, queso americano, mayonesa, lechuga,tomate y cebolla"
         }
       },
       {
-        id: "tuna sandwich",
+        id: "Tuna Sandwich",
         description: {
           en: "Tuna, mayo, lettuce, tomato and onion",
           sp: "Atun, mayonesa, lechuga, tomate y cebolla"
         }
       },
       {
-        id: "turkey sandwich",
+        id: "Turkey Sandwich",
         description: {
           en: "Fresh sliced turkey, lettuce, tomate and onion",
           sp: "Pavo, lechuga, tomate, cebolla"
         }
       },
       {
-        id: "veggie sandwich",
+        id: "Veggie Sandwich",
         description: {
           en: "Provolone cheese, bell peppers, cucumber, lettuce, avocato, tomato, onion, mayo, and pesto",
           sp: "Queso provolone, pimientos, pepino, lechuga, aguacate, tomate, cebolla, mayo y pesto"
@@ -54,7 +54,7 @@ export const menuItemsArr = [
     ]
   },
   {
-    label: "salads",
+    label: "Salads",
     items: [
       {
         id: "baby spinach",

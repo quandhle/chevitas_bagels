@@ -1,15 +1,11 @@
-.hero-image {
+.hero-image-wrapper {
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(yellow, white);
 }
 
-.hero-image img {
-  box-shadow: 0px 0px 50px green;
-  width: var(--component-width);
-  height: var(--component-height);
+.hero-image-wrapper .hero-image  {
   display: flex;
   justify-content: center;
   align-items: center;

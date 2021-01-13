@@ -127,36 +127,36 @@ export const menuItemsArr = [
       {
         id: "chorizo bagel",
         description: {
-          en: "Provolone cheese, bell peppers, cucumber, lettuce, avocato, tomato, onion, mayo, and pesto",
-          sp: "Queso provolone, pimientos, pepino, lechuga, aguacate, tomate, cebolla, mayo y pesto"
+          en: "Bagel of your choice with chorizo, egg, american cheese and mayo",
+          sp: "Bagel de su eleccion con chorizo, huevo, queso americano y mayonesa"
         }
       },
       {
         id: "cream and cheese bagel",
         description: {
-          en: "Provolone cheese, bell peppers, cucumber, lettuce, avocato, tomato, onion, mayo, and pesto",
-          sp: "Queso provolone, pimientos, pepino, lechuga, aguacate, tomate, cebolla, mayo y pesto"
+          en: "Bagel of your choice with cream and cheese",
+          sp: "Baggel de su eleccion con queso crema"
         }
       },
       {
         id: "egg and cheese bagel",
         description: {
-          en: "Provolone cheese, bell peppers, cucumber, lettuce, avocato, tomato, onion, mayo, and pesto",
-          sp: "Queso provolone, pimientos, pepino, lechuga, aguacate, tomate, cebolla, mayo y pesto"
+          en: "Bagel of your choice with egg and cheese",
+          sp: "Bagel de su eleccion con queso y huevo"
         }
       },
       {
         id: "bacon egg and cheese",
         description: {
-          en: "Provolone cheese, bell peppers, cucumber, lettuce, avocato, tomato, onion, mayo, and pesto",
-          sp: "Queso provolone, pimientos, pepino, lechuga, aguacate, tomate, cebolla, mayo y pesto"
+          en: "Bagel of your choice with egg, bacon, american cheese, lettuce and tomato",
+          sp: "Bagel de su eleccion con huevo, tocino, queso americano, lechuga y tomate"
         }
       },
       {
         id: "HTLC bagel",
         description: {
-          en: "Provolone cheese, bell peppers, cucumber, lettuce, avocato, tomato, onion, mayo, and pesto",
-          sp: "Queso provolone, pimientos, pepino, lechuga, aguacate, tomate, cebolla, mayo y pesto"
+          en: "Bagel of your choice with ham, tomato, lettuce and american cheese",
+          sp: "Bagel de su eleccion con jamon, tomate, lechuga y queso americano"
         }
       },
     ]

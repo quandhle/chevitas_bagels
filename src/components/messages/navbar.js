@@ -3,35 +3,35 @@ export const navbarLabels = {
     id: "home",
     description: {
       en: "Home",
-      sp: "Home (sp)"
+      sp: "Casa"
     }
   },
   navBarMenu: {
     id: "menu",
     description: {
       en: "Menu",
-      sp: "Menu (sp)"
+      sp: "Menú"
     }
   },
   navBarOurStory: {
     id: "our-story",
     description: {
       en: "Our Story",
-      sp: "Our Story (sp)"
+      sp: "Nuestra Historia"
     }
   },
   navBarContactUs: {
     id: "contact-us",
     description: {
       en: "Contact Us",
-      sp: "Contact Us (sp)"
+      sp: "Contáctenos"
     }
   },
   navBarPhotos: {
     id: "photos",
     description: {
       en: "Photos",
-      sp: "Photos (sp)"
+      sp: "Fotos"
     }
   },
 }

@@ -15,18 +15,19 @@ const Menu = ({
 		<Fragment>
 			{x.matches && <HeroImage imageText="MENU" page="menu"/>}
 			<div className="menu-wrapper">
+				<main className="menu">
+					<div>
+						{menuItemsArr.map((type, i) => <MenuSection lang={lang} type={type}/>)}
+					</div>
+				</main>
 				<div className="social-media-wrapper">
+					<h2>Order online through Grubhub or Doordash, or call us to place an order at our store!</h2>
 					<div className="social-media">
 						{Object.keys(iconDetails).map((icon, i) => (
 							i < 3 && <ChevitasIcon icon={iconDetails[icon]}/>
 						))}
 					</div>
 				</div>
-				<main className="menu">
-					<div>
-						{menuItemsArr.map((type, i) => <MenuSection lang={lang} type={type}/>)}
-					</div>
-				</main>
 			</div>
 		</Fragment>
 	)

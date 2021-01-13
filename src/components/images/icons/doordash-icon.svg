@@ -1,17 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="202mm" height="202mm" version="1.1" viewBox="0 0 202 202" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:osb="http://www.openswatchbook.org/uri/2009/osb" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <metadata>
-    <rdf:RDF>
-      <cc:Work rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-        <dc:title/>
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <g transform="translate(1,1)">
-    <rect x="1.5" y="1.5" width="197" height="197" fill="#fff" stroke="#f00" stroke-linejoin="round" stroke-miterlimit="22.7" stroke-width="5"/>
-    <path d="m55.902 52.425c23.749-0.01836 43.208-0.42326 67.15-0.27547 30.727 0.19225 31.922 52.328 1.3415 52.51-6.3717 0.0379-15.806 0.0189-26.471 0-6.9558 0.0629-7.0079 0.17608-9.5811-3.855-2.4753-3.8776-7.2001-10.249-7.5837-10.732-0.76721-0.96543-0.16129-3.3044 1.5142-3.159 1.6755 0.14539 34.781 0 34.781 0 14.127 0 15.628-15.993 0-15.993h-47.042c-1.8301 0.18741-2.5645-0.32911-3.5146-1.8358-3.3675-4.5298-7.8952-9.1457-11.748-14.158-0.67972-1.1743-0.04473-2.7382 1.1534-2.5015z" fill="#f00"/>
-    <text transform="scale(.85054 1.1757)" x="38" y="130.15065" fill="#ff0000" font-family="sans-serif" font-size="28.077px" font-weight="bold" stroke-width=".26458" xml:space="preserve">DOORDASH</text>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:osb="http://www.openswatchbook.org/uri/2009/osb" width="202mm" height="202mm" version="1.1" viewBox="0 0 202 202"><metadata/><g transform="translate(1,1)"><rect width="197" height="197" x="1.5" y="1.5" fill="#fff" stroke="red" stroke-linejoin="round" stroke-miterlimit="22.7" stroke-width="5"/><path fill="red" d="m55.902 52.425c23.749-0.01836 43.208-0.42326 67.15-0.27547 30.727 0.19225 31.922 52.328 1.3415 52.51-6.3717 0.0379-15.806 0.0189-26.471 0-6.9558 0.0629-7.0079 0.17608-9.5811-3.855-2.4753-3.8776-7.2001-10.249-7.5837-10.732-0.76721-0.96543-0.16129-3.3044 1.5142-3.159 1.6755 0.14539 34.781 0 34.781 0 14.127 0 15.628-15.993 0-15.993h-47.042c-1.8301 0.18741-2.5645-0.32911-3.5146-1.8358-3.3675-4.5298-7.8952-9.1457-11.748-14.158-0.67972-1.1743-0.04473-2.7382 1.1534-2.5015z"/><text x="38" y="130.151" fill="red" stroke-width=".265" font-family="sans-serif" font-size="28.077" font-weight="bold" transform="scale(.85054 1.1757)" xml:space="preserve">DOORDASH</text></g></svg>

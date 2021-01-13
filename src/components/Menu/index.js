@@ -21,6 +21,7 @@ const Menu = ({
 					</div>
 				</main>
 				<div className="social-media-wrapper">
+					<h2>Order online through Grubhub or Doordash, or call us to place an order at our store!</h2>
 					<div className="social-media">
 						{Object.keys(iconDetails).map((icon, i) => (
 							i < 3 && <ChevitasIcon icon={iconDetails[icon]}/>

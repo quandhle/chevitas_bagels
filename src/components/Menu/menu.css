@@ -21,30 +21,10 @@
 	flex-direction: column;
 	align-items: center;
 }
-/*
-.menu-wrapper .vertical-divider {
-	width: 2px;
-	height: 100%;
-	background-color: brown;
-	position: absolute;
-} */
 
 .menu-wrapper .menu h2 {
 	color: green;
 	font-size: xx-large;
-}
-
-.menu-wrapper .menu h2:nth-of-type(2),
-.menu-wrapper .menu h2:nth-of-type(3),
-.menu-wrapper .menu h2:nth-of-type(4),
-.menu-wrapper .menu h2:nth-of-type(5),
-.menu-wrapper .menu h2:nth-of-type(6) {
-	width: 45vw;
-	height: 2px;
-	background-color: rgb(0, 0, 0);
-	position: relative;
-	bottom: 3rem;
-	margin-top: 3.5rem;
 }
 
 .menu-wrapper .navbar {

@@ -6,6 +6,24 @@ import grubhub from "./grubhub-logo-square.png";
 import doordash from "./doordash-icon.svg";
 
 const iconDetails = {
+  grubhub: {
+    href: "https://www.grubhub.com/restaurant/chevitas-juice-and-bagel-209-w-4th-st-santa-ana/1472683",
+    src: grubhub,
+    alt: "grubhub icon",
+    id: "grubhub"
+  },
+  doordash: {
+    href: "https://www.doordash.com/store/chevita-s-juice---bagels-santa-ana-783486/en-US",
+    src: doordash,
+    alt: "doordash icon",
+    id: "doordash"
+  },
+  call: {
+    href: "tel:7148523650",
+    src: call,
+    alt: "call icon",
+    id: "call"
+  },
   instagram: {
     href: "https://www.instagram.com/chevitasdtsa/",
     src: instagram,
@@ -24,24 +42,6 @@ const iconDetails = {
     alt: "facebook icon",
     id: "facebook"
   },
-  call: {
-    href: "tel:7148523650",
-    src: call,
-    alt: "call icon",
-    id: "call"
-  },
-  grubhub: {
-    href: "https://www.grubhub.com/restaurant/chevitas-juice-and-bagel-209-w-4th-st-santa-ana/1472683",
-    src: grubhub,
-    alt: "grubhub icon",
-    id: "grubhub"
-  },
-  doordash: {
-    href: "https://www.doordash.com/store/chevita-s-juice---bagels-santa-ana-783486/en-US",
-    src: doordash,
-    alt: "doordash icon",
-    id: "doordash"
-  }
 }
 
 export default iconDetails

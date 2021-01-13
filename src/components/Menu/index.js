@@ -7,10 +7,9 @@ import MenuSection from './menuSection';
 import './menu.css';
 
 const Menu = ({
-	classes,
+	lang
 }) => {
 	const x = window.matchMedia('(min-width: 376px)');
-	const {grubhub, doordash, call} = iconDetails;
 
 	return (
 		<Fragment>
@@ -18,23 +17,18 @@ const Menu = ({
 			<div className="menu-wrapper">
 				<div className="social-media-wrapper">
 					<div className="social-media">
-							<ChevitasIcon icon={grubhub}/>
-							<ChevitasIcon icon={doordash} />
-							<ChevitasIcon icon={call} />
+						{Object.keys(iconDetails).map((icon, i) => (
+							i < 3 && <ChevitasIcon icon={iconDetails[icon]}/>
+						))}
 					</div>
 				</div>
 				<main className="menu">
 					<div>
-						{menuItemsArr.map((type, i) => i < 3 && <MenuSection type={type}/>)}
-					</div>
-					{x.matches && <div className="vertical-divider"></div>}
-					<div>
-						{menuItemsArr.map((type, i) => i >= 3 && <MenuSection type={type}/>)}
+						{menuItemsArr.map((type, i) => <MenuSection lang={lang} type={type}/>)}
 					</div>
 				</main>
 			</div>
 		</Fragment>
-
 	)
 }
 

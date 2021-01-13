@@ -59,50 +59,50 @@ export const menuItemsArr = [
       {
         id: "baby spinach",
         description: {
-          en: "Provolone cheese, bell peppers, cucumber, lettuce, avocato, tomato, onion, mayo, and pesto",
-          sp: "Queso provolone, pimientos, pepino, lechuga, aguacate, tomate, cebolla, mayo y pesto"
+          en: "Spinach, romana tomatoes, chicken breast and feta cheese topped with honey mustard",
+          sp: "Espinacas, tomates romanos, pechuga de pollo, queso feta, cubierto con mostaza de miel"
         }
       },
       {
         id: "caesar salad",
         description: {
-          en: "Provolone cheese, bell peppers, cucumber, lettuce, avocato, tomato, onion, mayo, and pesto",
-          sp: "Queso provolone, pimientos, pepino, lechuga, aguacate, tomate, cebolla, mayo y pesto"
+          en: "Chicken breast, lettuce, tomatoes and cucumbers",
+          sp: "Pechuga de pollo, lechuga, tomate y pepino"
         }
       },
       {
         id: "chicken salad",
         description: {
-          en: "Provolone cheese, bell peppers, cucumber, lettuce, avocato, tomato, onion, mayo, and pesto",
-          sp: "Queso provolone, pimientos, pepino, lechuga, aguacate, tomate, cebolla, mayo y pesto"
+          en: "Chicken breast, lettuce, tomatoes, cheese and avocado",
+          sp: "Pechuga de pollo, lechuga, tomate,aguacate y  pepino"
         }
       },
       {
         id: "ham/turkey salad",
         description: {
-          en: "Provolone cheese, bell peppers, cucumber, lettuce, avocato, tomato, onion, mayo, and pesto",
-          sp: "Queso provolone, pimientos, pepino, lechuga, aguacate, tomate, cebolla, mayo y pesto"
+          en: "Ham or turkey, lettuce, tomatoes, cheese, egg, avocado and bacon",
+          sp: "Jamon o pavo, lechuga, tomate, queso, huevo, aguacate y tocino"
         }
       },
       {
         id: "mandarin salad",
         description: {
-          en: "Provolone cheese, bell peppers, cucumber, lettuce, avocato, tomato, onion, mayo, and pesto",
-          sp: "Queso provolone, pimientos, pepino, lechuga, aguacate, tomate, cebolla, mayo y pesto"
+          en: "Chicken breast, lettuce, chow mein noodles, almond, sesame and mandarin dressing",
+          sp: "Pechuga de pollo, lechuga, chow mein noodles, almendra, sesamo y aderezo de mandarinas"
         }
       },
       {
         id: "southwest chicken chipotle",
         description: {
-          en: "Provolone cheese, bell peppers, cucumber, lettuce, avocato, tomato, onion, mayo, and pesto",
-          sp: "Queso provolone, pimientos, pepino, lechuga, aguacate, tomate, cebolla, mayo y pesto"
+          en: "Chicken breast, lettuce, pepper jack cheese, tortilla chips and chipotle sauce",
+          sp: "Pechuga de pollo, lechuga, queso pepper jack, tortilla chips y salsa de chipotle"
         }
       },
       {
         id: "tuna salad",
         description: {
-          en: "Provolone cheese, bell peppers, cucumber, lettuce, avocato, tomato, onion, mayo, and pesto",
-          sp: "Queso provolone, pimientos, pepino, lechuga, aguacate, tomate, cebolla, mayo y pesto"
+          en: "Tuna, lettuce, tomatoes, cheese, egg, avocado and bacon",
+          sp: "Atun, lechuga, tomates, queso, huevo, aguacate y tocino"
         }
       },
     ]
@@ -113,15 +113,15 @@ export const menuItemsArr = [
       {
         id: "ranchero bagel",
         description: {
-          en: "Provolone cheese, bell peppers, cucumber, lettuce, avocato, tomato, onion, mayo, and pesto",
-          sp: "Queso provolone, pimientos, pepino, lechuga, aguacate, tomate, cebolla, mayo y pesto"
+          en: "Bagel of your choice with egg, choice of ham or turkey, tomato, cheese, onion, peppers and chipotle sauce",
+          sp: "Bagel de su eleccion con huevo, eleccion de jamon o pavo, tomate, queso, cebolla pimientos y salsa chipotle"
         }
       },
       {
         id: "melt bagel",
         description: {
-          en: "Provolone cheese, bell peppers, cucumber, lettuce, avocato, tomato, onion, mayo, and pesto",
-          sp: "Queso provolone, pimientos, pepino, lechuga, aguacate, tomate, cebolla, mayo y pesto"
+          en: "Bagel of your choice with cream cheese, bacon, avocado y cheddar cheese",
+          sp: "Bagel de su eleccion con queso crema, tocino, aguacate y queso cheddar"
         }
       },
       {
@@ -170,7 +170,7 @@ export const menuItemsArr = [
           en: "Strawberry,blueberry,acai juice,banana and blackberry",
           sp: "Fresa,arandano,jugo de acai,platano y moras"
         }
-      }, 
+      },
       {
         id: "agave blue",
         description: {

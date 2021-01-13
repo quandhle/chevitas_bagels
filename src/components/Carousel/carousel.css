@@ -22,6 +22,7 @@
 .alice-carousel__next-btn {
     position: relative;
     bottom: 20rem;
+    width: 49% !important;
 }
 
 .alice-carousel__prev-btn-item,
@@ -43,7 +44,7 @@
 @media (max-width: 375px) {
     .image1 {
         width: 80vw;
-        height: 31vh;
+        height: 33vh;
     }
     .alice-carousel {
         max-height: 282px;
@@ -51,18 +52,21 @@
     }
 }
 
+
 @media (min-width: 769px) {
     .image1 {
-        width: 70vw;
-        height: 77vh;
+        width: 45vw;
+        height: 57vh;
     }
     .alice-carousel {
-        height: 81vh;
+        height: 59vh;
         width: 95%;
     }
     .alice-carousel__prev-btn,
     .alice-carousel__next-btn {
-        width: 45%
+        width: 45%;
+        position: relative;
+        width: 28% !important
     }
 }
 
@@ -71,6 +75,17 @@
         height: 46vh;
         width: 95%;
     }
+    .alice-carousel__prev-btn,
+    .alice-carousel__next-btn {
+        bottom: 22rem;
+    }
+}
+
+@media (min-width: 800px) {
+   .image1 {
+        width: 45vw;
+        height: 57vh;
+    }
 }
 
 
@@ -78,6 +93,6 @@
     .alice-carousel__prev-btn,
     .alice-carousel__next-btn {
         position: relative;
-        bottom: 16rem;
+        bottom: 17rem;
     }
 }

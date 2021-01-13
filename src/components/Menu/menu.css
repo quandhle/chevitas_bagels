@@ -21,13 +21,13 @@
 	flex-direction: column;
 	align-items: center;
 }
-
+/*
 .menu-wrapper .vertical-divider {
 	width: 2px;
 	height: 100%;
 	background-color: brown;
 	position: absolute;
-}
+} */
 
 .menu-wrapper .menu h2 {
 	color: green;

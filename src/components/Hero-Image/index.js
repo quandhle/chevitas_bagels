@@ -27,7 +27,7 @@ const styles = {
     backgroundImage: `url(${menuHeaderImage})`,
     backgroundPosition: "center",
     backgroundSize: "cover",
-    height: "70vh",
+    height: "50vh",
     width: "100vw"
   },
   menuText: {
@@ -40,7 +40,7 @@ const styles = {
     backgroundImage: `url(${storyImage})`,
     backgroundPosition: "center",
     backgroundSize: "cover",
-    height: "70vh",
+    height: "50vh",
     width: "100vw"
   },
   ourStoryText: {

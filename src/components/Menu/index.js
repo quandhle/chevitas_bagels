@@ -13,7 +13,7 @@ const Menu = ({
 
 	return (
 		<Fragment>
-			{x.matches && <HeroImage imageText="MENU" page="menu"/>}
+			{x.matches && <HeroImage page="menu"/>}
 			<div className="menu-wrapper">
 				<main className="menu">
 					<div>

@@ -15,6 +15,7 @@ const Menu = ({
 		<Fragment>
 			{x.matches && <HeroImage page="menu"/>}
 			<div className="menu-wrapper">
+				<h1>Menu</h1>
 				<main className="menu">
 					<div>
 						{menuItemsArr.map((type, i) => <MenuSection lang={lang} type={type}/>)}

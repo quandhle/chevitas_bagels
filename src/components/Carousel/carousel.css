@@ -1,99 +1,80 @@
+.home {
+    text-align: center;
+}
 .carousel-wrapper {
     margin: 2rem auto;
     padding: 20px;
     width: 80%;
 }
-
 .alice-carousel__prev-btn [data-area]::after,
 .alice-carousel__next-btn [data-area]::after {
-    color: white
+    color: #70AD47;
 }
-
 .alice-carousel {
     min-height: 100px;
 }
-
 .image1 {
-    width: 80vw;
-    height: 44vh;
+    top: 0; left: 0; max-width: 100%;
+    height: 50vh;
+    filter: drop-shadow(0 0 0.20rem black);
 }
-
 .alice-carousel__prev-btn,
 .alice-carousel__next-btn {
     position: relative;
-    bottom: 20rem;
-    width: 49% !important;
+    bottom: 18.5rem;
 }
-
+.alice-carousel__prev-btn {
+    text-align: center;
+}
 .alice-carousel__prev-btn-item,
 .alice-carousel__next-btn-item {
     font-size: clamp(60px, 85px, 85px);
-    width: 60%;
+    width: 50%;
 }
-
 .alice-carousel__next-btn-item {
-    text-align: center;
+    text-align: right;
 }
-
 .alice-carousel__prev-btn-item {
     text-align: left;
-    color: white;
 }
-
-@media (max-width: 376px) {
+@media (max-width: 400px) {
     .image1 {
         width: 80vw;
         height: 33vh;
     }
     .alice-carousel {
-        max-height: 282px;
+        max-height: 230px;
         width: 100%;
     }
-    .alice-carousel__prev-btn-item,
-    .alice-carousel__next-btn-item {
-        width: 145%;
+}
+@media (min-width: 769px) {
+    .alice-carousel {
+        height: 53vh;
+        width: 95%;
     }
 }
-
-
-@media (min-width: 769px) {
-    .image1 {
-        width: 45vw;
-        height: 57vh;
-    }
-    .alice-carousel {
+@media (max-width: 768px) {
+   .alice-carousel {
         height: 59vh;
         width: 95%;
     }
-    .alice-carousel__next-btn {
-        position: relative;
-        width: 28% !important;
+    span {
+        display: none;
+    }
+    /*.image1 {*/
+    /*    width: 50vw;*/
+    /*    height: 33vh;*/
+    /*}*/
+}
+@media (max-width: 1084px) {
+    .alice-carousel__prev-btn-item,
+    .alice-carousel__next-btn-item {
+        width: 60%
     }
 }
-
-@media (max-width: 768px) {
-   .alice-carousel {
-        height: 46vh;
-        width: 95%;
-    }
+@media (max-width: 1600px) {
     .alice-carousel__prev-btn,
     .alice-carousel__next-btn {
-        bottom: 22rem;
-    }
-}
-
-@media (min-width: 800px) {
-   .image1 {
-        width: 45vw;
-        height: 57vh;
-    }
-}
-
-
-@media (max-width: 376px) {
-    .alice-carousel__prev-btn,
-    .alice-carousel__next-btn {
-        position: relative;
-        bottom: 17rem;
+        bottom: 20rem;
     }
 }

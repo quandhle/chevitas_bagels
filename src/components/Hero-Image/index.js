@@ -25,7 +25,7 @@ const styles = {
   },
   menuImage: {
     backgroundImage: `url(${menuHeaderImage})`,
-    backgroundPosition: "center",
+    backgroundPosition: "bottom",
     backgroundSize: "cover",
     height: "50vh",
     width: "100vw"

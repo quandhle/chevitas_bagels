@@ -1,53 +1,69 @@
 import React from 'react';
 import './photos.css'
+import bagelJuice from "../images/bagel-juice.jpg";
+import ranchero from "../images/ranchero-bagel.JPG";
+import sandwich1 from "../images/san1.jpg"
+import sandwich2 from "../images/san2.jpg"
+import sandwich3 from "../images/san3.jpg"
+import sandwich4 from "../images/san4.jpg"
+import red from "../images/red-smoothie.JPG"
+import green from "../images/green-smoothie.JPG"
+import orange from "../images/orange-drink.jpg"
+import chipoltle from "../images/chip-chicken.JPG";
+import chil from "../images/chil.JPG"
+import bolillo from "../images/bolillo.JPG"
+import banana from "../images/froz-banana.jpg"
+import carousel4 from "../images/carousel4.jpg";
+import carousel6 from "../images/carousel6.jpg";
+
 
 export default function Photos() {
 	return (
 		<div className="photo">
 			<div className="margin">
-				<img className="image" src="./images/bagel-juice.jpg" alt="bagel"></img>
+				<img className="image" src={bagelJuice} alt="bagel"></img>
 			</div>
 			<div className="margin">
-				<img className="image" src="./images/ranchero-bagel.jpg" alt="bagel-2"></img>
+				<img className="image" src={ranchero} alt="bagel-2"></img>
 			</div>
 			<div className="margin">
-				<img className="image" src="./images/san4.jpg" alt="bagel-juice"></img>
+				<img className="image" src={sandwich4} alt="bagel-juice"></img>
 			</div>
 			<div className="margin">
-				<img className="image" src="./images/san1.jpg" alt="4"></img>
+				<img className="image" src={sandwich1} alt="4"></img>
 			</div>
 			<div className="margin">
-				<img className="image" src="./images/san2.jpg" alt="5"></img>
+				<img className="image" src={sandwich2} alt="5"></img>
 			</div>
 			<div className="margin">
-				<img className="image" src="./images/san3.jpg" alt="6"></img>
+				<img className="image" src={sandwich3} alt="6"></img>
 			</div>
 			<div className="margin m-top">
-				<img className="image" src="./images/red-smoothie.jpg" alt="5"></img>
+				<img className="image" src={red} alt="5"></img>
 			</div>
 			<div className="margin">
-				<img className="image" src="./images/green-smoothie.jpg" alt="8"></img>
+				<img className="image" src={green} alt="8"></img>
 			</div>
 			<div className="margin m-top">
-				<img className="image" src="./images/orange-drink.jpg" alt="1"></img>
+				<img className="image" src={orange} alt="1"></img>
 			</div>
 			<div className="margin">
-				<img className="image" src="./images/chip-chicken.jpg" alt="1"></img>
+				<img className="image" src={chipoltle} alt="1"></img>
 			</div>
 			<div className="margin m-top">
-				<img className="image" src="./images/chil.jpg" alt="1"></img>
+				<img className="image" src={chil} alt="1"></img>
 			</div>
 			<div className="margin">
-				<img className="image" src="./images/bolillo.jpg" alt="1"></img>
+				<img className="image" src={bolillo} alt="1"></img>
 			</div>
 			<div className="margin">
-				<img className="image" src="./images/froz-banana.jpg" alt="1"></img>
+				<img className="image" src={banana} alt="1"></img>
 			</div>
 			<div className="margin">
-				<img className="image" src="./images/carousel4.jpg" alt="1"></img>
+				<img className="image" src={carousel4} alt="1"></img>
 			</div>
 			<div className="margin">
-				<img className="image" src="./images/carousel6.jpg" alt="1"></img>
+				<img className="image" src={carousel6} alt="1"></img>
 			</div>
 		</div>
 	);

@@ -5,4 +5,5 @@ body a {
 .App > button {
   position: fixed;
   right: 0;
+  z-index: 1000;
 }

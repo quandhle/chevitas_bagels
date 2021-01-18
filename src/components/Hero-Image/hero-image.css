@@ -9,34 +9,3 @@
   justify-content: center;
   align-items: center;
 }
-
-.hero-wrapper {
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100vw;
-}
-
-.test-wrapper {
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: nowrap;
-  overflow: hidden;
-  margin: 0.25rem auto;
-}
-
-.test {
-  display: inline-block;
-  border: 0.1rem solid white;
-  background-color: #E8FF00;
-  min-height: 40px;
-  min-width: 310px;
-}
-
-.test-2 {
-  border: 0.1rem solid white;
-  background-color: #FFFFCC;
-  min-height: 40px;
-  min-width: 310px;
-}

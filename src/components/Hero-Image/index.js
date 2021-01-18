@@ -4,12 +4,12 @@ import menuHeaderImage from '../images/menu-photo-1.jpg';
 import logo from "../images/chevitas-logo.png";
 import storyImage from '../images/owner-and-store-front.jpg';
 import contactImage from "../images/contact-us-background-1.jpg";
+import TileBackground from './tile-background';
 import "./hero-image.css"
 
 const styles = {
   homeHeader: {
     height: "70vh",
-    // background: `linear-gradient(yellow, white)`,
   },
   homeImage: {
     backgroundImage: `url(${logo})`,
@@ -71,114 +71,16 @@ const styles = {
 function HeroImage({ imageText, classes, page }) {
   return (
     <div className="hero-image">
-      {/* <header className={classes.[`${page}Header`] + " test"}>
+      {/* <header className={classes.[`${page}Header`]}>
         <div className={classes.[`${page}Image`]}>
         <h1 className={classes.[`${page}Text`]}>{imageText}</h1>
         </div>
       </header> */}
-      <div className="full-wrap">
-      <div className="hero-wrapper">
-        <div className={classes.[`${page}Image`]}>
-          <h1 className={classes.[`${page}Text`]}>{imageText}</h1>
-        </div>
-      </div>
-        <div className="test-wrapper">
-          <div className="test"></div>
-          <div className="test"></div>
-          <div className="test"></div>
-          <div className="test"></div>
-          <div className="test"></div>
-          <div className="test"></div>
-        </div>
-        <div className="test-wrapper">
-          <div className="test"></div>
-          <div className="test"></div>
-          <div className="test"></div>
-          <div className="test"></div>
-          <div className="test"></div>
-          <div className="test"></div>
-        </div>
-        <div className="test-wrapper">
-          <div className="test"></div>
-          <div className="test"></div>
-          <div className="test"></div>
-          <div className="test"></div>
-          <div className="test"></div>
-          <div className="test"></div>
-        </div>
-        <div className="test-wrapper">
-          <div className="test"></div>
-          <div className="test"></div>
-          <div className="test"></div>
-          <div className="test"></div>
-          <div className="test"></div>
-          <div className="test"></div>
-        </div>
-        <div className="test-wrapper">
-          <div className="test"></div>
-          <div className="test"></div>
-          <div className="test"></div>
-          <div className="test"></div>
-          <div className="test"></div>
-          <div className="test"></div>
-        </div>
-        <div className="test-wrapper">
-          <div className="test"></div>
-          <div className="test"></div>
-          <div className="test"></div>
-          <div className="test"></div>
-          <div className="test"></div>
-          <div className="test"></div>
-        </div>
-        <div className="test-wrapper">
-          <div className="test-2"></div>
-          <div className="test-2"></div>
-          <div className="test-2"></div>
-          <div className="test-2"></div>
-          <div className="test-2"></div>
-          <div className="test-2"></div>
-        </div>
-        <div className="test-wrapper">
-          <div className="test-2"></div>
-          <div className="test-2"></div>
-          <div className="test-2"></div>
-          <div className="test-2"></div>
-          <div className="test-2"></div>
-          <div className="test-2"></div>
-        </div>
-        <div className="test-wrapper">
-          <div className="test-2"></div>
-          <div className="test-2"></div>
-          <div className="test-2"></div>
-          <div className="test-2"></div>
-          <div className="test-2"></div>
-          <div className="test-2"></div>
-        </div>
-        <div className="test-wrapper">
-          <div className="test-2"></div>
-          <div className="test-2"></div>
-          <div className="test-2"></div>
-          <div className="test-2"></div>
-          <div className="test-2"></div>
-          <div className="test-2"></div>
-        </div>
-        <div className="test-wrapper">
-          <div className="test-2"></div>
-          <div className="test-2"></div>
-          <div className="test-2"></div>
-          <div className="test-2"></div>
-          <div className="test-2"></div>
-          <div className="test-2"></div>
-        </div>
-        <div className="test-wrapper">
-          <div className="test-2"></div>
-          <div className="test-2"></div>
-          <div className="test-2"></div>
-          <div className="test-2"></div>
-          <div className="test-2"></div>
-          <div className="test-2"></div>
-        </div>
-      </div>
+      <TileBackground
+        image={classes.[`${page}Image`]}
+        rows={12}
+        cols={6}
+        />
     </div>
   )
 }

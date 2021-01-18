@@ -11,7 +11,7 @@ function Home() {
   return (
     <div className="home">
       <HeroImage page="home"/>
-      {/* <Carousel />
+      <Carousel />
       <div className="social-media-wrapper-home">
         <div className="social-media-home">
           <ChevitasIcon icon={doordash}/>
@@ -22,7 +22,7 @@ function Home() {
           <ChevitasIcon icon={grubhub} />
         </div>
       </div>
-      <ContactUs load="widget"/> */}
+      <ContactUs load="widget"/>
     </div>
   )
 }

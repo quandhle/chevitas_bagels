@@ -10,6 +10,14 @@
   align-items: center;
 }
 
+.hero-wrapper {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+
 .test-wrapper {
   display: flex;
   justify-content: space-evenly;
@@ -20,16 +28,15 @@
 
 .test {
   display: inline-block;
-  border: 0.25rem solid white;
+  border: 0.1rem solid white;
   background-color: #E8FF00;
-  min-height: 75px;
+  min-height: 40px;
   min-width: 310px;
 }
 
 .test-2 {
-  display: inline-block;
-  border: 0.25rem solid white;
+  border: 0.1rem solid white;
   background-color: #FFFFCC;
-  min-height: 75px;
+  min-height: 40px;
   min-width: 310px;
 }

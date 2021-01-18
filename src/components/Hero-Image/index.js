@@ -9,20 +9,20 @@ import "./hero-image.css"
 const styles = {
   homeHeader: {
     height: "70vh",
-    background: `linear-gradient(yellow, white)`,
+    // background: `linear-gradient(yellow, white)`,
   },
-  homeImage: {
-    backgroundImage: `url(${logo})`,
-    backgroundPosition: "center",
-    backgroundSize: "contain",
-    backgroundRepeat: "no-repeat",
-    boxShadow: "0px 0px 50px green",
-    borderRadius: "30px",
-    maxHeight: "500px",
-    maxWidth: "500px",
-    height: "var(--component-height)",
-    width: "var(--component-width)",
-  },
+  // homeImage: {
+  //   backgroundImage: `url(${logo})`,
+  //   backgroundPosition: "center",
+  //   backgroundSize: "contain",
+  //   backgroundRepeat: "no-repeat",
+  //   boxShadow: "0px 0px 50px green",
+  //   borderRadius: "30px",
+  //   maxHeight: "500px",
+  //   maxWidth: "500px",
+  //   height: "var(--component-height)",
+  //   width: "var(--component-width)",
+  // },
   menuImage: {
     backgroundImage: `url(${menuHeaderImage})`,
     backgroundPosition: "bottom",
@@ -68,11 +68,61 @@ const styles = {
 function HeroImage({ imageText, classes, page }) {
   return (
     <div className="hero-image">
-      <header className={classes.[`${page}Header`]}>
+      {/* <header className={classes.[`${page}Header`] + " test"}>
         <div className={classes.[`${page}Image`]}>
           <h1 className={classes.[`${page}Text`]}>{imageText}</h1>
         </div>
-      </header>
+      </header> */}
+      <div className="full-wrap">
+        <div className="test-wrapper">
+          <div className="test"></div>
+          <div className="test"></div>
+          <div className="test"></div>
+          <div className="test"></div>
+          <div className="test"></div>
+          <div className="test"></div>
+        </div>
+        <div className="test-wrapper">
+          <div className="test"></div>
+          <div className="test"></div>
+          <div className="test"></div>
+          <div className="test"></div>
+          <div className="test"></div>
+          <div className="test"></div>
+        </div>
+        <div className="test-wrapper">
+          <div className="test"></div>
+          <div className="test"></div>
+          <div className="test"></div>
+          <div className="test"></div>
+          <div className="test"></div>
+          <div className="test"></div>
+        </div>
+        <div className="test-wrapper">
+          <div className="test-2"></div>
+          <div className="test-2"></div>
+          <div className="test-2"></div>
+          <div className="test-2"></div>
+          <div className="test-2"></div>
+          <div className="test-2"></div>
+        </div>
+        <div className="test-wrapper">
+          <div className="test-2"></div>
+          <div className="test-2"></div>
+          <div className="test-2"></div>
+          <div className="test-2"></div>
+          <div className="test-2"></div>
+          <div className="test-2"></div>
+        </div>
+        <div className="test-wrapper">
+          <div className="test-2"></div>
+          <div className="test-2"></div>
+          <div className="test-2"></div>
+          <div className="test-2"></div>
+          <div className="test-2"></div>
+          <div className="test-2"></div>
+        </div>
+      </div>
     </div>
   )
 }

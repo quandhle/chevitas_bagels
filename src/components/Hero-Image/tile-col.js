@@ -4,7 +4,7 @@ import { makeStyles } from '@material-ui/styles';
 const useStyles = makeStyles({
   tileColumn: {
     display: "inline-block",
-    border: "0.1rem solid white",
+    border: "0.2rem solid white",
     backgroundColor: props => props.color,
     minHeight: "40px",
     minWidth: "310px",

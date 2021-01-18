@@ -9,7 +9,12 @@ import "./hero-image.css"
 
 const styles = {
   homeHeader: {
-    height: "70vh",
+    position: "absolute",
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+    width: "100%",
+    height: "562.25px",
   },
   homeImage: {
     backgroundImage: `url(${logo})`,
@@ -68,28 +73,15 @@ const styles = {
   }
 }
 
-function HeroImage({ imageText, classes, page }) {
-  if (page === "home") {
-    return (
-      <div className="hero-image">
-        <TileBackground
-          image={classes.[`${page}Image`]}
-          rows={12}
-          cols={6}
-          />
-      </div>
-    )
-  } else {
-    return (
-      <div className="hero-image">
-        <header className={classes.[`${page}Header`]}>
-          <div className={classes.[`${page}Image`]}>
-            <h1 className={classes.[`${page}Text`]}>{imageText}</h1>
-          </div>
-        </header>
-      </div>
-    )
-  }
+function HeroImage({ classes, page, tiled }) {
+  return (
+    <div className="hero-image">
+      <header className={classes.[`${page}Header`]}>
+        <div className={classes.[`${page}Image`]}></div>
+      </header>
+      {tiled ? <TileBackground rows={12} cols={6} /> : null}
+    </div>
+  )
 }
 
 export default withStyles(styles)(HeroImage);

@@ -8,7 +8,6 @@ const useStyles = makeStyles({
     justifyContent: "space-evenly",
     flexWrap: "nowrap",
     overflow: "hidden",
-    margin: "0.25rem auto",
   }
 })
 

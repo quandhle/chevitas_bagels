@@ -1,20 +1,7 @@
 import React from "react";
 import TileRow from "./tile-row";
-import {makeStyles} from "@material-ui/styles";
-
-const useStyles = makeStyles({
-  heroImageWrapper: {
-    position: "absolute",
-    display: "flex",
-    justifyContent: "center",
-    alignItems: "center",
-    width: "100vw",
-    height: "562.25px",
-  }
-})
 
 export default function TileBackground(props) {
-  const classes = useStyles(props);
   const rows = [];
   let color = "#E8FF00";
 
@@ -27,9 +14,6 @@ export default function TileBackground(props) {
 
   return (
     <>
-      <div className={classes.heroImageWrapper}>
-        <div className={props.image}></div>
-      </div>
       {rows}
     </>
   )

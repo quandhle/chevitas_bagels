@@ -26,11 +26,11 @@ export default function TileBackground(props) {
   }
 
   return (
-    <div className="full-wrap">
+    <>
       <div className={classes.heroImageWrapper}>
         <div className={props.image}></div>
       </div>
       {rows}
-    </div>
+    </>
   )
 }

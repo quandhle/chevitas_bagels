@@ -69,20 +69,27 @@ const styles = {
 }
 
 function HeroImage({ imageText, classes, page }) {
-  return (
-    <div className="hero-image">
-      {/* <header className={classes.[`${page}Header`]}>
-        <div className={classes.[`${page}Image`]}>
-        <h1 className={classes.[`${page}Text`]}>{imageText}</h1>
-        </div>
-      </header> */}
-      <TileBackground
-        image={classes.[`${page}Image`]}
-        rows={12}
-        cols={6}
-        />
-    </div>
-  )
+  if (page === "home") {
+    return (
+      <div className="hero-image">
+        <TileBackground
+          image={classes.[`${page}Image`]}
+          rows={12}
+          cols={6}
+          />
+      </div>
+    )
+  } else {
+    return (
+      <div className="hero-image">
+        <header className={classes.[`${page}Header`]}>
+          <div className={classes.[`${page}Image`]}>
+            <h1 className={classes.[`${page}Text`]}>{imageText}</h1>
+          </div>
+        </header>
+      </div>
+    )
+  }
 }
 
 export default withStyles(styles)(HeroImage);

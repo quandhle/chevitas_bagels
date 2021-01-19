@@ -1,12 +1,17 @@
 import React, {Fragment, useState} from 'react';
 import {Typography} from '@material-ui/core';
-import {Add} from '@material-ui/icons';
+import Box from '@material-ui/core/Box';
 import {Collapse} from '@material-ui/core';
 import {withStyles} from '@material-ui/core/styles';
 
 const styles = () => ({
   categoryContainer: {
+      display: 'flex',
+      flexWrap: 'wrap',
+      justifyContent: 'space-between',
+      padding: 10,
     '&:hover': {
+          backgroundColor: '#D6E9C9',
       cursor: 'pointer'
     }
   },
@@ -32,7 +37,9 @@ const MenuSection = ({
         onClick={handleExpandClick}
         className={classes.categoryContainer}
       >
-        <Typography variant='h2'>+ {type.label} +</Typography>
+
+        <Typography variant='h2'> {type.label} </Typography>
+          <Typography> &#9660;</Typography>
       </div>
       <Collapse
         className={classes.container}

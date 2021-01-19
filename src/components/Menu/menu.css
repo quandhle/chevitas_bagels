@@ -3,6 +3,12 @@
   --component-height: 300px;
 }
 
+.menu-wrapper > h1 {
+	text-align: center;
+	font-family: 'Courgette', cursive;
+	font-size: 3.5rem;
+}
+
 .menu-wrapper .menu {
 	display: flex;
   justify-content: space-around;

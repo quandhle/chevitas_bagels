@@ -7,7 +7,7 @@ import HeroImage from "../Hero-Image";
 const OurStory = ({lang}) => {
   return (
     <Fragment>
-      <HeroImage imageText="Our Story" page="ourStory"/>
+      <HeroImage page="ourStory"/>
       <div className="our-story">
         <main>
           <h1>{ourStoryMessages.storyTitle.message[lang]}</h1>

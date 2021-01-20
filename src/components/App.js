@@ -1,4 +1,3 @@
-import "./App.css"
 import { useState } from "react";
 import Home from './Home';
 import Menu from './Menu';
@@ -8,6 +7,7 @@ import Photos from './Photos'
 import Contact from "./Contact";
 import {Button} from '@material-ui/core';
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom"
+import "./App.css"
 
 const App = () => {
   const [lang, setLang] = useState("en")

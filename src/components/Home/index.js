@@ -10,7 +10,7 @@ function Home() {
 
   return (
     <div className="home">
-      <HeroImage page="home" tiled/>
+      <HeroImage page="home"/>
       <Carousel />
       <div className="social-media-wrapper-home">
         <div className="social-media-home">

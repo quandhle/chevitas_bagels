@@ -3,7 +3,7 @@ export const navbarLabels = {
     id: "home",
     description: {
       en: "Home",
-      sp: "Casa"
+      sp: "Inicio"
     }
   },
   navBarMenu: {

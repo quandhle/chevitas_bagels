@@ -1,8 +1,9 @@
 import React, {Fragment, useState} from 'react';
 import {Typography} from '@material-ui/core';
-import Box from '@material-ui/core/Box';
 import {Collapse} from '@material-ui/core';
 import {withStyles} from '@material-ui/core/styles';
+import KeyboardArrowDownIcon from '@material-ui/icons/KeyboardArrowDown';
+import KeyboardArrowUpIcon from '@material-ui/icons/KeyboardArrowUp';
 
 const styles = () => ({
   categoryContainer: {
@@ -37,9 +38,8 @@ const MenuSection = ({
         onClick={handleExpandClick}
         className={classes.categoryContainer}
       >
-
-        <Typography variant='h2'> {type.label} </Typography>
-          <Typography> &#9660;</Typography>
+        <Typography variant='h2'>{type.label}</Typography>
+        {expanded ? <KeyboardArrowUpIcon/>: <KeyboardArrowDownIcon/>}
       </div>
       <Collapse
         className={classes.container}

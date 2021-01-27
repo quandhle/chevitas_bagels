@@ -4,17 +4,12 @@ import menuHeaderImage from '../images/menu-photo-1.jpg';
 import logo from "../images/chevitas-logo.png";
 import storyImage from '../images/owner-and-store-front.jpg';
 import contactImage from "../images/contact-us-background-1.jpg";
-import TileBackground from './tile-background';
 import "./hero-image.css"
 
 const styles = {
   homeHeader: {
-    position: "absolute",
-    display: "flex",
-    justifyContent: "center",
-    alignItems: "center",
-    width: "100%",
-    height: "562.25px",
+    height: "70vh",
+    backgroundImage: "linear-gradient(#E8FF00, white)"
   },
   homeImage: {
     backgroundImage: `url(${logo})`,
@@ -79,7 +74,6 @@ function HeroImage({ classes, page, tiled }) {
       <header className={classes.[`${page}Header`]}>
         <div className={classes.[`${page}Image`]}></div>
       </header>
-      {tiled ? <TileBackground rows={12} cols={6} /> : null}
     </div>
   )
 }

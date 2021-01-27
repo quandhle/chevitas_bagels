@@ -5,12 +5,12 @@ import HeroImage from "../Hero-Image";
 import iconDetails from "../images/icons";
 import ChevitasIcon from "../Icon";
 
-function Home() {
+function Home({lang}) {
   const {doordash, instagram, yelp, facebook, call, grubhub} = iconDetails;
 
   return (
     <div className="home">
-      <HeroImage page="home" tiled/>
+      <HeroImage page="home"/>
       <Carousel />
       <div className="social-media-wrapper-home">
         <div className="social-media-home">
@@ -22,7 +22,7 @@ function Home() {
           <ChevitasIcon icon={grubhub} />
         </div>
       </div>
-      <ContactUs load="widget"/>
+      <ContactUs load="widget" lang={lang}/>
     </div>
   )
 }

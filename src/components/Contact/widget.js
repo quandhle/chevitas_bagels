@@ -16,13 +16,13 @@ export default function ContactWidget({lang}) {
       </div>
       <div className="contact-info-wrapper">
         <div className="contact-info">
-          <h3>Contact</h3>
+          <h3>{bodyText[0]}</h3>
           <p>(714) 852-3650</p>
           <p>209 W 4th Street, Santa Ana</p>
         </div>
         <div className="hours">
-          <h3>Hours</h3>
-          <p>Monday - Sunday</p>
+          <h3>{bodyText[1]}</h3>
+          <p>{bodyText[2]}</p>
           <p>8am - 3pm</p>
         </div>
       </div>

@@ -12,5 +12,31 @@ export const contactText = {
       "Lunes - Domingo",
       "¡Venga a Visitarnos!"
     ]
+  },
+  contactWidget: {
+    en: {
+      header: [
+        "Contact",
+        "Hours",
+        "Location"
+      ],
+      body: [
+        "Contact",
+        "Hours",
+        "Monday - Sunday"
+      ]
+    },
+    sp: {
+      header: [
+        "Contacto",
+        "Horario",
+        "Dirección"
+      ],
+      body: [
+        "Contacto",
+        "Horario",
+        "Lunes - Domingo"
+      ]
+    }
   }
 }

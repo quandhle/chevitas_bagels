@@ -1,8 +1,8 @@
 import "./widget.css"
-import { homeItems } from "../messages/home";
+import { contactText } from "../messages/contact";
 
 export default function ContactWidget({lang}) {
-  const widgetText = homeItems.contactWidget[lang];
+  const widgetText = contactText.contactWidget[lang];
   const headerText = widgetText.header;
   const bodyText = widgetText.body;
   return (

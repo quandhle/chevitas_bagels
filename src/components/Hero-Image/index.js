@@ -48,7 +48,7 @@ const styles = {
     backgroundImage: `url(${storyImage})`,
     backgroundPosition: "center",
     backgroundSize: "cover",
-    height: "50vh",
+    height: "60vh",
     width: "100vw"
   },
   ourStoryText: {

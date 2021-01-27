@@ -9,10 +9,3 @@
   justify-content: center;
   align-items: center;
 }
-
-@media only screen and (min-width: 800px) {
-  .HeroImage-ourStoryImage-212 {
-    background-position: calc(40% - 0px) calc(40% - 10px);
-  }
-}
-

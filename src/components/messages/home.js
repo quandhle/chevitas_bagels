@@ -1,24 +1,24 @@
 export const homeItems = {
   contactWidget: {
-    header: {
-      english: [
+    en: {
+      header: [
         "Contact",
         "Hours",
         "Location"
       ],
-      spanish: [
-        "Contacto",
-        "Horario",
-        "Dirección"
-      ]
-    },
-    body: {
-      english: [
+      body: [
         "Contact",
         "Hours",
         "Monday - Sunday"
+      ]
+    },
+    sp: {
+      header: [
+        "Contacto",
+        "Horario",
+        "Dirección"
       ],
-      spanish: [
+      body: [
         "Contacto",
         "Horario",
         "Lunes - Domingo"

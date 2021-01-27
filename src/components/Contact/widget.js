@@ -1,14 +1,18 @@
 import "./widget.css"
+import { homeItems } from "../messages/home";
 
-export default function ContactWidget(props) {
+export default function ContactWidget({lang}) {
+  const widgetText = homeItems.contactWidget[lang];
+  const headerText = widgetText.header;
+  const bodyText = widgetText.body;
   return (
     <section className="contact-widget">
       <div className="contact-header">
-        <h2>Contact</h2>
+        <h2>{headerText[0]}</h2>
         <div className="divider"></div>
-        <h2>Hours</h2>
+        <h2>{headerText[1]}</h2>
         <div className="divider"></div>
-        <h2>Location</h2>
+        <h2>{headerText[2]}</h2>
       </div>
       <div className="contact-info-wrapper">
         <div className="contact-info">

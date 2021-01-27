@@ -11,8 +11,8 @@
 }
 
 @media only screen and (min-width: 800px) {
-  .hero-image header > div {
-    height: 670px;
+  .HeroImage-ourStoryImage-212 {
+    background-position: calc(40% - 0px) calc(40% - 10px);
   }
 }
 

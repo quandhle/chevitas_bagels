@@ -49,7 +49,7 @@ const styles = {
     backgroundPosition: "center",
     backgroundSize: "cover",
     height: "60vh",
-    width: "100vw"
+    width: "100vw",
   },
   ourStoryText: {
     color: "white",

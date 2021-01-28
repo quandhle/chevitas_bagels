@@ -79,3 +79,4 @@ function HeroImage({ classes, page, tiled }) {
 }
 
 export default withStyles(styles)(HeroImage);
+

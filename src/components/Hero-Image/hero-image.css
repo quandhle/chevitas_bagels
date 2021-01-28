@@ -11,12 +11,12 @@
 }
 
 @media only screen and (min-width: 1280px) {
-  .HeroImage-homeHeader-127 {
+  .jss127 {
     height: 89vh !important;
   }
 }
 @media only screen and (min-width: 1535px) {
-  .HeroImage-homeHeader-127 {
+  .jss127 {
     height: 70vh !important;
   }
 }

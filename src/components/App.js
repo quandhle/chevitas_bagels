@@ -6,6 +6,7 @@ import Navbar from './Navbar';
 import Photos from './Photos'
 import Contact from "./Contact";
 import {Button} from '@material-ui/core';
+import {buttonText} from "./messages/button";
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom"
 import "./App.css"
 
@@ -21,7 +22,7 @@ const App = () => {
           color="primary"
           variant="contained"
         >
-            Click to change language.
+          {buttonText[lang]}
         </Button>
 
         <Switch>

@@ -5,7 +5,7 @@ import HeroImage from "../Hero-Image";
 import iconDetails from "../images/icons";
 import ChevitasIcon from "../Icon";
 
-function Home() {
+function Home({lang}) {
   const {doordash, instagram, yelp, facebook, call, grubhub} = iconDetails;
 
   return (
@@ -22,7 +22,7 @@ function Home() {
           <ChevitasIcon icon={grubhub} />
         </div>
       </div>
-      <ContactUs load="widget"/>
+      <ContactUs load="widget" lang={lang}/>
     </div>
   )
 }

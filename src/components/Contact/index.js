@@ -5,7 +5,7 @@ const Contact = ({
   lang,
   load
 }) => (
-  load === 'page' ? <Page/> : <Widget/>
+  load === 'page' ? <Page lang={lang}/> : <Widget lang={lang}/>
 )
 
 export default Contact;

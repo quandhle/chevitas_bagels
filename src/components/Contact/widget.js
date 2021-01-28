@@ -1,24 +1,28 @@
 import "./widget.css"
+import { contactText } from "../messages/contact";
 
-export default function ContactWidget(props) {
+export default function ContactWidget({lang}) {
+  const widgetText = contactText.contactWidget[lang];
+  const headerText = widgetText.header;
+  const bodyText = widgetText.body;
   return (
     <section className="contact-widget">
       <div className="contact-header">
-        <h2>Contact</h2>
+        <h2>{headerText[0]}</h2>
         <div className="divider"></div>
-        <h2>Hours</h2>
+        <h2>{headerText[1]}</h2>
         <div className="divider"></div>
-        <h2>Location</h2>
+        <h2>{headerText[2]}</h2>
       </div>
       <div className="contact-info-wrapper">
         <div className="contact-info">
-          <h3>Contact</h3>
+          <h3>{bodyText[0]}</h3>
           <p>(714) 852-3650</p>
           <p>209 W 4th Street, Santa Ana</p>
         </div>
         <div className="hours">
-          <h3>Hours</h3>
-          <p>Monday - Sunday</p>
+          <h3>{bodyText[1]}</h3>
+          <p>{bodyText[2]}</p>
           <p>8am - 3pm</p>
         </div>
       </div>

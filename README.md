@@ -1,4 +1,5 @@
-ESSENTIAL CLEANING OPTIONS
+# Chevita's Juice & Bagels
+
 The business website for Chevita's Juice & Bagels in Santa Ana, CA.
 
 https://chevitas-bagels-3ak3d.ondigitalocean.app/

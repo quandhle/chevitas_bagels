@@ -18,7 +18,14 @@ const styles = () => ({
   },
   itemContainer: {
     padding: 10
-  }
+  },
+    itemAndPriceContainer: {
+      display: 'flex',
+        justifyContent: 'space-between'
+    },
+    textLeft: {
+      textAlign: 'left'
+    }
 })
 
 const MenuSection = ({
@@ -47,8 +54,15 @@ const MenuSection = ({
       >
         {type.items.map(item => (
           <div className={classes.itemContainer}>
-            <Typography variant={'h5'}>{item.id}</Typography>
-            <Typography variant={'subtitle2'}>{item.description[lang]}</Typography>
+              <Typography variant={'h5'}>{item.allSmoothiePrices}</Typography>
+              <Typography variant={'h5'}>{item.allSaladPrices}</Typography>
+              <div className={classes.itemAndPriceContainer}>
+                <Typography variant={'h5'}>{item.id}</Typography>
+                <Typography variant={'h5'}>{item.price}</Typography>
+              </div>
+            <Typography className={classes.textLeft}
+                        variant={'subtitle2'}>{item.description[lang]}
+            </Typography>
           </div>
         ))}
       </Collapse>

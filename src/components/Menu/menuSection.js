@@ -8,7 +8,6 @@ import KeyboardArrowUpIcon from '@material-ui/icons/KeyboardArrowUp';
 const styles = () => ({
   categoryContainer: {
       display: 'flex',
-      flexWrap: 'wrap',
       justifyContent: 'space-between',
       padding: 10,
     '&:hover': {

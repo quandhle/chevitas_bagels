@@ -12,7 +12,7 @@ const styles = () => ({
       justifyContent: 'space-between',
       padding: 10,
     '&:hover': {
-          backgroundColor: '#D6E9C9',
+          backgroundColor: '#96F0AF',
       cursor: 'pointer'
     }
   },

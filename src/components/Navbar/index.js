@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 import {Grid} from "@material-ui/core"
 import NavLabels from "./nav-labels";
 import HamburgerMenu from "./hamburger-menu";
-import chevitasLogoSrc from "../images/chevitas-logo-text.png";
+import chevitasLogoSrc from "../images/logo-letra.png";
 
 const Navbar = ({ lang }) => {
   const [isScreenSmall, setScreen] = useState(window.innerWidth < 825);

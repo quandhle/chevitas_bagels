@@ -1,7 +1,7 @@
 import React from 'react';
 import {withStyles} from '@material-ui/core';
 import menuHeaderImage from '../images/menu-photo-1.jpg';
-import logo from "../images/chevitas-logo.png";
+import logo from "../images/chevitas-logo1.png";
 import storyImage from '../images/owner-and-store-front.jpg';
 import contactImage from "../images/contact-us-background-1.jpg";
 import "./hero-image.css"
@@ -24,7 +24,7 @@ const styles = {
     maxHeight: "500px",
     maxWidth: "500px",
     height: "var(--component-height)",
-    width: "var(--component-width)",
+    width: "var(--component-width)"
   },
   menuImage: {
     backgroundImage: `url(${menuHeaderImage})`,

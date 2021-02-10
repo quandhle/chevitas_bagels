@@ -5,8 +5,14 @@
 }
 
 .navbar a {
-  color: black;
+  color: white;
   text-decoration: none;
+  text-shadow:
+    2px 2px 0 #5A3719,
+    -2px -2px 0 #5A3719,
+    2px -2px 0 #5A3719,
+    -2px 2px 0 #5A3719,
+    2px 2px 0 #5A3719;
 }
 
 .navbar a:link,

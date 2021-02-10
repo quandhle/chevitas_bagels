@@ -4,6 +4,10 @@
   text-align: center;
 }
 
+.contact-page .contact-info h2 {
+  color: #5A3719;
+}
+
 .contact-page .contact-info {
   width: 80%;
 }

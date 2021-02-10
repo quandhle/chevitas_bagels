@@ -62,7 +62,7 @@ const styles = {
     backgroundPosition: "center",
     backgroundSize: "cover",
     backgroundAttachment: "fixed",
-    opacity: 0.30
+    opacity: 0.25
   }
 }
 

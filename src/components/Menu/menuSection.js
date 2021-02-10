@@ -55,6 +55,7 @@ const MenuSection = ({
           <div className={classes.itemContainer}>
               <Typography variant={'h5'}>{item.allSmoothiePrices}</Typography>
               <Typography variant={'h5'}>{item.allSaladPrices}</Typography>
+              <Typography variant={'h5'}>{item.allJuicePrices}</Typography>
               <div className={classes.itemAndPriceContainer}>
                 <Typography variant={'h5'}>{item.id}</Typography>
                 <Typography variant={'h5'}>{item.price}</Typography>

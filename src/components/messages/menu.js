@@ -93,13 +93,6 @@ export const menuItemsArr = [
         }
       },
       {
-        id: "Mandarin Salad",
-        description: {
-          en: "Chicken breast, lettuce, chow mein noodles, almond, sesame and mandarin dressing",
-          sp: "Pechuga de pollo, lechuga, chow mein noodles, almendra, sesamo y aderezo de mandarinas"
-        }
-      },
-      {
         id: "Southwest Chicken Chipotle",
         description: {
           en: "Chicken breast, lettuce, pepper jack cheese, tortilla chips and chipotle sauce",
@@ -316,6 +309,7 @@ export const menuItemsArr = [
     items:  [
       {
         id: "Apple and Orange",
+        allJuicePrices: "Small $6.10 - Medium $7.10 - Large $8.75",
         price: "",
         description: {
           en: "Apple and orange",
@@ -401,7 +395,7 @@ export const menuItemsArr = [
     items: [
       {
         id: "Coca Cola",
-        price: "",
+        price: "$2.00",
         description: {
           en: "Coca cola",
           sp: "Coca cola"
@@ -409,7 +403,7 @@ export const menuItemsArr = [
       },
       {
         id: "Coffee small",
-        price: "",
+        price: "$3.00",
         description: {
           en: "Coffee small",
           sp: "Café pequeno"
@@ -417,6 +411,7 @@ export const menuItemsArr = [
       },
       {
         id: "Water",
+        price: "$1.50",
         description: {
           en: "Water",
           sp: "Agua"

@@ -16,8 +16,6 @@ const styles = {
     backgroundPosition: "center",
     backgroundSize: "contain",
     backgroundRepeat: "no-repeat",
-    boxShadow: "0px 0px 50px green",
-    borderRadius: "30px",
     overflow: "hidden",
     minHeight: "300px",
     minWidth: "300px",
@@ -64,7 +62,7 @@ const styles = {
     backgroundPosition: "center",
     backgroundSize: "cover",
     backgroundAttachment: "fixed",
-    opacity: 0.30
+    opacity: 0.25
   }
 }
 

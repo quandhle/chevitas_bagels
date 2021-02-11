@@ -17,9 +17,9 @@ const styles = {
     backgroundSize: "contain",
     backgroundRepeat: "no-repeat",
     overflow: "hidden",
-    minHeight: "69vh",
+    minHeight: "68vh",
     minWidth: "300px",
-    maxHeight: "500px",
+    maxHeight: "68vh",
     maxWidth: "500px",
     height: "var(--component-height)",
     width: "var(--component-width)"

@@ -17,7 +17,7 @@ const styles = {
     backgroundSize: "contain",
     backgroundRepeat: "no-repeat",
     overflow: "hidden",
-    minHeight: "300px",
+    minHeight: "69vh",
     minWidth: "300px",
     maxHeight: "500px",
     maxWidth: "500px",
@@ -77,4 +77,3 @@ function HeroImage({ classes, page, tiled }) {
 }
 
 export default withStyles(styles)(HeroImage);
-

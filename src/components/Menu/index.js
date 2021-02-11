@@ -5,6 +5,7 @@ import ChevitasIcon from "../Icon";
 import {menuItemsArr} from '../messages/menu';
 import MenuSection from './menuSection';
 import './menu.css';
+import { orderOnlineMessage } from '../messages/homePage';
 
 const Menu = ({
 	lang
@@ -22,7 +23,8 @@ const Menu = ({
 					</div>
 				</main>
 				<div className="social-media-wrapper">
-					<h2>Order online through Grubhub or Doordash, or call us to place an order at our store!</h2>
+					<h2>{orderOnlineMessage.message[lang]}</h2>
+					{Object.keys(orderOnlineMessage).map((orderMessage, i) => i !== 0 && <p key={i}>{orderOnlineMessage[orderMessage].message[lang]}</p>)}
 					<div className="social-media">
 						{Object.keys(iconDetails).map((icon, i) => (
 							i < 3 && <ChevitasIcon icon={iconDetails[icon]}/>

@@ -3,13 +3,15 @@ export const contactText = {
     en: [
       "Phone Number",
       "Hours of Operation",
-      "Monday - Sunday",
+      "Monday - Saturday",
+      "Sunday",
       "Come Visit Us!"
     ],
     sp: [
       "Teléfono",
       "Horario",
-      "Lunes - Domingo",
+      "Lunes - Sábado",
+      "Domingo",
       "¡Venga a Visitarnos!"
     ]
   },
@@ -23,7 +25,8 @@ export const contactText = {
       body: [
         "Contact",
         "Hours",
-        "Monday - Sunday"
+        "Monday - Saturday",
+        "Sunday"
       ]
     },
     sp: {
@@ -35,7 +38,8 @@ export const contactText = {
       body: [
         "Contacto",
         "Horario",
-        "Lunes - Domingo"
+        "Lunes - Sábado",
+        "Domingo"
       ]
     }
   }

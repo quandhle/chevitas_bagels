@@ -19,6 +19,7 @@
 .our-story p {
   font-size: 1.25rem;
   word-spacing: 0.15rem;
+  text-align: justify;
 }
 
 @media (min-width: 630px) {

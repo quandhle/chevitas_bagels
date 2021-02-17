@@ -6,7 +6,7 @@ import iconDetails from "../images/icons";
 import ChevitasIcon from "../Icon";
 
 function Home({lang}) {
-  const {doordash, instagram, yelp, facebook, call, grubhub} = iconDetails;
+  const {doordash, instagram, yelp, facebook, call, grubhub, ubereats} = iconDetails;
 
   return (
     <div className="home">
@@ -20,6 +20,7 @@ function Home({lang}) {
           <ChevitasIcon icon={facebook} />
           <ChevitasIcon icon={call} />
           <ChevitasIcon icon={grubhub} />
+          <ChevitasIcon icon={ubereats} />
         </div>
       </div>
       <ContactUs load="widget" lang={lang}/>

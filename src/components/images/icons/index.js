@@ -4,6 +4,7 @@ import facebook from "./facebook-icon.svg";
 import call from "./call-icon.svg";
 import grubhub from "./grubhub-logo-square.png";
 import doordash from "./doordash-icon.svg";
+import ubereats from "./uber-eats-logo.png";
 
 const iconDetails = {
   grubhub: {
@@ -42,6 +43,12 @@ const iconDetails = {
     alt: "facebook icon",
     id: "facebook"
   },
+  ubereats: {
+    href: "https://www.ubereats.com/orange-county/food-delivery/chevitas-juice-and-bagels/DEO3SeatQVepVPjqEub51w",
+    src: ubereats,
+    alt: "Uber Eats logo",
+    id: "ubereats"
+  }
 }
 
 export default iconDetails

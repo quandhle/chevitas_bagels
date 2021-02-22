@@ -27,11 +27,11 @@ export default function ContactWidget({lang}) {
           <div className="op-hours">
             <div>
               <p>{bodyText[2]}</p>
-              <p>8am - 3pm</p>
+              <p>8am - 4pm</p>
             </div>
             <div>
               <p>{bodyText[3]}</p>
-              <p>8am - 3pm</p>
+              <p>9am - 3pm</p>
             </div>
           </div>
         </div>

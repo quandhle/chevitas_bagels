@@ -20,8 +20,10 @@
 }
 .alice-carousel__prev-btn,
 .alice-carousel__next-btn {
-    position: relative;
-    bottom: 18.5rem;
+    position: absolute;
+    display: block;
+    width: 1%;
+    left: 30rem;
 }
 .alice-carousel__prev-btn {
     text-align: center;
@@ -29,13 +31,20 @@
 .alice-carousel__prev-btn-item,
 .alice-carousel__next-btn-item {
     font-size: clamp(60px, 85px, 85px);
-    width: 50%;
 }
 .alice-carousel__next-btn-item {
     text-align: right;
+    width: 70%;
 }
 .alice-carousel__prev-btn-item {
     text-align: left;
+    position: relative;
+}
+.alice-carousel__prev-btn [data-area]::after {
+    right: 20rem;
+}
+.alice-carousel__next-btn [data-area]::after {
+    left: 15rem;
 }
 @media (max-width: 400px) {
     .alice-carousel {
@@ -50,6 +59,7 @@
     }
 
 }
+
 @media (max-width: 768px) {
    .alice-carousel {
         height: 40vh;
@@ -64,15 +74,37 @@
     }
 }
 
-@media (max-width: 1084px) {
+@media (min-width: 1000px) {
     .alice-carousel__prev-btn-item,
     .alice-carousel__next-btn-item {
         width: 60%
     }
-}
-@media (max-width: 1600px) {
+    .alice-carousel__prev-btn [data-area]::after {
+        right: 20rem;
+        bottom: 20.5rem;
+    }
+    .alice-carousel__next-btn [data-area]::after {
+        left: 15rem;
+        bottom: 20.5rem;
+    }
+    .alice-carousel {
+        height: 49vh
+    }
+ }
+@media (min-width: 1500px) {
     .alice-carousel__prev-btn,
     .alice-carousel__next-btn {
-        bottom: 21rem;
+        bottom: 4rem;
+    }
+    .alice-carousel__prev-btn [data-area]::after {
+        right: 18rem;
+        bottom: 1rem;
+    }
+    .alice-carousel__next-btn [data-area]::after {
+        left: 25rem;
+        bottom: 1rem;
+    }
+    .alice-carousel {
+        height: 53vh
     }
 }

@@ -8,7 +8,7 @@ import carouselImages from "../images/carousel-images"
 const handleDragStart = e => e.preventDefault();
 
 const items = carouselImages.map((image, index) => {
-  return <img src={image.src} onDragStart={handleDragStart} className="image1" alt={image.alt} />
+  return <img src={image.src} onDragStart={handleDragStart} className="carousel-image" alt={image.alt} />
 })
 
 const Carousel = () => {

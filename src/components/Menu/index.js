@@ -7,6 +7,8 @@ import MenuSection from './menuSection';
 import './menu.css';
 import { orderOnlineMessage } from '../messages/homePage';
 
+const {doordash, call, grubhub, ubereats} = iconDetails;
+
 const Menu = ({
 	lang
 }) => {
@@ -26,9 +28,10 @@ const Menu = ({
 					<h2>{orderOnlineMessage.message[lang]}</h2>
 					{Object.keys(orderOnlineMessage).map((orderMessage, i) => i !== 0 && <p key={i}>{orderOnlineMessage[orderMessage].message[lang]}</p>)}
 					<div className="social-media">
-						{Object.keys(iconDetails).map((icon, i) => (
-							i < 3 && <ChevitasIcon icon={iconDetails[icon]}/>
-						))}
+						<ChevitasIcon icon={call} />
+						<ChevitasIcon icon={doordash}/>
+						<ChevitasIcon icon={grubhub} />
+						<ChevitasIcon icon={ubereats} />
 					</div>
 				</div>
 			</div>

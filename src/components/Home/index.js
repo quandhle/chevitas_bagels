@@ -14,11 +14,11 @@ function Home({lang}) {
       <Carousel />
       <div className="social-media-wrapper-home">
         <div className="social-media-home">
-          <ChevitasIcon icon={doordash}/>
           <ChevitasIcon icon={instagram} />
-          <ChevitasIcon icon={yelp} />
           <ChevitasIcon icon={facebook} />
+          <ChevitasIcon icon={yelp} />
           <ChevitasIcon icon={call} />
+          <ChevitasIcon icon={doordash}/>
           <ChevitasIcon icon={grubhub} />
           <ChevitasIcon icon={ubereats} />
         </div>

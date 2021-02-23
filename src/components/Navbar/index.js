@@ -1,6 +1,7 @@
 import "./navbar.css";
 import React, { useState, useEffect } from "react";
-import {Grid} from "@material-ui/core"
+import { Grid } from "@material-ui/core"
+import { NavLink } from "react-router-dom";
 import NavLabels from "./nav-labels";
 import HamburgerMenu from "./hamburger-menu";
 import chevitasLogoSrc from "../images/logo-letra.png";
@@ -42,8 +43,10 @@ const Navbar = ({ lang }) => {
   return (
     <nav className="navbar">
       <Grid container spacing={3}>
-          <Grid container item spacing={3} xs={6} sm={4} justify="center" alignItems="center">
+        <Grid container item spacing={3} xs={6} sm={4} justify="center" alignItems="center">
+          <NavLink to="/">
             <img className="logo" src={chevitasLogoSrc} alt='chevitas logo' />
+          </NavLink>
           </Grid>
           { isScreenSmall ? <SmallScreen/> : <LargeScreen/>}
       </Grid>

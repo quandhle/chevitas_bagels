@@ -1,8 +1,9 @@
-import ImageOne from "./image-1.jpg"
-import ImageTwo from "./image-2.jpeg"
-import ImageThree from "./image-3.jpeg"
-import ImageFour from "./image-4.jpeg"
-import ImageFive from "./image-5.jpeg"
+import ImageOne from "./melt.jpeg"
+import ImageTwo from "./peach.jpeg"
+import ImageThree from "./clubSand.jpeg"
+import ImageFour from "./green.jpeg"
+import ImageFive from "./chorizo.jpeg"
+import ImageSix from "./acai.jpeg"
 
 const carouselImages = [
   {
@@ -25,6 +26,10 @@ const carouselImages = [
     src: ImageFive,
     alt: "Chevitas chicken cheese and bacon sandwich"
   },
+  {
+    src: ImageSix,
+    alt: "Chevitas chicken cheese and bacon sandwich"
+  }
 ];
 
 export default carouselImages;

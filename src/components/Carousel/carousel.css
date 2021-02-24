@@ -71,7 +71,6 @@
     }
 
 }
-
 @media (max-width: 768px) {
     .alice-carousel {
         height: 40vh;
@@ -85,7 +84,6 @@
         display: none;
     }
 }
-
 @media (min-width: 1000px) {
     .alice-carousel__prev-btn-item,
     .alice-carousel__next-btn-item {
@@ -103,17 +101,17 @@
         height: 49vh
     }
 }
-@media (width: 1366px) {
+@media (min-width:1365px) and (max-width:1367px) {
     .alice-carousel__prev-btn [data-area]::after {
-        right: 23rem;
-        bottom: 24.5rem;
+        right: 23rem !important;
+        bottom: 24.5rem !important;
     }
     .alice-carousel__next-btn [data-area]::after {
-        left: 23rem;
-        bottom: 24.5rem;
+        left: 23rem !important;
+        bottom: 24.5rem !important;
    }
 }
-@media (min-width: 1257px) {
+@media (min-width: 1257px) and (max-width:1364px){
     .alice-carousel__prev-btn [data-area]::after {
         right: 25vw;
         bottom: 20.5rem;

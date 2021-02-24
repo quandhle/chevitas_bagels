@@ -3,7 +3,7 @@ export const menuItemsArr = [
     label: "Sandwiches",
     items: [
       {
-        id: "Chipotle Chicken Sandwich",
+        id: "Chipotle Chicken",
         price: "$9.00",
         description: {
           en: "Chicken breast, bacon, lettuce, tomato, onion, swiss cheese and chipotle",
@@ -11,7 +11,7 @@ export const menuItemsArr = [
         }
       },
       {
-        id: "Club Sandwich",
+        id: "Club",
         price: "$10.50",
         description: {
           en: "Delicious turkey, ham, bacon, lettuce, onion and tomato",
@@ -19,7 +19,7 @@ export const menuItemsArr = [
         }
       },
       {
-        id: "Cranberry Turkey Sandwich",
+        id: "Cranberry Turkey",
         price: "$8.25",
         description: {
           en: "Sliced smoked turkey with cranberry sauce, mayo, lettuce, tomato and onion",
@@ -27,7 +27,7 @@ export const menuItemsArr = [
         }
       },
       {
-        id: "Ham and Cheese Sandwich",
+        id: "Ham and Cheese",
         price: "$8.28",
         description: {
           en: "Fresh sliced ham,american cheese, mayo, lettuce,tomato and onion",
@@ -35,7 +35,7 @@ export const menuItemsArr = [
         }
       },
       {
-        id: "Tuna Sandwich",
+        id: "Tuna",
         price: "$8.75",
         description: {
           en: "Tuna, mayo, lettuce, tomato and onion",
@@ -43,7 +43,7 @@ export const menuItemsArr = [
         }
       },
       {
-        id: "Turkey Sandwich",
+        id: "Turkey",
         price: "$7.90",
         description: {
           en: "Fresh sliced turkey, lettuce, tomate and onion",
@@ -51,7 +51,7 @@ export const menuItemsArr = [
         }
       },
       {
-        id: "Veggie Sandwich",
+        id: "Veggie",
         price: "$7.90",
         description: {
           en: "Provolone cheese, bell peppers, cucumber, lettuce, avocato, tomato, onion, mayo, and pesto",

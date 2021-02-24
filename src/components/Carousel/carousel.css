@@ -55,6 +55,14 @@
     .alice-carousel__prev-btn {
         display: none;
     }
+    .carousel-wrapper {
+        margin: 2rem auto;
+        padding: 0px !important;
+        width: 96%;
+    }
+    li {
+        width: 344.24px
+    }
 }
 @media (min-width: 769px) {
     .alice-carousel {
@@ -65,7 +73,7 @@
 }
 
 @media (max-width: 768px) {
-   .alice-carousel {
+    .alice-carousel {
         height: 40vh;
         width: 95%;
     }
@@ -84,17 +92,27 @@
         width: 60%
     }
     .alice-carousel__prev-btn [data-area]::after {
-        right: 20rem;
+        width: 26rem;
         bottom: 20.5rem;
     }
     .alice-carousel__next-btn [data-area]::after {
-        left: 15rem;
+        width: 9rem;
         bottom: 20.5rem;
     }
     .alice-carousel {
         height: 49vh
     }
- }
+}
+@media (min-width: 1257px) {
+    .alice-carousel__prev-btn [data-area]::after {
+        right: 25vw;
+        bottom: 20.5rem;
+    }
+    .alice-carousel__next-btn [data-area]::after {
+        left: 19vw;
+        bottom: 20.5rem;
+    }
+}
 @media (min-width: 1500px) {
     .alice-carousel__prev-btn,
     .alice-carousel__next-btn {

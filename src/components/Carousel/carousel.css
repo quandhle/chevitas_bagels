@@ -103,6 +103,16 @@
         height: 49vh
     }
 }
+@media (width: 1366px) {
+    .alice-carousel__prev-btn [data-area]::after {
+        right: 23rem;
+        bottom: 24.5rem;
+    }
+    .alice-carousel__next-btn [data-area]::after {
+        left: 23rem;
+        bottom: 24.5rem;
+   }
+}
 @media (min-width: 1257px) {
     .alice-carousel__prev-btn [data-area]::after {
         right: 25vw;

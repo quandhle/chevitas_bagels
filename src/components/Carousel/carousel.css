@@ -10,11 +10,11 @@
     font-size: xxx-large;
 }
 .slick-prev {
-  left: 24.3% !important;
+  left: 24.3%;
   z-index: 1;
 }
 .slick-next {
-  right: 26.5% !important;
+  right: 26.5%;
   z-index: 1;
 }
 .slick-slider {
@@ -28,6 +28,26 @@ button:focus { border: 0; }
       width: 91%;
       height: auto;
       margin: 0 auto;
+    }
+}
+@media (max-width: 1290px) {
+    .slick-prev {
+      left: 18.3%;
+      z-index: 1;
+    }
+    .slick-next {
+      right: 20.5%;
+      z-index: 1;
+    }
+}
+@media (max-width: 1030px) {
+    .slick-prev {
+      left: 12.3%;
+      z-index: 1;
+    }
+    .slick-next {
+      right: 15.5%;
+      z-index: 1;
     }
 }
 img { margin:0 auto; }

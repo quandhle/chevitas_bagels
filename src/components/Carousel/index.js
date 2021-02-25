@@ -25,12 +25,12 @@ const Carousel = () => {
           settings: { slidesToShow: 1, slidesToScroll: 1, infinite: false, arrows: false, }
         },
         {
-          breakpoint: 768,
-          settings: { slidesToShow: 1, slidesToScroll: 2, infinite: false, arrows: false,}
+          breakpoint: 858,
+          settings: { slidesToShow: 1, slidesToScroll: 1, infinite: false, arrows: false,}
         },
         {
           breakpoint: 1024,
-          settings: { slidesToShow: 1, slidesToScroll: 3, infinite: false }
+          settings: { slidesToShow: 1, slidesToScroll: 1, infinite: false }
         }
       ]
 

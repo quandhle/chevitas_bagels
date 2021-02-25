@@ -10,11 +10,11 @@
     font-size: xxx-large;
 }
 .slick-prev {
-  left: 24.3% !important;
+  left: 24.3%;
   z-index: 1;
 }
 .slick-next {
-  right: 26.5% !important;
+  right: 26.5%;
   z-index: 1;
 }
 .slick-slider {

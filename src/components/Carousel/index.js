@@ -18,19 +18,19 @@ const Carousel = () => {
 		slidesToScroll: 1,
 		arrows: true,
 		centerMode: true,
-		centerPadding: "15px",
+		centerPadding: "1px",
 		responsive: [
         {
           breakpoint: 375,
           settings: { slidesToShow: 1, slidesToScroll: 1, infinite: false, arrows: false, }
         },
         {
-          breakpoint: 768,
-          settings: { slidesToShow: 1, slidesToScroll: 2, infinite: false, arrows: false,}
+          breakpoint: 858,
+          settings: { slidesToShow: 1, slidesToScroll: 1, infinite: false, arrows: false,}
         },
         {
           breakpoint: 1024,
-          settings: { slidesToShow: 1, slidesToScroll: 3, infinite: false }
+          settings: { slidesToShow: 1, slidesToScroll: 1, infinite: false }
         }
       ]
 
@@ -38,22 +38,22 @@ const Carousel = () => {
   return (
     <Slider {...settings}>
 			<div class="img-div" id="ad1img">
-					<img src={acia} />
+					<img src={acia} alt="acia"/>
 			</div>
 			<div class="img-div" id="ad1img">
-					<img src={chorizo} />
+					<img src={chorizo} alt="chorizo" />
 			</div>
 			<div class="img-div" id="ad1img">
-					<img src={clubSand} />
+					<img src={clubSand} alt="club sandwich" />
 			</div>
 			<div class="img-div" id="ad1img">
-					<img src={green} />
+					<img src={green} alt="green soothie" />
 			</div>
 			<div class="img-div" id="ad1img">
-					<img src={melt} />
+					<img src={melt} alt="bagel melt" />
 			</div>
 			<div class="img-div" id="ad1img">
-					<img src={peach} />
+					<img src={peach} alt="peach smoothie" />
 			</div>
     </Slider>
   );

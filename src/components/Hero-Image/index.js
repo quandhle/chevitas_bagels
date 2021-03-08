@@ -39,10 +39,10 @@ const styles = {
   },
   ourStoryImage: {
     backgroundImage: `url(${storyImage})`,
-    backgroundPosition: "calc(40% - 0px) calc(40% - 10px)",
     backgroundSize: "cover",
     height: "60vh",
     width: "100vw",
+    backgroundPosition: "calc(40% - 0px) calc(40% - 10px)",
   },
   ourStoryText: {
     color: "white",

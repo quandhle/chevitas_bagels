@@ -1,6 +1,7 @@
 import Page from "./page"
 import Widget from "./widget"
 
+
 const Contact = ({
   lang,
   load

@@ -4,6 +4,7 @@ import iconDetails from "../images/icons";
 import ChevitasIcon from "../Icon";
 import {menuItemsArr} from '../messages/menu';
 import MenuSection from './menuSection';
+import {Helmet} from "react-helmet";
 import './menu.css';
 import { orderOnlineMessage } from '../messages/homePage';
 
@@ -16,6 +17,9 @@ const Menu = ({
 
 	return (
 		<Fragment>
+			<Helmet>
+        <title>Chevitas Bagels - Menu</title>
+      </Helmet>
 			{x.matches && <HeroImage page="menu"/>}
 			<div className="menu-wrapper">
 				<h1>Menu</h1>

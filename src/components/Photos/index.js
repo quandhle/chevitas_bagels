@@ -1,4 +1,5 @@
 import React from 'react';
+import {Helmet} from "react-helmet";
 import './photos.css'
 import bagelJuice from "../images/bagel-juice.jpg";
 import ranchero from "../images/ranchero-bagel.JPG";
@@ -20,6 +21,9 @@ import carousel6 from "../images/carousel6.jpg";
 export default function Photos() {
 	return (
 		<div className="photo">
+			<Helmet>
+        <title>Chevitas Bagels - Photos</title>
+      </Helmet>
 			<div className="margin">
 				<img className="image" src={bagelJuice} alt="bagel"></img>
 			</div>

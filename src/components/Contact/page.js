@@ -1,4 +1,5 @@
 import React, {Fragment} from 'react';
+import {Helmet} from "react-helmet";
 import HeroImage from "../Hero-Image";
 import {contactText} from "../messages/contact";
 import "./page.css";
@@ -8,6 +9,9 @@ export default function Page({lang}) {
 
   return (
     <Fragment>
+      <Helmet>
+        <title>Chevitas Bagels - Contact us</title>
+      </Helmet>
       <HeroImage page="contact"/>
       <main className="contact-page">
         <section className="contact-info">

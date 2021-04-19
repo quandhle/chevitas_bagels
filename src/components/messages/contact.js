@@ -2,6 +2,7 @@ export const contactText = {
   page: {
     en: [
       "Phone Number",
+      "Email",
       "Hours of Operation",
       "Monday - Saturday",
       "Sunday",

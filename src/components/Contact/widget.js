@@ -18,7 +18,8 @@ export default function ContactWidget({lang}) {
         <div className="contact-info">
           <h3>{bodyText[0]}</h3>
           <div>
-            <p>(714) 852-3650</p>
+            <p>(800)-282-3484</p>
+            <a style={{color: "#159639"}} href = "mailto: management@chevitasjuicebagels.com">management@chevitasjuicebagels.com</a>
             <p>209 W 4th Street, Santa Ana</p>
           </div>
         </div>

@@ -17,7 +17,7 @@ export default function Page({lang}) {
         <section className="contact-info">
           <div className="phone">
             <h2>{pageText[0]}</h2>
-            <p>(800)-282-3484</p>
+            <p>(714) 852-3650</p>
             <h2>{pageText[1]}</h2>
             <a style={{color: "#159639"}} href = "mailto: management@chevitasjuicebagels.com">management@chevitasjuicebagels.com</a>
           </div>

@@ -10,5 +10,6 @@ Technologies Used:
 
 - HTML
 - CSS
+- React
 - JavaScript
 - Material UI

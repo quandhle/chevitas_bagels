@@ -424,7 +424,7 @@ export const menuItemsArr = [
     items: [
       {
         id: "Cream and Strawberry",
-        price: "$5.50",
+        price: "$5.35",
         description: {
           en: "Cream and strawberry",
           sp: "Fresas con crema"
@@ -432,7 +432,7 @@ export const menuItemsArr = [
       },
       {
         id: "Hawaiian",
-        price: "$7.65",
+        price: "$7.15",
         description: {
           en: "Hawaiian",
           sp: "Hawaiian"

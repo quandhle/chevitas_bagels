@@ -4,7 +4,7 @@ export const menuItemsArr = [
     items: [
       {
         id: "Chipotle Chicken",
-        price: "$9.00",
+        price: "$8.25",
         description: {
           en: "Chicken breast, bacon, lettuce, tomato, onion, swiss cheese and chipotle",
           sp: "Pechuga de pollo, tocino, lechuga, tomate, cebolla, queso suizo y chipotle"
@@ -12,7 +12,7 @@ export const menuItemsArr = [
       },
       {
         id: "Club",
-        price: "$10.50",
+        price: "$9.50",
         description: {
           en: "Delicious turkey, ham, bacon, lettuce, onion and tomato",
           sp: "Delicioso pavo, jamon, tocino, lechuga cebolla y tomate"
@@ -20,7 +20,7 @@ export const menuItemsArr = [
       },
       {
         id: "Cranberry Turkey",
-        price: "$8.25",
+        price: "$7.55",
         description: {
           en: "Sliced smoked turkey with cranberry sauce, mayo, lettuce, tomato and onion",
           sp: "Rebanadas de pavo ahumado con salsa de arandanos, mayonesa, lechuga, tomate y cebolla"
@@ -28,7 +28,7 @@ export const menuItemsArr = [
       },
       {
         id: "Ham and Cheese",
-        price: "$8.28",
+        price: "$7.60",
         description: {
           en: "Fresh sliced ham,american cheese, mayo, lettuce,tomato and onion",
           sp: "Rebanadas de jamon fresco, queso americano, mayonesa, lechuga,tomate y cebolla"
@@ -36,7 +36,7 @@ export const menuItemsArr = [
       },
       {
         id: "Tuna",
-        price: "$8.75",
+        price: "$8.05",
         description: {
           en: "Tuna, mayo, lettuce, tomato and onion",
           sp: "Atun, mayonesa, lechuga, tomate y cebolla"
@@ -44,7 +44,7 @@ export const menuItemsArr = [
       },
       {
         id: "Turkey",
-        price: "$7.90",
+        price: "$7.50",
         description: {
           en: "Fresh sliced turkey, lettuce, tomate and onion",
           sp: "Pavo, lechuga, tomate, cebolla"
@@ -52,7 +52,7 @@ export const menuItemsArr = [
       },
       {
         id: "Veggie",
-        price: "$7.90",
+        price: "$7.25",
         description: {
           en: "Provolone cheese, bell peppers, cucumber, lettuce, avocato, tomato, onion, mayo, and pesto",
           sp: "Queso provolone, pimientos, pepino, lechuga, aguacate, tomate, cebolla, mayo y pesto"
@@ -309,7 +309,7 @@ export const menuItemsArr = [
     items:  [
       {
         id: "Apple and Orange",
-        allJuicePrices: "Small $6.10 - Medium $7.10 - Large $8.75",
+        allJuicePrices: "Small $5.45 - Medium $6.52 - Large $8.03",
         price: "",
         description: {
           en: "Apple and orange",

@@ -113,7 +113,7 @@ export const menuItemsArr = [
     items: [
       {
         id: "Ranchero Bagel",
-        price: "$6.35",
+        price: "$5.83",
         description: {
           en: "Bagel of your choice with egg, choice of ham or turkey, tomato, cheese, onion, peppers and chipotle sauce",
           sp: "Bagel de su eleccion con huevo, eleccion de jamon o pavo, tomate, queso, cebolla pimientos y salsa chipotle"
@@ -121,7 +121,7 @@ export const menuItemsArr = [
       },
       {
         id: "Melt Bagel",
-        price: "$6.85",
+        price: "$6.29",
         description: {
           en: "Bagel of your choice with cream cheese, bacon, avocado y cheddar cheese",
           sp: "Bagel de su eleccion con queso crema, tocino, aguacate y queso cheddar"
@@ -129,7 +129,7 @@ export const menuItemsArr = [
       },
       {
         id: "Chorizo Bagel",
-        price: "$6.75",
+        price: "$5.28",
         description: {
           en: "Bagel of your choice with chorizo, egg, american cheese and mayo",
           sp: "Bagel de su eleccion con chorizo, huevo, queso americano y mayonesa"
@@ -137,7 +137,7 @@ export const menuItemsArr = [
       },
       {
         id: "Cream and Cheese Bagel",
-        price: "$3.30",
+        price: "$2.95",
         description: {
           en: "Bagel of your choice with cream and cheese",
           sp: "Baggel de su eleccion con queso crema"
@@ -145,7 +145,7 @@ export const menuItemsArr = [
       },
       {
         id: "Egg and Cheese Bagel",
-        price: "$3.35",
+        price: "$4.92",
         description: {
           en: "Bagel of your choice with egg and cheese",
           sp: "Bagel de su eleccion con queso y huevo"
@@ -153,7 +153,7 @@ export const menuItemsArr = [
       },
       {
         id: "Bacon Egg and Cheese",
-        price: "$6.35",
+        price: "$5.83",
         description: {
           en: "Bagel of your choice with egg, bacon, american cheese, lettuce and tomato",
           sp: "Bagel de su eleccion con huevo, tocino, queso americano, lechuga y tomate"
@@ -161,7 +161,7 @@ export const menuItemsArr = [
       },
       {
         id: "HTLC Bagel",
-        price: "$5.95",
+        price: "$5.75",
         description: {
           en: "Bagel of your choice with ham, tomato, lettuce and american cheese",
           sp: "Bagel de su eleccion con jamon, tomate, lechuga y queso americano"

@@ -174,7 +174,7 @@ export const menuItemsArr = [
     items: [
       {
         id: "Acai",
-        allSmoothiePrices: "Small $6.10 - Medium $7.10 - Large $8.75",
+        allSmoothiePrices: "Small $5.45 - Medium $6.52 - Large $8.03",
         description: {
           en: "Strawberry,blueberry,acai juice,banana and blackberry",
           sp: "Fresa,arandano,jugo de acai,platano y moras"

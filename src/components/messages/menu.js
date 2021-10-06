@@ -72,7 +72,7 @@ export const menuItemsArr = [
         }
       },
             {
-        id: "Chicken Ceasar Salad",
+        id: "Chicken Caesar Salad",
         price: "$7.25",
         description: {
           en: "Chicket breast, lettuce, tomato, cucumbers, avocado, croutons, parmesan cheese and caesar dressing",

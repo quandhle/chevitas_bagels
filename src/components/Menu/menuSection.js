@@ -53,16 +53,13 @@ const MenuSection = ({
       >
         {type.items.map(item => (
           <div className={classes.itemContainer}>
-              <Typography variant={'h5'}>{item.allSmoothiePrices}</Typography>
-              <Typography variant={'h5'}>{item.allSaladPrices}</Typography>
-              <Typography variant={'h5'}>{item.allJuicePrices}</Typography>
-              <div className={classes.itemAndPriceContainer}>
-                <Typography variant={'h5'}>{item.id}</Typography>
-                <Typography variant={'h5'}>{item.price}</Typography>
-              </div>
-            <Typography className={classes.textLeft}
-                        variant={'subtitle2'}>{item.description[lang]}
-            </Typography>
+            <Typography variant={'h5'}>{item.allSmoothiePrices}</Typography>
+            <Typography variant={'h5'}>{item.allJuicePrices}</Typography>
+            <div className={classes.itemAndPriceContainer}>
+              <Typography variant={'h5'} align={'left'}>{item.id}</Typography>
+              <Typography variant={'h5'}>{item.price}</Typography>
+            </div>
+            <Typography variant={'subtitle2'} align={'left'}>{item.description[lang]}</Typography>
           </div>
         ))}
       </Collapse>

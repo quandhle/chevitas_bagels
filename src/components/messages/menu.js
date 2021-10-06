@@ -83,7 +83,7 @@ export const menuItemsArr = [
         id: "Caesar Salad",
         price: "$5.00",
         description: {
-          en: "Lettuce, parmesan cheese, croutons, and ceasar dressing",
+          en: "Lettuce, parmesan cheese, croutons, and caesar dressing",
           sp: "Lechuga, queso parmesano, picatostes y aderezo césar"
         }
       },

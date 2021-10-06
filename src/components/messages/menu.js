@@ -65,44 +65,57 @@ export const menuItemsArr = [
     items: [
       {
         id: "Baby Spinach",
-        allSaladPrices: "All Salads: $7.90",
+        price: "$7.25",
         description: {
-          en: "Spinach, romana tomatoes, chicken breast and feta cheese topped with honey mustard",
-          sp: "Espinacas, tomates romanos, pechuga de pollo, queso feta, cubierto con mostaza de miel"
+          en: "Chicken brease, spinach, strawberries and feta cheese topped with honey mustard",
+          sp: "Pechuga de pollo, espinacas, fresas y queso feta, cubierto con mostaza de miel"
+        }
+      },
+            {
+        id: "Chicken Ceasar Salad",
+        price: "$7.25",
+        description: {
+          en: "Chicket breast, lettuce, tomato, cucumbers, avocado, croutons, parmesan cheese and caesar dressing",
+          sp: "Pechuga de pollo, lechuga, tomate, pepinos, palta, picatostes, queso parmesano y aderezo césar"
         }
       },
       {
         id: "Caesar Salad",
+        price: "$5.00",
         description: {
-          en: "Chicken breast, lettuce, tomatoes and cucumbers",
-          sp: "Pechuga de pollo, lechuga, tomate y pepino"
+          en: "Lettuce, parmesan cheese, croutons, and ceasar dressing",
+          sp: "Lechuga, queso parmesano, picatostes y aderezo césar"
         }
       },
       {
         id: "Chicken Salad",
+        price: "$7.25",
         description: {
-          en: "Chicken breast, lettuce, tomatoes, cheese and avocado",
-          sp: "Pechuga de pollo, lechuga, tomate,aguacate y  pepino"
+          en: "Chicken breast, lettuce, tomatoes, cheese and avocado, choose favorite dressing",
+          sp: "Pechuga de pollo, lechuga, tomate, queso y palta"
         }
       },
       {
         id: "Ham/Turkey Salad",
+        price: "$8.20",
         description: {
-          en: "Ham or turkey, lettuce, tomatoes, cheese, egg, avocado and bacon",
+          en: "Smoked ham or smoked turkey, lettuce, tomatoes, cheese, egg, avocado and bacon, choose favorite dressing",
           sp: "Jamon o pavo, lechuga, tomate, queso, huevo, aguacate y tocino"
         }
       },
       {
         id: "Southwest Chicken Chipotle",
+        price: "$7.25",
         description: {
-          en: "Chicken breast, lettuce, pepper jack cheese, tortilla chips and chipotle sauce",
-          sp: "Pechuga de pollo, lechuga, queso pepper jack, tortilla chips y salsa de chipotle"
+          en: "Chicken breast, lettuce, cheddar cheese, tortilla chips, avocado and chipotle sauce",
+          sp: "Pechuga de pollo, lechuga, queso cheddar, tortilla chips, palta y salsa de chipotle"
         }
       },
       {
         id: "Tuna Salad",
+        price: "$8.20",
         description: {
-          en: "Tuna, lettuce, tomatoes, cheese, egg, avocado and bacon",
+          en: "Tuna, lettuce, tomatoes, cheese, egg, avocado and bacon, choose your favorite dressing",
           sp: "Atun, lechuga, tomates, queso, huevo, aguacate y tocino"
         }
       },

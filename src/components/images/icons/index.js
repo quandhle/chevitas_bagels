@@ -5,6 +5,7 @@ import call from "./call-icon.svg";
 import grubhub from "./grubhub-logo-square.png";
 import doordash from "./doordash-icon.svg";
 import ubereats from "./uber-eats-logo.png";
+import ezcater from "./ez.jpeg";
 
 const iconDetails = {
   grubhub: {
@@ -12,6 +13,12 @@ const iconDetails = {
     src: grubhub,
     alt: "grubhub icon",
     id: "grubhub"
+  },
+  ezcater: {
+    href: "https://www.ezcater.com/catering/pvt/chevitas-3?fcv=1",
+    src: ezcater,
+    alt: "ezcater icon",
+    id: "ezcater"
   },
   doordash: {
     href: "https://www.doordash.com/store/chevita-s-juice---bagels-santa-ana-783486/en-US",
